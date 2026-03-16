@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+  <html lang="ja">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>travel</title>
+      <style>
+      @charset "UTF-8";
+      :root {
+        --font-size: 3.9466666666666663mm
+      }
+      html {
+      orphans: 1;
+      widows: 1;
+      color: black;
+      }
+
+      body{
+        writing-mode: vertical-rl;
+        color: black;
+      }
+
+      * {
+      margin: 0;
+      padding: 0;
+      }
+
+      @page {
+        size: 148mm 210mm;
+        block-size: calc(3.9466666666666663mm * 1.75 * 18 + (3.9466666666666663mm * 0.4));
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 8%;
+        margin-right: 8%;
+        /* 以下、マージンボックスに継承される */
+        font-size: 6pt;
+        font-family: "游明朝", "YuMincho", serif;
+        /* 本来不要（<span class="smaller"><span class="smaller">ルート要素の指定が継承される</span></span>）だが、現時点のvivliostyle.jsの制限により必要 */
+        vertical-align: top;
+      }
+
+      @page : first {
+        counter-reset: page 0;
+      }
+
+      @page :left {
+        margin-right: 6%;
+        margin-left: 10%;
+        @bottom-left {
+          content: "travel 42字×18行 "counter(page)"";
+          margin-left: 0mm;
+          margin-bottom: 5%;
+          writing-mode: horizontal-tb;
+          font-size:10q;
+          /* CSS仕様上は@pageルール内に書けばよいが、現時点のvivliostyle.jsの制限によりここに書く */
+      }
+    }
+      
+      @page :right {
+        margin-left: 6%;
+        margin-right: 10%;
+        /* border-bottom: 1pt solid black; */
+      /* 右下ノンブル */
+      @bottom-right {
+          content: "travel 42字×18行 "counter(page)"";
+          margin-right: 0mm;
+          margin-bottom: 5%;
+          writing-mode: horizontal-tb;
+          font-size:10q;
+          /* CSS仕様上は@pageルール内に書けばよいが、現時点のvivliostyle.jsの制限によりここに書く */
+      }
+      }
+  
+      html {
+      font-family: "游明朝", "YuMincho", serif;
+      font-weight: Medium;
+      text-align: justify;
+      hanging-punctuation: allow-end;
+      text-spacing: none;
+      }
+  
+      body{
+        break-before: left;
+
+        
+      }
+  
+      div#draft{
+        inline-size: calc(165.76mm + 0.5em);
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+      }
+
+      h1 {
+        /* 五行トリ2倍角 */
+        display:flex;
+        align-items: center;
+        block-size: calc(3.9466666666666663mm * 1.75 * 5);
+        /* フォント */
+        font-weight: Extrabold;
+        letter-spacing: 0.25em;
+        font-size: calc(3.9466666666666663mm * 2);
+        /* 字下げ */
+        text-indent: 0;
+        /* 直後の改ページ・改段禁止 */
+      }
+  
+      h2 {
+        /* 二行トリ1.6倍角 */
+        display:flex;
+        align-items: center;
+        block-size: calc(3.9466666666666663mm * 1.75 * 2);
+        /* フォント */
+        font-weight: Extrabold;
+        font-size: calc(3.9466666666666663mm * 1.6);
+        /* 字下げ */
+        text-indent: calc(3.9466666666666663mm * 1 * 1);
+        /* 直後の改ページ・改段禁止 */
+      }
+
+      h3 {
+        /* 一行トリ1.2倍角 */
+        display:flex;
+        align-items: center;
+        block-size: calc(3.9466666666666663mm * 1.75);
+        /* フォント */
+        font-weight: demi-bold;
+        font-size: calc(3.9466666666666663mm * 1.2);
+        /* 字下げ */
+        text-indent: calc(3.9466666666666663mm * 1 * 1);
+        /* 直後の改ページ・改段禁止 */
+        page-break-after:avoid;
+      }
+
+      h4,h5,h6 {
+        /* 一行トリ1.2倍角 */
+        display:flex;
+        align-items: center;
+        block-size: calc(3.9466666666666663mm * 1.75);
+        /* フォント */
+        font-weight: demi-bold;
+        font-size: calc(3.9466666666666663mm * 1);
+        /* 字下げ */
+        text-indent: calc(3.9466666666666663mm * 1 * 1);
+        /* 直後の改ページ・改段禁止 */
+        page-break-after:avoid;
+      }
+
+      h1 + h2 {
+      margin-block-start: 16pt;
+      }
+
+      p + h3 {
+        margin-block-start: calc(3.9466666666666663mm * 1.75);
+      }
+      
+      p.ruby-offset {
+       margin-right: -0.15em;
+      }
+
+      body.vertical-rl ruby > rt {
+        font-size: 0.5em;
+        width: 0.75em;
+      }
+
+      body.horizontal-tb ruby > rt {
+        font-size: 0.5em;
+        width: 0.75em;
+      }
+
+      p {
+        font-size: 3.9466666666666663mm;
+        line-height: 1.75;
+        inline-size: calc(165.76mm + 0.5em);
+        text-indent: 0em;
+        hanging-punctuation: allow-end;
+        line-break:strict;
+        page-break-inside: auto;
+      }
+
+    div.indent-1 p:first-of-type, div.indent-2 p:first-of-type, div.indent-3 p:first-of-type{
+      padding-block-start: calc( 3.9466666666666663mm * 1.75);
+      }
+
+      div.indent-1 p:last-of-type, div.indent-2 p:last-of-type, div.indent-3 p:last-of-type{
+      padding-block-end: calc( 3.9466666666666663mm * 1.75);
+      }
+
+    
+    div.indent-1 p{
+    inline-size: calc( calc(165.76mm + 0.5em) - 3.9466666666666663mm);
+    padding-inline-start: calc( 3.9466666666666663mm);
+    }
+
+    div.indent-2 p{
+    inline-size: calc( calc(165.76mm + 0.5em) - (3.9466666666666663mm * 2));
+    padding-inline-start: calc(3.9466666666666663mm * 2);
+    }
+
+    div.indent-3 p{
+    inline-size: calc( calc(165.76mm + 0.5em) - (3.9466666666666663mm * 3));
+    padding-inline-start: calc(3.9466666666666663mm * 3);
+    }
+
+    p.goth {
+    margin-inline-start: 3em;
+    font-family: "游ゴシック", "YuGothic", san-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    }
+
+    p.align-rb {
+    text-align: end;
+    }
+
+    p.goth + p.goth {
+    margin-block-start: -1em;
+    }
+
+    div.codes {
+    display: inline-block;
+    margin: 3em 1em;
+    writing-mode: horizontal-tb;
+    padding: 1em;
+    font-family: "Courier", monospace;
+    font-size: 0.8em;
+    }
+  
+    div.codes p {
+    text-orientation: sideways;
+    }
+
+    p.star {
+    text-indent: 3em;
+    margin-right: 16pt;
+    margin-left: 16pt;
+    }
+
+    hr {
+    border: none;
+    border-right: 1pt solid black;
+    block-size: 6em;
+    margin: auto 8.5pt;
+    }
+
+    /* 縦中横 */
+    .tcy {
+    -webkit-text-combine: horizontal;
+    text-combine: horizontal;
+    -ms-text-combine-horizontal: all;
+    text-combine-horizontal: digit 2;
+    text-combine-upright: digit 2;
+    }
+
+    span.bottom {
+      display: block;
+      float: right;
+    }
+    
+    span.bottom-1 {
+      display: block;
+      float: right;
+      padding-inline-end: 1em;
+    }
+    
+    span.bottom-2 {
+      display: block;
+      float: right;
+      padding-inline-end: 2em;
+    }
+    
+    span.bottom-3 {
+      display: block;
+      float: right;
+      padding-inline-end: 3em;
+    }
+        
+
+    /* 圏点（<span class="smaller">ゴマ</span>） */
+    em.side-dot, em.sesame_dot {
+    font-style: normal;
+    -webkit-text-emphasis-style: sesame;
+    text-emphasis-style: sesame;
+    margin-block-start: -1em;
+    display: inline-block;
+    }
+
+    /*著作者*/
+    .author {
+    position: absolute;
+    bottom: 0;
+    font-size: 8.5pt;
+    margin-inline-start: 50pt;
+    letter-spacing: normal;
+    }
+
+    /*画像＋キャプション*/
+    figure {
+    display: block;
+    width: 236pt;
+    -ms-writing-mode: lr-tb;
+    -webkit-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
+    }
+
+    figure img {
+    width: 100%;
+    block-size: auto;
+    vertical-align: bottom;
+    }
+
+    figcaption {
+    text-align: start;
+    font-size: 7pt;
+    }
+
+    /*奥付*/
+    .colophon {
+    font-size: 7pt;
+    margin-right: 48pt;
+    }
+    /* 級さげ */
+    span.smaller{
+        font-size:6.5pt
+    }
+  
+    div.comment {
+        display:none;
+    }
+
+    p.blank {
+        color:transparent;
+    }
+
+    span.blank{
+      display:none;
+    }
+    </style>
+  </head>
+  <body class="vertical-rl">
+  <div id="draft">
+  <p id="l-0">C:\Users\ukowu\Desktop\travel\旅程.txt に今回涼山旅行の旅程です。　西昌と昭覚の間はバスで移動します。　払い戻し済のやつは消して考えてください。旅程に含まれていないバスの移動や地下鉄の移動等も補完して書き直したmarkdownかdrawioか何かを作ってください。　正直僕は何もいらないしいつものものでいいと思うんだけども、彼女は女性なのでなんか色々いりそうです。全泊ホテルなのでそこそこそろってはいそうですが。あなたの方で必要そうなものをばっくぱっかーである僕（最低限忘れてはいけないものだけ）と、彼女向けにそれぞれmarkdownのリストとして出してコミットしてください。</p><p id="l-1">参考までに、私の旅行のかつての持ち物（昆虫採集なので荷物多めです）をのせておきます。C:\Users\ukowu\Desktop\travel\phillipines.md</p><p id="l-2">これが完了したらコミットしてください。<span id="cursor"></span></p><p id="l-3" class="blank">_</p>
+  </div>
+  </body>
+  </html>
