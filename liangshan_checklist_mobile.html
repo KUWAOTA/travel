@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>涼山旅行 チェックリスト</title>
+  <style>
+    :root {
+      --bg: #f6efe4;
+      --card: rgba(255, 251, 245, 0.9);
+      --ink: #251b18;
+      --soft: rgba(37, 27, 24, 0.66);
+      --line: rgba(100, 66, 52, 0.12);
+      --accent: #a44731;
+      --accent-2: #225963;
+      --done: #4e6f59;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top left, rgba(202, 122, 73, 0.16), transparent 24%),
+        linear-gradient(180deg, #f2e4d0, var(--bg));
+      color: var(--ink);
+      font-family: "Yu Gothic", "Hiragino Sans", sans-serif;
+    }
+
+    main {
+      width: min(760px, calc(100% - 20px));
+      margin: 14px auto 28px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .hero, .section, .toolbar {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 18px;
+      backdrop-filter: blur(8px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(34, 89, 99, 0.1);
+      color: var(--accent-2);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, p { margin: 0; }
+
+    h1 {
+      margin-top: 10px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      line-height: 1.02;
+    }
+
+    .lead {
+      margin-top: 10px;
+      color: var(--soft);
+      line-height: 1.75;
+      font-size: 14px;
+    }
+
+    .stats {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .stat {
+      padding: 10px 12px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.74);
+      border: 1px solid var(--line);
+      min-width: 100px;
+    }
+
+    .stat b {
+      display: block;
+      font-size: 11px;
+      color: var(--soft);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 4px;
+    }
+
+    .toolbar {
+      display: grid;
+      gap: 10px;
+    }
+
+    .toolbar-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    button {
+      appearance: none;
+      border: 0;
+      border-radius: 14px;
+      padding: 11px 14px;
+      font: inherit;
+      font-weight: 700;
+      color: white;
+      background: var(--accent);
+    }
+
+    button.secondary {
+      background: rgba(34, 89, 99, 0.9);
+    }
+
+    button.ghost {
+      background: rgba(37, 27, 24, 0.08);
+      color: var(--ink);
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 96px;
+      resize: vertical;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      padding: 12px;
+      font: inherit;
+      background: rgba(255,255,255,0.76);
+    }
+
+    .section h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .item {
+      display: grid;
+      grid-template-columns: 24px 1fr;
+      gap: 12px;
+      align-items: start;
+      padding: 10px 0;
+      border-top: 1px solid rgba(100, 66, 52, 0.08);
+    }
+
+    .item:first-of-type {
+      border-top: 0;
+    }
+
+    input[type="checkbox"] {
+      width: 22px;
+      height: 22px;
+      margin-top: 1px;
+      accent-color: var(--done);
+    }
+
+    label {
+      line-height: 1.65;
+      font-size: 15px;
+    }
+
+    .done label {
+      color: var(--soft);
+      text-decoration: line-through;
+    }
+
+    .hint {
+      color: var(--soft);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Mobile Checklist</div>
+      <h1>涼山旅行<br>スマホ用チェックリスト</h1>
+      <p class="lead">
+        ブラウザでそのままチェックできる版です。チェック状態はこの端末のブラウザに保存されます。
+        下のエクスポートを使えば、状態をテキストで退避することもできます。
+      </p>
+      <div class="stats">
+        <div class="stat"><b>Travelers</b><span>拓磨 / 萌子</span></div>
+        <div class="stat"><b>Dates</b><span>3/19 - 3/22</span></div>
+        <div class="stat"><b>Theme</b><span>イ族文化</span></div>
+      </div>
+    </section>
+
+    <section class="toolbar">
+      <div class="toolbar-row">
+        <button id="exportBtn">状態をエクスポート</button>
+        <button id="importBtn" class="secondary">状態をインポート</button>
+        <button id="resetBtn" class="ghost">全部リセット</button>
+      </div>
+      <textarea id="stateBox" placeholder="エクスポート結果や、インポート用のテキストをここに入れます"></textarea>
+      <p class="hint">スマホに送るなら、この `HTML` をAirDropやLINE Keep、Dropbox、iCloud Driveなどで渡してブラウザで開くのが簡単です。</p>
+    </section>
+
+    <section class="section">
+      <h2>最優先準備</h2>
+      <div class="item"><input id="i01" type="checkbox"><label for="i01">WeChat / Alipay / Baidu / 地下鉄ミニアプリの準備</label></div>
+      <div class="item"><input id="i02" type="checkbox"><label for="i02">香港SIM / 香港eSIM の方針を決める</label></div>
+      <div class="item"><input id="i03" type="checkbox"><label for="i03">12306アカウント作成と外国旅券の本人確認申請</label></div>
+      <div class="item"><input id="i04" type="checkbox"><label for="i04">列車・航空券・ホテル予約をオフライン保存</label></div>
+      <div class="item"><input id="i05" type="checkbox"><label for="i05">ホテル名・駅名・客运中心・目的地の中国語スクショ</label></div>
+      <div class="item"><input id="i06" type="checkbox"><label for="i06">ホテル住所と行き先住所を中国語でコピペできる形に保存</label></div>
+      <div class="item"><input id="i07" type="checkbox"><label for="i07">主要連絡先をアプリ外にも控える</label></div>
+    </section>
+
+    <section class="section">
+      <h2>拓磨</h2>
+      <div class="item"><input id="i11" type="checkbox"><label for="i11">パスポート</label></div>
+      <div class="item"><input id="i12" type="checkbox"><label for="i12">航空券・列車・ホテル予約控えの控え</label></div>
+      <div class="item"><input id="i13" type="checkbox"><label for="i13">スマホ / 充電器 / ケーブル / モバイルバッテリー</label></div>
+      <div class="item"><input id="i14" type="checkbox"><label for="i14">変換プラグ / 中国で使う決済手段</label></div>
+      <div class="item"><input id="i15" type="checkbox"><label for="i15">常備薬 / ティッシュ / ウェットティッシュ</label></div>
+      <div class="item"><input id="i16" type="checkbox"><label for="i16">歯ブラシ / 小さめ洗面セット</label></div>
+      <div class="item"><input id="i17" type="checkbox"><label for="i17">長袖トップス / 薄手インナー / 羽織りもの</label></div>
+      <div class="item"><input id="i18" type="checkbox"><label for="i18">軽ダウン or 防風シェル</label></div>
+      <div class="item"><input id="i19" type="checkbox"><label for="i19">歩きやすい靴 / 小さめデイパック</label></div>
+    </section>
+
+    <section class="section">
+      <h2>萌子</h2>
+      <div class="item"><input id="i21" type="checkbox"><label for="i21">パスポート</label></div>
+      <div class="item"><input id="i22" type="checkbox"><label for="i22">航空券・列車・ホテル予約控えの控え</label></div>
+      <div class="item"><input id="i23" type="checkbox"><label for="i23">スマホ / 充電器 / ケーブル / モバイルバッテリー</label></div>
+      <div class="item"><input id="i24" type="checkbox"><label for="i24">財布 / 中国で使う決済手段</label></div>
+      <div class="item"><input id="i25" type="checkbox"><label for="i25">常備薬 / ティッシュ / ウェットティッシュ</label></div>
+      <div class="item"><input id="i26" type="checkbox"><label for="i26">歯ブラシ / クレンジング / スキンケア最小セット</label></div>
+      <div class="item"><input id="i27" type="checkbox"><label for="i27">保湿剤 / 日焼け止め / リップクリーム</label></div>
+      <div class="item"><input id="i28" type="checkbox"><label for="i28">ヘアゴム / ヘアブラシ / 生理用品</label></div>
+      <div class="item"><input id="i29" type="checkbox"><label for="i29">長袖トップス 2-3枚 / 薄手インナー 2枚 / 羽織りもの</label></div>
+      <div class="item"><input id="i30" type="checkbox"><label for="i30">軽ダウン or 防風シェル / 普通の長ズボン / 部屋着</label></div>
+      <div class="item"><input id="i31" type="checkbox"><label for="i31">歩きやすい靴 / 必要なら軽いメイク道具</label></div>
+    </section>
+
+    <section class="section">
+      <h2>2人で分担</h2>
+      <div class="item"><input id="i41" type="checkbox"><label for="i41">予約控えのバックアップ一式</label></div>
+      <div class="item"><input id="i42" type="checkbox"><label for="i42">SIM / eSIM の控え情報 / 香港SIM情報</label></div>
+      <div class="item"><input id="i43" type="checkbox"><label for="i43">小型爪切り / ばんそうこう</label></div>
+      <div class="item"><input id="i44" type="checkbox"><label for="i44">解熱鎮痛薬 / 胃腸薬</label></div>
+      <div class="item"><input id="i45" type="checkbox"><label for="i45">洗濯ネット / ビニール袋</label></div>
+      <div class="item"><input id="i46" type="checkbox"><label for="i46">折りたたみ傘 1本</label></div>
+    </section>
+
+    <section class="section">
+      <h2>減らせるもの</h2>
+      <div class="item"><input id="i51" type="checkbox"><label for="i51">厚手の冬コート</label></div>
+      <div class="item"><input id="i52" type="checkbox"><label for="i52">かさばるニットを何枚も</label></div>
+      <div class="item"><input id="i53" type="checkbox"><label for="i53">予備靴</label></div>
+      <div class="item"><input id="i54" type="checkbox"><label for="i54">大型三脚 / 重いPC</label></div>
+      <div class="item"><input id="i55" type="checkbox"><label for="i55">大きい洗面用品フルセット</label></div>
+    </section>
+  </main>
+
+  <script>
+    const STORAGE_KEY = "liangshan-checklist-state-v1";
+    const checks = [...document.querySelectorAll('input[type="checkbox"]')];
+    const stateBox = document.getElementById("stateBox");
+
+    function renderDoneState(input) {
+      const row = input.closest(".item");
+      row.classList.toggle("done", input.checked);
+    }
+
+    function saveState() {
+      const state = Object.fromEntries(checks.map((input) => [input.id, input.checked]));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      checks.forEach(renderDoneState);
+    }
+
+    function loadState() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return;
+        const state = JSON.parse(raw);
+        checks.forEach((input) => {
+          input.checked = Boolean(state[input.id]);
+          renderDoneState(input);
+        });
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+    checks.forEach((input) => {
+      input.addEventListener("change", saveState);
+      renderDoneState(input);
+    });
+
+    document.getElementById("exportBtn").addEventListener("click", () => {
+      const state = Object.fromEntries(checks.map((input) => [input.id, input.checked]));
+      stateBox.value = JSON.stringify(state, null, 2);
+    });
+
+    document.getElementById("importBtn").addEventListener("click", () => {
+      try {
+        const state = JSON.parse(stateBox.value);
+        checks.forEach((input) => {
+          input.checked = Boolean(state[input.id]);
+          renderDoneState(input);
+        });
+        saveState();
+      } catch (error) {
+        alert("インポート用テキストの形式が正しくありません。");
+      }
+    });
+
+    document.getElementById("resetBtn").addEventListener("click", () => {
+      checks.forEach((input) => {
+        input.checked = false;
+        renderDoneState(input);
+      });
+      saveState();
+      stateBox.value = "";
+    });
+
+    loadState();
+  </script>
+</body>
+</html>
