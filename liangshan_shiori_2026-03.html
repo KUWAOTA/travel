@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>涼山しおり 2026.03</title>
+  <style>
+    :root {
+      --ink: #251a17;
+      --ink-soft: rgba(37, 26, 23, 0.74);
+      --paper: #f8f2e7;
+      --paper-strong: #fffaf2;
+      --line: rgba(88, 56, 44, 0.12);
+      --red: #a44731;
+      --terracotta: #ca7a49;
+      --gold: #caa65f;
+      --green: #4e6f59;
+      --teal: #245a65;
+      --night: #173842;
+      --shadow: rgba(52, 29, 22, 0.16);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Yu Gothic", "Hiragino Sans", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(202, 122, 73, 0.18), transparent 24%),
+        radial-gradient(circle at bottom right, rgba(78, 111, 89, 0.18), transparent 24%),
+        linear-gradient(135deg, #ecd9bf 0%, #f8f1e6 48%, #e3ccb0 100%);
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    h1, h2, h3, p {
+      margin: 0;
+    }
+
+    .booklet {
+      width: min(1240px, calc(100% - 28px));
+      margin: 16px auto 40px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .page {
+      position: relative;
+      overflow: hidden;
+      padding: 30px;
+      border-radius: 30px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255, 250, 242, 0.98), rgba(248, 242, 231, 0.98));
+      box-shadow: 0 18px 44px var(--shadow);
+    }
+
+    .page::before {
+      content: "";
+      position: absolute;
+      inset: 14px;
+      border-radius: 22px;
+      border: 1px solid rgba(164, 71, 49, 0.14);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      width: fit-content;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: rgba(36, 90, 101, 0.1);
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(52px, 7.5vw, 94px);
+      line-height: 0.94;
+      letter-spacing: 0.01em;
+    }
+
+    .section-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+
+    .lead {
+      font-size: 18px;
+      line-height: 1.85;
+      color: var(--ink-soft);
+    }
+
+    .stamp-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .stamp {
+      min-width: 150px;
+      padding: 12px 14px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.74);
+      border: 1px solid rgba(88, 56, 44, 0.08);
+    }
+
+    .stamp b {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      color: rgba(37, 26, 23, 0.58);
+      text-transform: uppercase;
+    }
+
+    .stamp span {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .cover {
+      min-height: 96vh;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .cover-copy {
+      display: grid;
+      gap: 18px;
+      align-content: start;
+    }
+
+    .hero-panel {
+      position: relative;
+      min-height: 560px;
+      overflow: hidden;
+      border-radius: 28px;
+      background: var(--night);
+      box-shadow: 0 18px 38px rgba(23, 56, 66, 0.28);
+    }
+
+    .hero-panel::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.46)),
+        radial-gradient(circle at top right, rgba(202, 166, 95, 0.4), transparent 24%);
+    }
+
+    .hero-panel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-text {
+      position: absolute;
+      left: 22px;
+      right: 22px;
+      bottom: 22px;
+      z-index: 1;
+      color: #fff5e8;
+    }
+
+    .hero-text h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      font-size: 15px;
+      line-height: 1.75;
+    }
+
+    .quote-box,
+    .soft-box,
+    .mini-box,
+    .temp-card,
+    .timeline-card,
+    .hotel-card,
+    .packing-card,
+    .decision-card {
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid rgba(88, 56, 44, 0.08);
+      border-radius: 24px;
+      padding: 18px;
+    }
+
+    .quote-box {
+      background: linear-gradient(135deg, rgba(164, 71, 49, 0.08), rgba(202, 166, 95, 0.12));
+      border-left: 4px solid var(--red);
+      line-height: 1.9;
+      font-size: 15px;
+    }
+
+    .soft-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .soft-box h3,
+    .mini-box h3,
+    .temp-card h3,
+    .timeline-card h3,
+    .hotel-copy h3,
+    .packing-card h3,
+    .decision-card h3 {
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    .soft-box ul,
+    .mini-box ul,
+    .temp-card ul,
+    .timeline-card ul,
+    .packing-card ul,
+    .decision-card ul {
+      margin: 0;
+      padding-left: 18px;
+      line-height: 1.8;
+    }
+
+    .mosaic {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 16px;
+    }
+
+    .mosaic-main {
+      position: relative;
+      overflow: hidden;
+      min-height: 420px;
+      border-radius: 26px;
+    }
+
+    .mosaic-main img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .mosaic-main .label {
+      position: absolute;
+      left: 18px;
+      bottom: 18px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255, 250, 242, 0.88);
+      font-weight: 700;
+    }
+
+    .mosaic-side {
+      display: grid;
+      gap: 16px;
+    }
+
+    .photo-tile {
+      position: relative;
+      overflow: hidden;
+      min-height: 202px;
+      border-radius: 24px;
+    }
+
+    .photo-tile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .photo-tile .overlay {
+      position: absolute;
+      inset: auto 14px 14px 14px;
+      padding: 12px 14px;
+      border-radius: 18px;
+      background: rgba(255, 250, 242, 0.84);
+      backdrop-filter: blur(8px);
+    }
+
+    .photo-tile h3 {
+      margin-bottom: 6px;
+      font-size: 20px;
+    }
+
+    .photo-tile p,
+    .mini-copy,
+    .hotel-copy p,
+    .source-line,
+    .packing-card p {
+      color: var(--ink-soft);
+      line-height: 1.8;
+    }
+
+    .route-band {
+      margin-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .route-band span {
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(202, 122, 73, 0.12);
+      border: 1px solid rgba(202, 122, 73, 0.24);
+      font-weight: 700;
+    }
+
+    .spread {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .photo-column {
+      display: grid;
+      gap: 16px;
+    }
+
+    .stacked-photo {
+      position: relative;
+      overflow: hidden;
+      border-radius: 26px;
+      min-height: 290px;
+    }
+
+    .stacked-photo.tall {
+      min-height: 420px;
+    }
+
+    .stacked-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .stacked-photo .caption {
+      position: absolute;
+      left: 16px;
+      right: 16px;
+      bottom: 16px;
+      padding: 12px 14px;
+      border-radius: 18px;
+      background: rgba(23, 56, 66, 0.78);
+      color: #fff7ec;
+    }
+
+    .stacked-photo .caption h3 {
+      margin-bottom: 6px;
+      font-size: 24px;
+    }
+
+    .temp-grid,
+    .timeline-grid,
+    .packing-grid,
+    .decision-grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .temp-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .temp-main {
+      margin-bottom: 10px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 36px;
+      color: var(--red);
+    }
+
+    .temp-sub,
+    .pill,
+    .caption-label {
+      display: inline-block;
+      width: fit-content;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(36, 90, 101, 0.1);
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
+
+    .timeline-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .timeline-card {
+      min-height: 100%;
+    }
+
+    .timeline-card .mini-copy {
+      margin-top: 10px;
+      font-size: 13px;
+    }
+
+    .hotel-page {
+      display: grid;
+      gap: 18px;
+    }
+
+    .hotel-card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      padding: 20px;
+    }
+
+    .hotel-photo {
+      display: grid;
+      gap: 12px;
+    }
+
+    .hotel-photo-main {
+      overflow: hidden;
+      border-radius: 24px;
+      min-height: 320px;
+    }
+
+    .hotel-photo-main img,
+    .hotel-photo-strip img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hotel-photo-strip {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .hotel-photo-strip div {
+      overflow: hidden;
+      border-radius: 18px;
+      min-height: 130px;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .chip {
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: rgba(78, 111, 89, 0.1);
+      border: 1px solid rgba(78, 111, 89, 0.18);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .amenity-note {
+      margin-top: 14px;
+      padding: 14px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, rgba(202, 166, 95, 0.12), rgba(202, 122, 73, 0.08));
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .packing-grid {
+      grid-template-columns: 0.88fr 1.12fr;
+      align-items: start;
+    }
+
+    .packing-photo-board {
+      display: grid;
+      gap: 14px;
+    }
+
+    .packing-photo-board .board-main,
+    .packing-photo-board .board-sub {
+      overflow: hidden;
+      border-radius: 24px;
+    }
+
+    .packing-photo-board .board-main {
+      min-height: 320px;
+    }
+
+    .packing-photo-board .board-sub {
+      min-height: 180px;
+    }
+
+    .packing-photo-board img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .packing-columns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .packing-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .packing-card li {
+      position: relative;
+      padding-left: 28px;
+      margin-bottom: 8px;
+      line-height: 1.72;
+    }
+
+    .packing-card li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 6px;
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      border: 2px solid rgba(37, 26, 23, 0.32);
+      background: rgba(255, 255, 255, 0.7);
+    }
+
+    .decision-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-band {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-radius: 18px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      background: linear-gradient(135deg, rgba(164, 71, 49, 0.12), rgba(202, 166, 95, 0.16));
+      font-weight: 700;
+    }
+
+    .source-line {
+      margin-top: 14px;
+      font-size: 12px;
+    }
+
+    @page {
+      size: A4;
+      margin: 10mm;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .booklet {
+        width: auto;
+        margin: 0;
+      }
+
+      .page {
+        min-height: 277mm;
+        box-shadow: none;
+        break-after: page;
+      }
+    }
+
+    @media (max-width: 980px) {
+      .cover,
+      .mosaic,
+      .spread,
+      .hotel-card,
+      .packing-grid,
+      .packing-columns,
+      .decision-grid,
+      .soft-grid,
+      .timeline-grid,
+      .temp-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .page {
+        padding: 22px;
+      }
+
+      .cover {
+        min-height: auto;
+      }
+
+      .hero-panel {
+        min-height: 420px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="booklet">
+    <section class="page cover">
+      <div class="cover-copy">
+        <div class="eyebrow">Liangshan Culture Trip</div>
+        <h1 class="title">涼山・昭覚<br>Culture Trip</h1>
+        <p class="lead">
+          2026年3月19日(木) - 3月22日(日)。
+          拓磨さんと萌子さんのための、イ族文化を見る旅のしおり。
+          今回は「旅程表」より少し雑誌寄りにして、写真で気分を上げてから実務に落ちる構成にしています。
+        </p>
+
+        <div class="stamp-row">
+          <div class="stamp"><b>Travelers</b><span>拓磨 / 萌子</span></div>
+          <div class="stamp"><b>Theme</b><span>イ族の文化</span></div>
+          <div class="stamp"><b>Style</b><span>山旅 + 文化観察</span></div>
+        </div>
+
+        <div class="soft-grid">
+          <article class="soft-box">
+            <h3>旅のハイライト</h3>
+            <ul>
+              <li>成都から西昌へ朝列車、その先を昭覚へバス移動</li>
+              <li>色、服、刺繍、生活の場をゆっくり観察する旅</li>
+              <li>移動は前倒し、現地では余白を楽しむ</li>
+            </ul>
+          </article>
+
+          <article class="quote-box">
+            今回の勝ち筋は、昭覚往復だけを慎重にして、他はちゃんと楽しむこと。
+            成都と杭州は「楽に移動して体力を残す」、昭覚では「見る時間を確保する」が正解です。
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+          <img src="assets/img/region_yi.jpg" alt="イ族の衣装イメージ">
+        <div class="hero-text">
+          <h2>Highland Rhythm</h2>
+          <p>
+            高地の空気、民族衣装の色、山の移動のリズム。
+            その全部がつながる旅として、しおり全体の雰囲気を整えています。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="mosaic">
+        <div class="mosaic-main">
+          <img src="assets/img/region_chengdu_dawn.jpg" alt="成都の景色">
+          <div class="label">Chengdu / Gateway to Liangshan</div>
+        </div>
+
+        <div class="mosaic-side">
+          <article class="photo-tile">
+            <img src="assets/img/region_xichang_lake.jpg" alt="西昌の景色">
+            <div class="overlay">
+              <h3>西昌</h3>
+              <p>列車からバスへ切り替わる地点。昭覚へ向かう前の要所。</p>
+            </div>
+          </article>
+
+          <article class="photo-tile">
+            <img src="assets/img/region_hangzhou_westlake.jpg" alt="杭州の景色">
+            <div class="overlay">
+              <h3>杭州</h3>
+              <p>最終夜の回復担当。空港近くで体力を整える場所です。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="footer-band">
+        <div>気分の流れ: 都市 → 山 → 文化 → 都市</div>
+        <div>主役: イ族の色・服・生活の空気感</div>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="spread">
+        <div class="photo-column">
+          <article class="stacked-photo tall">
+            <img src="assets/img/region_chengdu_taikooli.jpg" alt="成都の街並み">
+            <div class="caption">
+              <div class="caption-label">Cultural Focus</div>
+              <h3>見る旅にする</h3>
+              <p>都市から山へ入っていく流れごと含めて、今回の旅の空気をつかむページです。</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="photo-column">
+          <article class="mini-box">
+            <h3>今回の見どころ</h3>
+            <ul>
+              <li>イ族文化が旅の中心</li>
+              <li>観光地を詰め込むより、場の空気を観察する構成</li>
+              <li>市場、食堂、バス乗り場のような日常の場所が大事</li>
+            </ul>
+          </article>
+
+          <article class="stacked-photo">
+            <img src="assets/img/theme_flight.jpg" alt="飛行機のイメージ">
+            <div class="caption">
+              <h3>旅のスイッチ</h3>
+              <p>国際線、国内線、列車、バス。乗り物が変わるたびに旅の密度も変わっていきます。</p>
+            </div>
+          </article>
+
+          <article class="mini-box">
+            <h3>ルート</h3>
+            <p class="mini-copy">大阪 → 北京 → 成都 → 西昌 → 昭覚 → 成都 → 杭州 → 大阪</p>
+            <div class="route-band">
+              <span>大阪</span>
+              <span>成都</span>
+              <span>西昌</span>
+              <span>昭覚</span>
+              <span>杭州</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page">
+      <h2 class="section-title">気温と服装</h2>
+      <p class="lead" style="margin-bottom: 16px;">
+        服装の正解は、真冬装備ではなく `重ね着 + 朝晩だけ軽ダウン`。見た目より、脱ぎ着しやすさが効く旅です。
+      </p>
+
+      <div class="temp-grid">
+        <article class="temp-card">
+          <h3>成都</h3>
+          <div class="temp-main">16.3 / 9.6℃</div>
+          <div class="temp-sub">3月19日(木) 夜着</div>
+          <ul>
+            <li>春先の少しひんやりする日</li>
+            <li>長袖 + 薄手アウターで十分</li>
+            <li>夜は薄手ダウンがあると快適</li>
+          </ul>
+        </article>
+
+        <article class="temp-card">
+          <h3>西昌</h3>
+          <div class="temp-main">19.4 / 8.9℃</div>
+          <div class="temp-sub">3月20日(金) 日中</div>
+          <ul>
+            <li>昼はかなり動きやすい春気候</li>
+            <li>長袖T or 薄手ニットでOK</li>
+            <li>羽織りは着脱しやすいものが便利</li>
+          </ul>
+        </article>
+
+        <article class="temp-card">
+          <h3>昭覚</h3>
+          <div class="temp-main">9.1 / 0.6℃</div>
+          <div class="temp-sub">3月20日(金) 夜 - 21日(土) 朝</div>
+          <ul>
+            <li>標高が高く朝晩はかなり冷える</li>
+            <li>軽ダウン or 防風シェルは必須寄り</li>
+            <li>普通の長ズボンで十分</li>
+          </ul>
+        </article>
+
+        <article class="temp-card">
+          <h3>杭州</h3>
+          <div class="temp-main">16.8 / 7.4℃</div>
+          <div class="temp-sub">3月21日(土) 深夜 - 22日(日) 朝</div>
+          <ul>
+            <li>春コート相当の気温感</li>
+            <li>深夜着は春アウターがちょうどいい</li>
+            <li>空港近郊なので移動しやすさ優先</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="footer-band">
+        <div>服の芯: 長袖 2-3枚 + 薄手インナー + 羽織り + 軽ダウン</div>
+        <div>減らせる: 厚手冬コート / かさばるニット複数枚</div>
+      </div>
+    </section>
+
+    <section class="page">
+      <h2 class="section-title">旅程</h2>
+      <p class="lead" style="margin-bottom: 16px;">
+        長距離の核は「飛行機 4本 + 列車 2本 + 昭覚往復バス」。一番大事なのは、昭覚往復だけ早めに動くことです。
+      </p>
+
+      <div class="timeline-grid">
+        <article class="timeline-card">
+          <div class="pill">3月19日(木)</div>
+          <h3>大阪から成都へ</h3>
+          <ul>
+            <li>13:50 大阪(KIX) 発 / CA928</li>
+            <li>16:15 北京(PEK) 着</li>
+            <li>17:45 北京(PEK) 発 / CA1425</li>
+            <li>20:45 成都(CTU) 着</li>
+            <li>世紀城方面へ移動、最後はタクシーが楽</li>
+          </ul>
+          <p class="mini-copy">ホテル着は 22:30 - 23:30 見込み。初日は休息優先。</p>
+        </article>
+
+        <article class="timeline-card">
+          <div class="pill">3月20日(金)</div>
+          <h3>成都から昭覚へ</h3>
+          <ul>
+            <li>朝はホテルから `成都南駅` へタクシー優先</li>
+            <li>06:57 成都南 発 / 10:14 西昌西 着</li>
+            <li>客運中心へ移動</li>
+            <li>昭覚方面の県際バスで 2 - 3時間見込み</li>
+            <li>昭覚到着後はホテルへ配車 or タクシー</li>
+          </ul>
+        </article>
+
+        <article class="timeline-card">
+          <div class="pill">3月21日(土)</div>
+          <h3>昭覚から戻って杭州へ</h3>
+          <ul>
+            <li>午前の早い便で昭覚から西昌へ戻る</li>
+            <li>13:30 までに西昌西駅着を目標に逆算</li>
+            <li>14:59 西昌西 発 / 18:08 成都東 着</li>
+            <li>18:53 成都東 発 / 19:30 天府空港 着</li>
+            <li>21:30 成都 発 / 00:20 杭州 着</li>
+          </ul>
+          <p class="mini-copy">成都東駅の乗換は 45分。寄り道しない前提で成立しやすいです。</p>
+        </article>
+
+        <article class="timeline-card">
+          <div class="pill">3月22日(日)</div>
+          <h3>杭州から大阪へ</h3>
+          <ul>
+            <li>08:00 杭州(HGH) 発 / CA725</li>
+            <li>11:15 大阪(KIX) 着</li>
+            <li>06:00 前後にホテルを出る想定</li>
+            <li>空港シャトル優先、なければタクシー</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="footer-band">
+        <div>最重要: 昭覚バスは前日か到着後すぐ確認</div>
+        <div>移動の勝ち筋: 成都 / 杭州はタクシーを惜しまない</div>
+      </div>
+    </section>
+
+    <section class="page hotel-page">
+      <h2 class="section-title">Hotel Mood</h2>
+      <p class="lead">
+        どんな宿に泊まるかが見えるだけで、不安はかなり減ります。ここは情報だけでなく「宿の雰囲気」も感じられるように、写真を大きめに使っています。
+      </p>
+
+      <article class="hotel-card">
+        <div class="hotel-photo">
+          <div class="hotel-photo-main">
+            <img src="assets/img/hotel_chengdu.jpg" alt="成都のホテル">
+          </div>
+          <div class="hotel-photo-strip">
+            <div><img src="assets/img/region_chengdu.jpg" alt="成都の景色"></div>
+            <div><img src="assets/img/theme_pack.jpg" alt="荷造りのイメージ"></div>
+          </div>
+        </div>
+
+        <div class="hotel-copy">
+          <div class="pill">3月19日 成都</div>
+          <h3>海榕旎嘉ホテル</h3>
+          <p>世紀城エリアで、初日の遅め到着を無理なく受け止める役。都会的で比較的すっきりしたビジネスホテル寄りの印象です。</p>
+          <div class="chips">
+            <span class="chip">Wi-Fi</span>
+            <span class="chip">荷物預かり</span>
+            <span class="chip">公共駐車場</span>
+            <span class="chip">EV充電スタンド</span>
+            <span class="chip">エアコン</span>
+            <span class="chip">専用バスルーム</span>
+            <span class="chip">禁煙フロア</span>
+          </div>
+          <div class="amenity-note">
+            洗面アメニティの確証は弱めなので、歯ブラシと基礎化粧品は持参前提が安全。深夜着でも困りにくい最低限の実務力があるホテルです。
+          </div>
+        </div>
+      </article>
+
+      <article class="hotel-card">
+        <div class="hotel-photo">
+          <div class="hotel-photo-main">
+            <img src="assets/img/hotel_zhaojue.jpg" alt="昭覚のホテル">
+          </div>
+          <div class="hotel-photo-strip">
+            <div><img src="assets/img/region_xichang.jpg" alt="西昌の景色"></div>
+            <div><img src="assets/img/region_hangzhou.jpg" alt="杭州の景色"></div>
+          </div>
+        </div>
+
+        <div class="hotel-copy">
+          <div class="pill">3月20日 昭覚</div>
+          <h3>昭覚途悅ホテル</h3>
+          <p>旅の核になる一泊。豪華さより「移動後にちゃんと休めること」が大事な宿で、山側の町で使うには十分実用的な印象です。</p>
+          <div class="chips">
+            <span class="chip">Wi-Fi</span>
+            <span class="chip">荷物預かり</span>
+            <span class="chip">モーニングコール</span>
+            <span class="chip">公共駐車場</span>
+            <span class="chip">レストラン</span>
+            <span class="chip">エレベーター</span>
+            <span class="chip">エアコン</span>
+          </div>
+          <div class="amenity-note">
+            山側で冷えるので、部屋着兼インナーを1枚足しておくとかなり楽。昭覚では「ちゃんと休めること」がそのまま翌日の安全につながります。
+          </div>
+        </div>
+      </article>
+
+      <article class="hotel-card">
+        <div class="hotel-photo">
+          <div class="hotel-photo-main">
+            <img src="assets/img/hotel_hangzhou.jpg" alt="杭州のホテル">
+          </div>
+          <div class="hotel-photo-strip">
+            <div><img src="assets/img/region_yi.jpg" alt="イ族文化のイメージ"></div>
+            <div><img src="assets/img/theme_mountain.jpg" alt="山のイメージ"></div>
+          </div>
+        </div>
+
+        <div class="hotel-copy">
+          <div class="pill">3月21日 杭州</div>
+          <h3>靖江ホテル</h3>
+          <p>空港そばで最終夜の回復担当。深夜着と早朝発に寄せた「とにかく機能的」な宿で、今回の旅の締めにかなり相性が良いです。</p>
+          <div class="chips">
+            <span class="chip">優先片道送迎</span>
+            <span class="chip">空港シャトル</span>
+            <span class="chip">Wi-Fi</span>
+            <span class="chip">荷物預かり</span>
+            <span class="chip">駅送迎</span>
+            <span class="chip">エアコン</span>
+            <span class="chip">翻訳ツール</span>
+          </div>
+          <div class="amenity-note">
+            この宿の強みは送迎系。深夜着と早朝発の心理的負担をかなり減らせるので、旅の終盤にちょうど良い「助かるホテル」です。
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="page">
+      <div class="packing-grid">
+        <div class="packing-photo-board">
+          <div class="board-main"><img src="assets/img/theme_pack.jpg" alt="荷造りのイメージ"></div>
+          <div class="board-sub"><img src="assets/img/theme_flight.jpg" alt="移動のイメージ"></div>
+          <div class="quote-box">
+            持ち物の正解は「多すぎないけど、寒さだけは外さない」。
+            3ホテルとも泊まれるので、キャンプ装備みたいな重さは不要です。
+          </div>
+        </div>
+
+        <div>
+          <h2 class="section-title">持ち物と準備</h2>
+          <p class="lead" style="margin-bottom: 16px;">
+            最新のチェックリストから、しおりとして使いやすい形に抽出しています。実務的には、決済・オフライン控え・中国語スクショがかなり重要です。
+          </p>
+
+          <div class="packing-columns">
+            <article class="packing-card">
+              <h3>拓磨</h3>
+              <ul>
+                <li>パスポート</li>
+                <li>予約控え一式</li>
+                <li>スマホ / 充電器 / ケーブル</li>
+                <li>モバイルバッテリー</li>
+                <li>変換プラグ</li>
+                <li>決済手段</li>
+                <li>歯ブラシ / 洗面セット</li>
+                <li>長袖トップス</li>
+                <li>薄手インナー</li>
+                <li>羽織りもの</li>
+                <li>軽ダウン or 防風シェル</li>
+                <li>歩きやすい靴</li>
+              </ul>
+            </article>
+
+            <article class="packing-card">
+              <h3>萌子</h3>
+              <ul>
+                <li>パスポート</li>
+                <li>予約控え一式</li>
+                <li>スマホ / 充電器 / ケーブル</li>
+                <li>モバイルバッテリー</li>
+                <li>決済手段</li>
+                <li>クレンジング / 保湿剤</li>
+                <li>日焼け止め / リップ</li>
+                <li>ヘアゴム / ヘアブラシ</li>
+                <li>生理用品</li>
+                <li>長袖トップス 2-3枚</li>
+                <li>薄手インナー 2枚</li>
+                <li>軽ダウン or 防風シェル</li>
+              </ul>
+            </article>
+
+            <article class="packing-card">
+              <h3>共通</h3>
+              <ul>
+                <li>WeChat / Alipay / Baidu</li>
+                <li>香港SIM / eSIM 情報</li>
+                <li>12306 本人確認</li>
+                <li>予約のオフライン保存</li>
+                <li>中国語スクショ一式</li>
+                <li>ホテル住所コピペ用メモ</li>
+                <li>主要連絡先の控え</li>
+                <li>ばんそうこう / 胃腸薬</li>
+                <li>洗濯ネット / ビニール袋</li>
+                <li>折りたたみ傘</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="decision-grid" style="margin-top: 16px;">
+            <article class="decision-card">
+              <h3>ホテル前提の判断</h3>
+              <ul>
+                <li>歯ブラシは持参が安全</li>
+                <li>スキンケアは持つ</li>
+                <li>スリッパは必須ではない</li>
+                <li>タオルとドライヤーは不要寄り</li>
+                <li>軽ダウン or 防風シェルは必須寄り</li>
+              </ul>
+            </article>
+
+            <article class="decision-card">
+              <h3>今回は減らせる</h3>
+              <ul>
+                <li>厚手の冬コート</li>
+                <li>かさばるニットを何枚も</li>
+                <li>予備靴</li>
+                <li>大型三脚</li>
+                <li>重いPC</li>
+                <li>大きい洗面用品フルセット</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-band">
+        <div>準備の芯: 決済 / オフライン控え / 中国語スクショ / SIM情報</div>
+        <div>服の芯: 春服 + 朝晩だけ軽ダウン</div>
+      </div>
+
+      <p class="source-line">
+        気温と持ち物判断は `packing_checklists_2026-03.md` をもとに要約。地域写真は Unsplash / Wikimedia Commons、ホテル写真は Trip.com 掲載画像を使用。
+      </p>
+    </section>
+  </main>
+</body>
+</html>
