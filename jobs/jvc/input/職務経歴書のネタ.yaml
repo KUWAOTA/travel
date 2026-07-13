@@ -1,0 +1,233 @@
+profile:
+  name: "宇野拓磨"
+  education:
+    - institution: "京都大学"
+      faculty: "工学部 電気電子工学科"
+      period: "2016-2020"
+    - institution: "奈良先端科学技術大学院大学"
+      graduate_school: "情報科学研究科"
+      period: "2020-2022"
+  languages:
+    - Japanese: native
+    - English: business (TOEIC 640, TOEFL 68, casual conversation possible, 18 countries travel experience)
+  hobbies:
+    - travel (over 18 countries)
+    - insect collecting
+    - spearfishing
+    - VR/AR creation (Unity, hobby programming)
+    - Vocaloid & music culture (composing, assisting, novel writing)
+    - reading (logical thinking books)
+  self_improvement:
+    - logical thinking (book learning)
+    - reading technical/design/code books ("良いコード/悪いコードで学ぶ設計入門")
+    - GPT活用 (test automation, requirement docs draft, code prototyping)
+
+work_experience:
+  murata:
+    company: "村田製作所"
+    period: "2022年4月～現在"
+    roles:
+      - RFIDシステム開発 (id-Bridge)
+      - IoT環境モニタリング (Pifaa)
+      - テスト自動化・品質改善
+      - 現場折衝・UI/UX改善
+    projects:
+      - name: "RFIDトレーサビリティ管理Webアプリ開発 (id-Bridge)"
+        timeline: "2024年4月～現在"
+        detail:
+          - 保全部門向けRFIDアプリ新規開発（3人月/2画面新規/PM経由で週2-3回MTG）
+          - 仕様未整備・抽象度高い要件に対し、UML/フローチャートで可視化
+          - PM/非IT部門/エンジニア間の翻訳・調整役
+          - UI模倣・アクセス制御/設計実装を一貫して対応
+          - 実装後もリテイク対応/仕様変更に粘り強く対応
+          - 成果: 要件認識のギャップ解消/無償手戻り削減
+        skills: [Java, C#, MySQL, Android(Java), UML, SmartGwt, Git, JUnit, Doxygen, GPT]
+        outcomes:
+          - 可読性・保守性向上
+          - 属人性排除/品質安定化
+          - テスト自動化による生産性向上
+
+      - name: "製造向けRFID制御機能追加 (id-Bridge)"
+        timeline: "2024年12月～2025年3月"
+        detail:
+          - 光電センサ連携機能追加（3人月/既存2画面改修）
+          - 非同期コールバックのPromise化によるリファクタ
+          - 複雑なバックエンドの非同期制御再設計
+        skills: [Java, Promise, UML, テスト自動化]
+        outcomes:
+          - 保守性・実装効率向上
+
+      - name: "タイヤ製造向けEPC即時書き込み機能 (id-Bridge)"
+        timeline: "2025年4月～2025年6月"
+        detail:
+          - タイヤ工程向けEPC書込処理高速化
+          - 複雑な業務要件に対し制御構成から見直し
+          - PMと密に業務知識吸収しながら実装
+        skills: [Java, MySQL, 制御設計]
+        outcomes:
+          - 高速・安定稼働の実現
+
+      - name: "C# Windowsアプリ改修 (id-Bridge)"
+        timeline: "2024年4月～現在"
+        detail:
+          - 製造現場オペレータと直接対話/現地ヒアリング
+          - 単発GUI改修（多拠点展開対応）
+          - ユーザー要件即時反映
+        skills: [C#, Windows Forms, UI/UX]
+        outcomes:
+          - 要件反映力/現場適応力
+
+      - name: "テスト基盤整備・自動化推進"
+        timeline: "2024年6月～現在"
+        detail:
+          - GPT＋Doxygenで設計書・テストケース生成プロンプトを設計
+          - ParametrizedTest/Given-When-Thenパターン/TestDataBuilder導入
+          - 品質保証部と1-2回会議
+          - C1C0カバレッジ80%以上達成
+        skills: [JUnit, Doxygen, GPT, テスト設計]
+        outcomes:
+          - 属人性排除
+          - 品質保証体制の標準化
+
+      - name: "IoTセンサーデータ基盤Pifaa"
+        timeline: "2022年4月～2024年3月"
+        detail:
+          - Node-RED＋Flask＋AWSでIoT環境データ管理
+          - 品証部門と1か月に1回仕様調整
+          - 温湿度モニタ/SPCロジック/アラート処理
+        skills: [Python(Flask), Node-RED, AWS, JavaScript, Bootstrap, Git]
+        outcomes:
+          - 工場/倉庫の環境監視実現
+          - クラウド連携・異常検知
+
+      - name: "美術館向けIoTセンサ連携（Pifaa連携）"
+        timeline: "2023年11月～2024年3月"
+        detail:
+          - 営業1/エンジニア1で担当
+          - 無線センサとクラウドPifaaの接続
+          - Node-RED, FlaskでRaspberry Pi制御＋API
+          - 現地判断でPOST不可時の通信プロトコル設計
+        skills: [Node-RED, Python, AWS, JavaScript]
+        outcomes:
+          - 安定/即時処理・現場要件適応
+
+      - name: "倉庫環境モニタリング（Pifaa SPC活用）"
+        timeline: "2023年6月～2024年3月"
+        detail:
+          - SPCアルゴリズム＋閾値超過アラート
+          - 品証部門と定期MTG
+          - AWSクラウド構築/運用
+        skills: [Python, AWS, SPC, JavaScript]
+        outcomes:
+          - 仕様変更対応力/品質監視
+
+research_and_projects:
+  VR_underwater_research:
+    title: "水中自己位置推定を用いた没入型VR体験の基盤技術"
+    period: "2020-2022 (大学院)"
+    background: >
+      ・アニメのように“空を浮遊する”体験をVRで叶えたい、という個人の夢・好奇心が原点。
+      ・水中の浮力を使えば現実の重力から解放されたような没入感を得やすいと着想。
+    theme: >
+      ・そのための要素技術＝水中での自己位置推定、特にスマホ単体での実現。
+      ・現実応用（例：水中ドローン、ロボット）にも拡張できる社会的意義。
+    challenge:
+      - "最大の課題は水中での『正解データ』取得。光の屈折のためカメラ＋カルマンフィルタをそのまま適用できず。"
+      - "既存の陸上アルゴリズムを流用できない。"
+    solution:
+      - "防水スマホにモーショントラッカーを取り付け、陸上部分のデータで水中位置を間接推定"
+      - "自分で何度も泳ぎ、泥臭く現場実験・データ収集を遂行"
+      - "データ処理・解析はPython(Numpy/Scipy/Matplotlib/OpenCV)"
+      - "アルゴリズム自体は既存流用だが、運用面の課題に現場で粘り強く挑戦"
+    outcomes:
+      - "現場の課題解決力と現実志向（理想だけでなく、使える解を重視）"
+      - "現場実験・泥臭いアプローチへの粘り強さ"
+      - "データ解析～運用を一人で完結"
+      - "研究方針で教授と対立時も柔軟な合意形成"
+    skills: [Python, 実験設計, データ解析, センサフュージョン]
+    context:
+      - "UnityによるVR可視化は最優先でなく、まず基礎技術優先"
+      - "社会実装志向と好奇心・夢を両立したテーマ選択"
+      - "工程開発・現場経験（工場実習半年）も今のCanで活用"
+
+  VR_contest:
+    title: "くすぐってみ～な（国際VRコンテスト入賞、ITmedia掲載）"
+    year: "大学院"
+    summary: >
+      ・空気圧手袋で“他人からくすぐられている感覚”を再現するVRデバイス
+      ・4人チーム。自分はHW設計・選定/サーバ制御担当
+    challenge:
+      - "くすぐったい感覚の再現に試行錯誤"
+      - "短納期、PoCサイクル高速化、HW-SW連携"
+    outcomes:
+      - "PoCを高速に回す、検証を重視する姿勢"
+      - "技術と発想力で新体験を創出"
+    skills: [VR, Unity, HW設計, チーム開発, プロトタイピング]
+
+  Akatsuki_GameJam:
+    title: "アカツキGameJam優勝作品：AddSlime"
+    year: "2020"
+    summary: >
+      ・3人チームでアクションゲームを2日間で制作
+      ・自分はエフェクト担当
+      ・コンセプト早期決定、コミュニケーション重視、ロジックをチームで分担
+    challenge:
+      - "短期間で完成度を上げるため、幅優先・迅速に実装"
+      - "コンフリクトを避けるタスク分担"
+    outcomes:
+      - "完成度・プレイ体験重視の工夫"
+      - "短期集中・チーム開発力"
+
+  hobby_unity_ar:
+    title: "命の輝きくんAR"
+    summary: >
+      ・Androidスマホで命の輝きくんが浮遊し、目からレーザー発射するゲームを一人で開発
+      ・Unity、AR技術への親しみ
+    outcomes: [独自企画、個人開発、技術探究]
+
+  communication:
+    - "京都大学在学時、留学生向け国際交流ワークショップ（ボランティア）参加。英語でのコミュニケーション実践"
+    - "現職で非IT部門・品証部門など他職種と定期的に要件調整。立場や専門性の異なる相手と協力推進"
+    - "リーダー経験：ネット上企画の運営（詳細は面接時に調整）、後輩の就活相談、塾講師バイトなど"
+
+job_change:
+  will:
+    - "toC領域でユーザーの反応・価値が直に届く環境で働きたい"
+    - "作る人・創作活動を技術で支援したい"
+    - "新しい分野・技術（VR,IoT,AIなど）に挑戦したい"
+  can:
+    - "Python/Java/C#等でのWeb/IoT開発経験"
+    - "現場起点で抽象的な要件を実装に落とし込む力"
+    - "チーム・他部門とのコミュニケーション/調整"
+    - "VR, Unity, プロトタイピング/実験主導"
+    - "英語でのワークショップ参加、異文化対応力"
+  must:
+    - "心理的安全性があり、自由に発言・挑戦できる組織"
+    - "アイデアが活かせる開発環境"
+    - "研究・開発・現場連携に裁量がある"
+    - "toB中心ではなくtoCやR&Dに寄与できる環境"
+  change_reason:
+    - "現職はtoB主体で、ユーザーや創作活動に直接貢献できる実感が薄い"
+    - "ハード・ソフトの分業が強く、工数制約でアイデア実現が困難"
+    - "提案に高度な説得・根回しが必要で、自由にチャレンジしにくい"
+    - "職場文化に改善余地あり（人格否定的冗談・組織横断的連携不足）"
+    - "よりユーザー近くで、技術とチームワークを活かせる環境で成長したい"
+
+yamaha:
+ 志望理由_論点:
+    - "電子楽器・創作支援（ボカロ文化含む）に共感、toC・Web×HWの接点"
+    - "Web/IoT/現場志向の技術経験（Pifaa/id-Bridge/センサ連携）"
+    - "趣味・創作・コミュニケーション力（国際交流・小説/音楽支援）"
+    - "ユーザーや現場の反応・価値実感を求めて"
+    - "チームで共創し、現場課題の解決に貢献"
+
+bosch:
+  objectve_sample: "To contribute to Bosch as a developer who values both user-centric design and team-driven improvement, leveraging hands-on experience in IoT/AI/automation and a commitment to sustainable, reliable digital solutions."
+  notes:
+    - "Typescript/Reactへの意欲、GitHub・API・クラウド開発経験を推す"
+    - "日本企業では実現しにくい、自由で多様性を尊重する職場風土"
+    - "外資志望理由＝まったり×心理的安全性×新しい風土"
+
+nittodenko:
+  志望動機_論点:
+   
