@@ -1,0 +1,38 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="2" value="graph TD
+    A[&quot;課長との相談開始&quot;] --&gt; B[&quot;現在の状況説明&lt;br/&gt;・電子部品メーカーで経験を積んできた&lt;br/&gt;・国際協力への関心が高まっている&quot;]
+    
+    B --&gt; C[&quot;JICA検討の背景&lt;br/&gt;・グローバルな視点で貢献したい&lt;br/&gt;・キャリアの転機を考えている&quot;]
+    
+    C --&gt; D[&quot;具体的な検討状況&quot;]
+    
+    D --&gt; D1[&quot;応募時期&lt;br/&gt;秋2026 or 春2027&lt;br/&gt;（パートナーの制約あり）&quot;]
+    D --&gt; D2[&quot;情報収集状況&lt;br/&gt;・HR確認済：現職参加は不可&lt;br/&gt;・持病：健康診断後の判断&quot;]
+    
+    D1 --&gt; E[&quot;二つの道の提示&quot;]
+    D2 --&gt; E
+    
+    E --&gt; E1[&quot;案A&lt;br/&gt;会社を辞めてJICA参加&lt;br/&gt;＋＋課長からの推薦や&lt;br/&gt;　支援希望&quot;]
+    E --&gt; E2[&quot;案B&lt;br/&gt;会社経由での&lt;br/&gt;海外派遣機会の打診&quot;]
+    
+    E1 --&gt; F[&quot;JICA参加の場合の&lt;br/&gt;希望サポート&lt;br/&gt;・退職手続きのスムーズ化&lt;br/&gt;・将来的なキャリア相談&lt;br/&gt;・帰国後のポジション検討&quot;]
+    
+    E2 --&gt; G[&quot;会社派遣の可能性&lt;br/&gt;・現職のままグローバル経験&lt;br/&gt;・海外プロジェクト情報&lt;br/&gt;・今後のキャリアパス&quot;]
+    
+    F --&gt; H[&quot;今後のスケジュール確認&lt;br/&gt;・次の1on1で詳細相談&lt;br/&gt;・秋応募なら3-4ヶ月の準備期間&lt;br/&gt;・早めの意思決定が重要&quot;]
+    
+    G --&gt; H
+    
+    H --&gt; I[&quot;相談終了&lt;br/&gt;課長からのフィードバック・&lt;br/&gt;会社としての対応方針&quot;]
+    
+    style A fill:#e1f5ff
+    style I fill:#c8e6c9
+    style E1 fill:#fff9c4
+    style E2 fill:#fff9c4" style="shape=mxgraph.flowchart.start_2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="40" y="40" width="600" height="400" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>

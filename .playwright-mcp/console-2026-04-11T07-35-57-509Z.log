@@ -1,0 +1,8 @@
+[    6253ms] [INFO] This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.google.com/js/google.js:6
+[    6492ms] [INFO] This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.google.co.jp/mail/help/intl/ja/about.html?vm=r:272
+[    6493ms] [INFO] This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.google.co.jp/mail/help/intl/ja/about.html?vm=r:477
+[    6570ms] TypeError: Cannot read properties of null (reading 'nodeType')
+    at Qc (https://www.google.co.jp/mail/help/js/gmail.min.js:74:294)
+    at new Ug (https://www.google.co.jp/mail/help/js/gmail.min.js:228:283)
+    at https://www.google.co.jp/mail/help/js/gmail.min.js:232:436
+    at https://www.google.co.jp/mail/help/js/gmail.min.js:233:2

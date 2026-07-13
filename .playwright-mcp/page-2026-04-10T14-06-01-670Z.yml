@@ -1,0 +1,741 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - generic [ref=e9]:
+          - link "logo" [ref=e11] [cursor=pointer]:
+            - /url: /jp/ja/home.html
+            - img "logo" [ref=e13]
+          - list [ref=e15]:
+            - link "送金" [ref=e16] [cursor=pointer]:
+              - /url: /jp/ja/web/send-money/start
+              - text: 送金
+            - link "送金状況の確認" [ref=e17] [cursor=pointer]:
+              - /url: /global-service/track-transfer
+              - text: 送金状況の確認
+            - text:  
+            - listitem [ref=e18]:
+              - generic [ref=e19]:
+                - link "MoreMenu" [ref=e20] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text:        
+            - listitem
+            - link "ログイン" [ref=e25] [cursor=pointer]:
+              - /url: /jp/ja/web/user/login
+            - listitem
+      - text: 
+    - main [ref=e26]:
+      - generic [ref=e29]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - heading "Western Unionへようこそ" [level=1] [ref=e38]
+            - generic [ref=e40]: 開始しましょう。
+            - generic [ref=e43]:
+              - search [ref=e45]:
+                - generic [ref=e46]:
+                  - generic:
+                    - generic: 
+                  - generic: 受取人の国を選択
+                  - textbox "Country" [active] [ref=e47]: フィリピン
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - strong [ref=e54] [cursor=pointer]: フィリピン
+                - listitem [ref=e55]:
+                  - generic [ref=e58] [cursor=pointer]: ミャンマー
+                - listitem [ref=e59]:
+                  - generic [ref=e62] [cursor=pointer]: タイ
+                - listitem [ref=e63]:
+                  - generic [ref=e66] [cursor=pointer]: インド
+                - listitem [ref=e67]:
+                  - generic [ref=e70] [cursor=pointer]: インドネシア
+                - listitem [ref=e71]:
+                  - separator [ref=e72]
+                  - generic [ref=e75] [cursor=pointer]: アイスランド
+                - listitem [ref=e76]:
+                  - generic [ref=e79] [cursor=pointer]: アイルランド
+                - listitem [ref=e80]:
+                  - generic [ref=e83] [cursor=pointer]: アゼルバイジャン
+                - listitem [ref=e84]:
+                  - generic [ref=e87] [cursor=pointer]: アフガニスタン
+                - listitem [ref=e88]:
+                  - generic [ref=e91] [cursor=pointer]: アメリカ合衆国
+                - listitem [ref=e92]:
+                  - generic [ref=e95] [cursor=pointer]: アラブ首長国連邦
+                - listitem [ref=e96]:
+                  - generic [ref=e99] [cursor=pointer]: アルゼンチン
+                - listitem [ref=e100]:
+                  - generic [ref=e103] [cursor=pointer]: アルバ
+                - listitem [ref=e104]:
+                  - generic [ref=e107] [cursor=pointer]: アルバニア
+                - listitem [ref=e108]:
+                  - generic [ref=e111] [cursor=pointer]: アンギラ
+                - listitem [ref=e112]:
+                  - generic [ref=e115] [cursor=pointer]: アンゴラ
+                - listitem [ref=e116]:
+                  - generic [ref=e119] [cursor=pointer]: アンティグア・バーブーダ
+                - listitem [ref=e120]:
+                  - generic [ref=e123] [cursor=pointer]: アンドラ
+                - listitem [ref=e124]:
+                  - generic [ref=e127] [cursor=pointer]: イエメン
+                - listitem [ref=e128]:
+                  - generic [ref=e131] [cursor=pointer]: イギリス
+                - listitem [ref=e132]:
+                  - generic [ref=e135] [cursor=pointer]: イスラエル
+                - listitem [ref=e136]:
+                  - generic [ref=e139] [cursor=pointer]: イタリア
+                - listitem [ref=e140]:
+                  - generic [ref=e143] [cursor=pointer]: イラク
+                - listitem [ref=e144]:
+                  - generic [ref=e147] [cursor=pointer]: インド
+                - listitem [ref=e148]:
+                  - generic [ref=e151] [cursor=pointer]: インドネシア
+                - listitem [ref=e152]:
+                  - generic [ref=e155] [cursor=pointer]: ウガンダ
+                - listitem [ref=e156]:
+                  - generic [ref=e159] [cursor=pointer]: ウクライナ
+                - listitem [ref=e160]:
+                  - generic [ref=e163] [cursor=pointer]: ウズベキスタン
+                - listitem [ref=e164]:
+                  - generic [ref=e167] [cursor=pointer]: ウルグアイ
+                - listitem [ref=e168]:
+                  - generic [ref=e171] [cursor=pointer]: エクアドル
+                - listitem [ref=e172]:
+                  - generic [ref=e175] [cursor=pointer]: エジプト
+                - listitem [ref=e176]:
+                  - generic [ref=e179] [cursor=pointer]: エストニア
+                - listitem [ref=e180]:
+                  - generic [ref=e183] [cursor=pointer]: エチオピア
+                - listitem [ref=e184]:
+                  - generic [ref=e187] [cursor=pointer]: エリトリア
+                - listitem [ref=e188]:
+                  - generic [ref=e191] [cursor=pointer]: エルサルバドル
+                - listitem [ref=e192]:
+                  - generic [ref=e195] [cursor=pointer]: オーストラリア
+                - listitem [ref=e196]:
+                  - generic [ref=e199] [cursor=pointer]: オーストリア
+                - listitem [ref=e200]:
+                  - generic [ref=e203] [cursor=pointer]: オマーン
+                - listitem [ref=e204]:
+                  - generic [ref=e207] [cursor=pointer]: オランダ
+                - listitem [ref=e208]:
+                  - generic [ref=e211] [cursor=pointer]: ガーナ
+                - listitem [ref=e212]:
+                  - generic [ref=e215] [cursor=pointer]: カーボベルデ
+                - listitem [ref=e216]:
+                  - generic [ref=e219] [cursor=pointer]: ガイアナ
+                - listitem [ref=e220]:
+                  - generic [ref=e223] [cursor=pointer]: カザフスタン
+                - listitem [ref=e224]:
+                  - generic [ref=e227] [cursor=pointer]: カタール
+                - listitem [ref=e228]:
+                  - generic [ref=e231] [cursor=pointer]: カナダ
+                - listitem [ref=e232]:
+                  - generic [ref=e235] [cursor=pointer]: ガボン
+                - listitem [ref=e236]:
+                  - generic [ref=e239] [cursor=pointer]: カメルーン
+                - listitem [ref=e240]:
+                  - generic [ref=e243] [cursor=pointer]: ガンビア
+                - listitem [ref=e244]:
+                  - generic [ref=e247] [cursor=pointer]: カンボジア
+                - listitem [ref=e248]:
+                  - generic [ref=e251] [cursor=pointer]: ギニア
+                - listitem [ref=e252]:
+                  - generic [ref=e255] [cursor=pointer]: ギニアビサウ
+                - listitem [ref=e256]:
+                  - generic [ref=e259] [cursor=pointer]: キプロス
+                - listitem [ref=e260]:
+                  - generic [ref=e263] [cursor=pointer]: キプロス（北部）
+                - listitem [ref=e264]:
+                  - generic [ref=e267] [cursor=pointer]: キュラソー
+                - listitem [ref=e268]:
+                  - generic [ref=e271] [cursor=pointer]: ギリシャ
+                - listitem [ref=e272]:
+                  - generic [ref=e275] [cursor=pointer]: キルギス共和国
+                - listitem [ref=e276]:
+                  - generic [ref=e279] [cursor=pointer]: グアテマラ
+                - listitem [ref=e280]:
+                  - generic [ref=e283] [cursor=pointer]: グアドループ
+                - listitem [ref=e284]:
+                  - generic [ref=e287] [cursor=pointer]: グアム
+                - listitem [ref=e288]:
+                  - generic [ref=e291] [cursor=pointer]: クウェート
+                - listitem [ref=e292]:
+                  - generic [ref=e295] [cursor=pointer]: クック諸島
+                - listitem [ref=e296]:
+                  - generic [ref=e299] [cursor=pointer]: グレナダ
+                - listitem [ref=e300]:
+                  - generic [ref=e303] [cursor=pointer]: クロアチア
+                - listitem [ref=e304]:
+                  - generic [ref=e307] [cursor=pointer]: ケイマン諸島
+                - listitem [ref=e308]:
+                  - generic [ref=e311] [cursor=pointer]: ケニア
+                - listitem [ref=e312]:
+                  - generic [ref=e315] [cursor=pointer]: コートジボワール
+                - listitem [ref=e316]:
+                  - generic [ref=e319] [cursor=pointer]: コスタリカ
+                - listitem [ref=e320]:
+                  - generic [ref=e323] [cursor=pointer]: コソボ
+                - listitem [ref=e324]:
+                  - generic [ref=e327] [cursor=pointer]: コモロ
+                - listitem [ref=e328]:
+                  - generic [ref=e331] [cursor=pointer]: コロンビア
+                - listitem [ref=e332]:
+                  - generic [ref=e335] [cursor=pointer]: コンゴ民主共和国
+                - listitem [ref=e336]:
+                  - generic [ref=e339] [cursor=pointer]: サウジアラビア
+                - listitem [ref=e340]:
+                  - generic [ref=e343] [cursor=pointer]: サモア
+                - listitem [ref=e344]:
+                  - generic [ref=e347] [cursor=pointer]: サン・バルテルミー島
+                - listitem [ref=e348]:
+                  - generic [ref=e351] [cursor=pointer]: サントメ・プリンシペ
+                - listitem [ref=e352]:
+                  - generic [ref=e355] [cursor=pointer]: ザンビア
+                - listitem [ref=e356]:
+                  - generic [ref=e359] [cursor=pointer]: シエラレオネ
+                - listitem [ref=e360]:
+                  - generic [ref=e363] [cursor=pointer]: ジブチ
+                - listitem [ref=e364]:
+                  - generic [ref=e367] [cursor=pointer]: ジブラルタル
+                - listitem [ref=e368]:
+                  - generic [ref=e371] [cursor=pointer]: ジャマイカ
+                - listitem [ref=e372]:
+                  - generic [ref=e375] [cursor=pointer]: ジョージア
+                - listitem [ref=e376]:
+                  - generic [ref=e379] [cursor=pointer]: シンガポール
+                - listitem [ref=e380]:
+                  - generic [ref=e383] [cursor=pointer]: ジンバブエ
+                - listitem [ref=e384]:
+                  - generic [ref=e387] [cursor=pointer]: スイス
+                - listitem [ref=e388]:
+                  - generic [ref=e391] [cursor=pointer]: スウェーデン
+                - listitem [ref=e392]:
+                  - generic [ref=e395] [cursor=pointer]: スーダン
+                - listitem [ref=e396]:
+                  - generic [ref=e399] [cursor=pointer]: スペイン
+                - listitem [ref=e400]:
+                  - generic [ref=e403] [cursor=pointer]: スリナム
+                - listitem [ref=e404]:
+                  - generic [ref=e407] [cursor=pointer]: スリランカ
+                - listitem [ref=e408]:
+                  - generic [ref=e411] [cursor=pointer]: スロヴェニア
+                - listitem [ref=e412]:
+                  - generic [ref=e415] [cursor=pointer]: スロバキア
+                - listitem [ref=e416]:
+                  - generic [ref=e419] [cursor=pointer]: セーシェル
+                - listitem [ref=e420]:
+                  - generic [ref=e423] [cursor=pointer]: セネガル
+                - listitem [ref=e424]:
+                  - generic [ref=e427] [cursor=pointer]: セルビア
+                - listitem [ref=e428]:
+                  - generic [ref=e431] [cursor=pointer]: セントクリストファー・ネーヴィス
+                - listitem [ref=e432]:
+                  - generic [ref=e435] [cursor=pointer]: セントビンセントおよびグレナディーン諸島
+                - listitem [ref=e436]:
+                  - generic [ref=e439] [cursor=pointer]: セントルシア
+                - listitem [ref=e440]:
+                  - generic [ref=e443] [cursor=pointer]: ソマリア (ソマリランド)
+                - listitem [ref=e444]:
+                  - generic [ref=e447] [cursor=pointer]: ソロモン諸島
+                - listitem [ref=e448]:
+                  - generic [ref=e451] [cursor=pointer]: タークス・カイコス諸島
+                - listitem [ref=e452]:
+                  - generic [ref=e455] [cursor=pointer]: タイ
+                - listitem [ref=e456]:
+                  - generic [ref=e459] [cursor=pointer]: タジキスタン
+                - listitem [ref=e460]:
+                  - generic [ref=e463] [cursor=pointer]: タンザニア
+                - listitem [ref=e464]:
+                  - generic [ref=e467] [cursor=pointer]: チェコ共和国
+                - listitem [ref=e468]:
+                  - generic [ref=e471] [cursor=pointer]: チャド
+                - listitem [ref=e472]:
+                  - generic [ref=e475] [cursor=pointer]: チュニジア
+                - listitem [ref=e476]:
+                  - generic [ref=e479] [cursor=pointer]: チリ
+                - listitem [ref=e480]:
+                  - generic [ref=e483] [cursor=pointer]: ツバル
+                - listitem [ref=e484]:
+                  - generic [ref=e487] [cursor=pointer]: デンマーク
+                - listitem [ref=e488]:
+                  - generic [ref=e491] [cursor=pointer]: ドイツ
+                - listitem [ref=e492]:
+                  - generic [ref=e495] [cursor=pointer]: トーゴ
+                - listitem [ref=e496]:
+                  - generic [ref=e499] [cursor=pointer]: ドミニカ共和国
+                - listitem [ref=e500]:
+                  - generic [ref=e503] [cursor=pointer]: ドミニカ国
+                - listitem [ref=e504]:
+                  - generic [ref=e507] [cursor=pointer]: トリニダード・トバゴ
+                - listitem [ref=e508]:
+                  - generic [ref=e511] [cursor=pointer]: トルクメニスタン
+                - listitem [ref=e512]:
+                  - generic [ref=e515] [cursor=pointer]: トルコ
+                - listitem [ref=e516]:
+                  - generic [ref=e519] [cursor=pointer]: トンガ
+                - listitem [ref=e520]:
+                  - generic [ref=e523] [cursor=pointer]: ナイジェリア
+                - listitem [ref=e524]:
+                  - generic [ref=e527] [cursor=pointer]: ナウル
+                - listitem [ref=e528]:
+                  - generic [ref=e531] [cursor=pointer]: ナミビア
+                - listitem [ref=e532]:
+                  - generic [ref=e535] [cursor=pointer]: ニウエ
+                - listitem [ref=e536]:
+                  - generic [ref=e539] [cursor=pointer]: ニカラグア
+                - listitem [ref=e540]:
+                  - generic [ref=e543] [cursor=pointer]: ニジェール
+                - listitem [ref=e544]:
+                  - generic [ref=e547] [cursor=pointer]: ニューカレドニア
+                - listitem [ref=e548]:
+                  - generic [ref=e551] [cursor=pointer]: ニュージーランド
+                - listitem [ref=e552]:
+                  - generic [ref=e555] [cursor=pointer]: ネパール
+                - listitem [ref=e556]:
+                  - generic [ref=e559] [cursor=pointer]: ノルウェー
+                - listitem [ref=e560]:
+                  - generic [ref=e563] [cursor=pointer]: バーレーン
+                - listitem [ref=e564]:
+                  - generic [ref=e567] [cursor=pointer]: ハイチ
+                - listitem [ref=e568]:
+                  - generic [ref=e571] [cursor=pointer]: パキスタン
+                - listitem [ref=e572]:
+                  - generic [ref=e575] [cursor=pointer]: パナマ
+                - listitem [ref=e576]:
+                  - generic [ref=e579] [cursor=pointer]: バヌアツ
+                - listitem [ref=e580]:
+                  - generic [ref=e583] [cursor=pointer]: バハマ
+                - listitem [ref=e584]:
+                  - generic [ref=e587] [cursor=pointer]: パプアニューギニア
+                - listitem [ref=e588]:
+                  - generic [ref=e591] [cursor=pointer]: バミューダ
+                - listitem [ref=e592]:
+                  - generic [ref=e595] [cursor=pointer]: パラオ
+                - listitem [ref=e596]:
+                  - generic [ref=e599] [cursor=pointer]: パラグアイ
+                - listitem [ref=e600]:
+                  - generic [ref=e603] [cursor=pointer]: バルバドス
+                - listitem [ref=e604]:
+                  - generic [ref=e607] [cursor=pointer]: パレスチナ国
+                - listitem [ref=e608]:
+                  - generic [ref=e611] [cursor=pointer]: ハンガリー
+                - listitem [ref=e612]:
+                  - generic [ref=e615] [cursor=pointer]: バングラデシュ
+                - listitem [ref=e616]:
+                  - generic [ref=e619] [cursor=pointer]: フィジー
+                - listitem [ref=e620]:
+                  - strong [ref=e625] [cursor=pointer]: フィリピン
+                - listitem [ref=e626]:
+                  - generic [ref=e629] [cursor=pointer]: フィンランド
+                - listitem [ref=e630]:
+                  - generic [ref=e633] [cursor=pointer]: ブータン
+                - listitem [ref=e634]:
+                  - generic [ref=e637] [cursor=pointer]: プエルトリコ
+                - listitem [ref=e638]:
+                  - generic [ref=e641] [cursor=pointer]: フォークランド諸島（マルビナス)）
+                - listitem [ref=e642]:
+                  - generic [ref=e645] [cursor=pointer]: ブラジル
+                - listitem [ref=e646]:
+                  - generic [ref=e649] [cursor=pointer]: フランス
+                - listitem [ref=e650]:
+                  - generic [ref=e653] [cursor=pointer]: ブルガリア
+                - listitem [ref=e654]:
+                  - generic [ref=e657] [cursor=pointer]: ブルキナファソ
+                - listitem [ref=e658]:
+                  - generic [ref=e661] [cursor=pointer]: ブルネイ・ダルサラーム
+                - listitem [ref=e662]:
+                  - generic [ref=e665] [cursor=pointer]: ブルンジ
+                - listitem [ref=e666]:
+                  - generic [ref=e669] [cursor=pointer]: ベトナム
+                - listitem [ref=e670]:
+                  - generic [ref=e673] [cursor=pointer]: ベナン
+                - listitem [ref=e674]:
+                  - generic [ref=e677] [cursor=pointer]: ベネズエラ
+                - listitem [ref=e678]:
+                  - generic [ref=e681] [cursor=pointer]: ベリーズ
+                - listitem [ref=e682]:
+                  - generic [ref=e685] [cursor=pointer]: ペルー
+                - listitem [ref=e686]:
+                  - generic [ref=e689] [cursor=pointer]: ベルギー
+                - listitem [ref=e690]:
+                  - generic [ref=e693] [cursor=pointer]: ポーランド
+                - listitem [ref=e694]:
+                  - generic [ref=e697] [cursor=pointer]: ボスニア・ヘルツェゴビナ
+                - listitem [ref=e698]:
+                  - generic [ref=e701] [cursor=pointer]: ボツワナ
+                - listitem [ref=e702]:
+                  - generic [ref=e705] [cursor=pointer]: ボリビア
+                - listitem [ref=e706]:
+                  - generic [ref=e709] [cursor=pointer]: ポルトガル
+                - listitem [ref=e710]:
+                  - generic [ref=e713] [cursor=pointer]: ホンジュラス
+                - listitem [ref=e714]:
+                  - generic [ref=e717] [cursor=pointer]: マーシャル諸島
+                - listitem [ref=e718]:
+                  - generic [ref=e721] [cursor=pointer]: マカオ
+                - listitem [ref=e722]:
+                  - generic [ref=e725] [cursor=pointer]: マダガスカル
+                - listitem [ref=e726]:
+                  - generic [ref=e729] [cursor=pointer]: マヨット
+                - listitem [ref=e730]:
+                  - generic [ref=e733] [cursor=pointer]: マラウイ
+                - listitem [ref=e734]:
+                  - generic [ref=e737] [cursor=pointer]: マリ
+                - listitem [ref=e738]:
+                  - generic [ref=e741] [cursor=pointer]: マルタ
+                - listitem [ref=e742]:
+                  - generic [ref=e745] [cursor=pointer]: マルティニーク
+                - listitem [ref=e746]:
+                  - generic [ref=e749] [cursor=pointer]: マレーシア
+                - listitem [ref=e750]:
+                  - generic [ref=e753] [cursor=pointer]: ミクロネシア
+                - listitem [ref=e754]:
+                  - generic [ref=e757] [cursor=pointer]: ミャンマー
+                - listitem [ref=e758]:
+                  - generic [ref=e761] [cursor=pointer]: メキシコ
+                - listitem [ref=e762]:
+                  - generic [ref=e765] [cursor=pointer]: メリリャ
+                - listitem [ref=e766]:
+                  - generic [ref=e769] [cursor=pointer]: モーリシャス
+                - listitem [ref=e770]:
+                  - generic [ref=e773] [cursor=pointer]: モーリタニア
+                - listitem [ref=e774]:
+                  - generic [ref=e777] [cursor=pointer]: モザンビーク
+                - listitem [ref=e778]:
+                  - generic [ref=e781] [cursor=pointer]: モナコ
+                - listitem [ref=e782]:
+                  - generic [ref=e785] [cursor=pointer]: モルディブ
+                - listitem [ref=e786]:
+                  - generic [ref=e789] [cursor=pointer]: モルドバ
+                - listitem [ref=e790]:
+                  - generic [ref=e793] [cursor=pointer]: モロッコ
+                - listitem [ref=e794]:
+                  - generic [ref=e797] [cursor=pointer]: モンゴル
+                - listitem [ref=e798]:
+                  - generic [ref=e801] [cursor=pointer]: モンテネグロ
+                - listitem [ref=e802]:
+                  - generic [ref=e805] [cursor=pointer]: モントセラト
+                - listitem [ref=e806]:
+                  - generic [ref=e809] [cursor=pointer]: ヨルダン
+                - listitem [ref=e810]:
+                  - generic [ref=e813] [cursor=pointer]: ラオス
+                - listitem [ref=e814]:
+                  - generic [ref=e817] [cursor=pointer]: ラトビア
+                - listitem [ref=e818]:
+                  - generic [ref=e821] [cursor=pointer]: リトアニア
+                - listitem [ref=e822]:
+                  - generic [ref=e825] [cursor=pointer]: リヒテンシュタイン
+                - listitem [ref=e826]:
+                  - generic [ref=e829] [cursor=pointer]: リベリア
+                - listitem [ref=e830]:
+                  - generic [ref=e833] [cursor=pointer]: ルーマニア
+                - listitem [ref=e834]:
+                  - generic [ref=e837] [cursor=pointer]: ルクセンブルク
+                - listitem [ref=e838]:
+                  - generic [ref=e841] [cursor=pointer]: ルワンダ
+                - listitem [ref=e842]:
+                  - generic [ref=e845] [cursor=pointer]: レソト
+                - listitem [ref=e846]:
+                  - generic [ref=e849] [cursor=pointer]: レバノン
+                - listitem [ref=e850]:
+                  - generic [ref=e853] [cursor=pointer]: レユニオン島
+                - listitem [ref=e854]:
+                  - generic [ref=e857] [cursor=pointer]: 英領ヴァージン諸島
+                - listitem [ref=e858]:
+                  - generic [ref=e861] [cursor=pointer]: 韓国
+                - listitem [ref=e862]:
+                  - generic [ref=e865] [cursor=pointer]: 香港
+                - listitem [ref=e866]:
+                  - generic [ref=e869] [cursor=pointer]: 赤道ギニア
+                - listitem [ref=e870]:
+                  - generic [ref=e873] [cursor=pointer]: 台湾
+                - listitem [ref=e874]:
+                  - generic [ref=e877] [cursor=pointer]: 中央アフリカ共和国
+                - listitem [ref=e878]:
+                  - generic [ref=e881] [cursor=pointer]: 中国
+                - listitem [ref=e882]:
+                  - generic [ref=e885] [cursor=pointer]: 東ティモール
+                - listitem [ref=e886]:
+                  - generic [ref=e889] [cursor=pointer]: 南アフリカ
+                - listitem [ref=e890]:
+                  - generic [ref=e893] [cursor=pointer]: 南スーダン
+                - listitem [ref=e894]:
+                  - generic [ref=e897] [cursor=pointer]: 仏領ギアナ
+                - listitem [ref=e898]:
+                  - generic [ref=e901] [cursor=pointer]: 米領ヴァージン諸島
+                - listitem [ref=e902]:
+                  - generic [ref=e905] [cursor=pointer]: 米領サモア
+                - listitem [ref=e906]:
+                  - generic [ref=e909] [cursor=pointer]: 北マケドニア
+                - listitem [ref=e910]:
+                  - generic [ref=e913] [cursor=pointer]: 北マリアナ諸島
+          - generic [ref=e914]:
+            - generic [ref=e918]:
+              - generic [ref=e919]:
+                - generic [ref=e921]:
+                  - generic: 送金額
+                  - textbox "送金額 in JPY" [ref=e922]:
+                    - /placeholder: 送金額
+                    - text: "50000.00"
+                  - generic: JPY
+                - img [ref=e923]
+                - generic [ref=e929]:
+                  - generic: 受取金額
+                  - textbox "受取金額 in PHP" [ref=e930]:
+                    - /placeholder: " \n                            受取金額"
+                    - text: "18872.36"
+                  - generic "receiver currency" [ref=e931]:
+                    - generic [ref=e932]:
+                      - generic [ref=e933]:
+                        - generic [ref=e934]: PHP
+                        - combobox [ref=e936]
+                      - generic [ref=e937] [cursor=pointer]: 
+              - generic [ref=e943]: "次の最大額を送金する: 1,000,000.00 JPY"
+            - paragraph [ref=e948]:
+              - strong [ref=e950]:
+                - generic [ref=e951]:
+                  - separator [ref=e952]
+                  - generic [ref=e954]: 最も有利なレート
+                - generic [ref=e955]:
+                  - text: 1.00 JPY = 0.3763 PHP 0.3774 Philippine Peso (PHP)
+                  - superscript [ref=e956]: "2"
+            - generic:
+              - separator
+          - generic [ref=e958]:
+            - generic [ref=e959]:
+              - generic [ref=e960]:
+                - heading "受取人が希望する受け取り方法は？" [level=2] [ref=e964]
+                - generic [ref=e967]:
+                  - application "Pick up cash at any agent location. Please see disclaimers 1, 13 in the disclaimer section." [ref=e968] [cursor=pointer]:
+                    - generic [ref=e969]:
+                      - generic [ref=e973]: 
+                      - heading "現金受取" [level=3] [ref=e975]:
+                        - strong [ref=e976]: 現金受取
+                      - generic [ref=e977]:
+                        - generic [ref=e978]:
+                          - strong [ref=e981]: 数分後
+                          - superscript [ref=e982]: 1, 13
+                        - heading "1.00 JPY = 0.3774 PHP 2" [level=3] [ref=e983]:
+                          - strong [ref=e984]:
+                            - text: 1.00 JPY = 0.3774 PHP
+                            - superscript [ref=e985]: "2"
+                  - application "Receive the money directly in a bank account. Please see disclaimers 10, 21 in the disclaimer section." [ref=e986] [cursor=pointer]:
+                    - generic [ref=e987]:
+                      - generic [ref=e989]: 人気
+                      - generic [ref=e993]: 
+                      - heading "銀行口座10, 21" [level=3] [ref=e995]:
+                        - strong [ref=e996]: 銀行口座
+                        - region [ref=e997]: 10, 21
+                      - generic [ref=e998]:
+                        - generic [ref=e999]:
+                          - strong [ref=e1002]:
+                            - generic [ref=e1003]: 1 営業日
+                          - superscript [ref=e1004]: 1, 8, 12
+                        - heading "1.00 JPY = 0.3774 PHP 2" [level=3] [ref=e1005]:
+                          - strong [ref=e1006]:
+                            - text: 1.00 JPY = 0.3774 PHP
+                            - superscript [ref=e1007]: "2"
+                  - application [ref=e1008] [cursor=pointer]:
+                    - generic [ref=e1009]:
+                      - heading "GCash, Ma...その他" [level=3] [ref=e1016]:
+                        - strong [ref=e1017]: GCash, Ma...その他
+                      - generic [ref=e1018]:
+                        - generic [ref=e1019]:
+                          - strong [ref=e1022]: 数分後
+                          - superscript [ref=e1023]: "1"
+                        - heading "1.00 JPY = 0.3774 PHP 2" [level=3] [ref=e1024]:
+                          - strong [ref=e1025]:
+                            - text: 1.00 JPY = 0.3774 PHP
+                            - superscript [ref=e1026]: "2"
+              - generic [ref=e1027]:
+                - generic [ref=e1028]:
+                  - separator [ref=e1029]
+                  - heading "ご希望の支払方法は？" [level=2] [ref=e1032]:
+                    - text: ご希望の支払方法は？
+                    - superscript:
+                      - strong
+                - generic [ref=e1035]:
+                  - application "Pay with a コンビニエンスストアで支払い.The money will arrive in 0-3 営業日.The fee is 0 JPY. .Please see disclaimers , 2, in the disclaimer section." [ref=e1036] [cursor=pointer]:
+                    - generic [ref=e1037]:
+                      - generic [ref=e1041]: 
+                      - heading "コンビニエンスストアで支払い" [level=3] [ref=e1043]:
+                        - strong [ref=e1044]: コンビニエンスストアで支払い
+                        - superscript
+                      - heading "手数料2 0.00 JPY" [level=3] [ref=e1046]:
+                        - strong [ref=e1047]:
+                          - text: 手数料
+                          - superscript [ref=e1048]: "2"
+                          - text: 0.00 JPY
+                  - application "Pay with a 銀行振込.The money will arrive in 1 営業日.The fee is 0 JPY. .Please see disclaimers , 2, in the disclaimer section." [ref=e1050] [cursor=pointer]:
+                    - generic [ref=e1051]:
+                      - generic [ref=e1053]: 人気
+                      - generic [ref=e1057]: 
+                      - heading "銀行振込4" [level=3] [ref=e1059]:
+                        - strong [ref=e1060]: 銀行振込
+                        - superscript [ref=e1061]: "4"
+                      - heading "手数料2 0.00 JPY" [level=3] [ref=e1063]:
+                        - strong [ref=e1064]:
+                          - text: 手数料
+                          - superscript [ref=e1065]: "2"
+                          - text: 0.00 JPY
+              - generic [ref=e1076]:
+                - text: 銀行振替で支払うには：
+                - list [ref=e1077]:
+                  - listitem [ref=e1078]: Western Unionで銀行振込を開始します。
+                  - listitem [ref=e1079]: 銀行口座にログインするか最寄りの支店に行き、領収書ページで共有されている口座番号に正確な金額を送金してください。
+                  - listitem [ref=e1080]: 口座番号は、送金ごとに一意です。
+                  - listitem [ref=e1081]: 法人口座からの支払いは受け付けておりませんのでご注意ください。
+              - separator [ref=e1083]
+            - generic [ref=e1084]:
+              - generic [ref=e1090]:
+                - generic [ref=e1091]:
+                  - generic "概要" [ref=e1093]
+                  - generic [ref=e1094]:
+                    - generic [ref=e1095]: 換算レート
+                    - superscript [ref=e1096]: "2"
+                  - separator [ref=e1097]
+                  - generic [ref=e1099]: 0.3763 PHP
+                  - generic [ref=e1102]:
+                    - text: 1.00 JPY =
+                    - generic [ref=e1103]: 0.3774 PHP
+                  - generic [ref=e1105]: 最も有利なレート
+                - separator [ref=e1107]
+                - generic [ref=e1108]:
+                  - generic [ref=e1109]:
+                    - generic [ref=e1110]: 送金額
+                    - generic [ref=e1111]: 50,000.00 JPY
+                    - generic [ref=e1113]:
+                      - generic [ref=e1114]: 100%オフ
+                      - generic [ref=e1115]: + 1,400.00 JPY
+                  - generic [ref=e1116]:
+                    - generic [ref=e1117]: 送金手数料
+                    - text: "2"
+                    - generic [ref=e1118]: + 0.00 JPY
+                  - generic [ref=e1120]:
+                    - generic [ref=e1121]: 送金合計
+                    - generic [ref=e1122]: 50,000.00 JPY
+                  - generic [ref=e1124]:
+                    - generic [ref=e1125]:
+                      - generic [ref=e1126]:
+                        - generic [ref=e1127]: 合計
+                        - text: 受取人宛
+                      - superscript
+                    - separator [ref=e1129]
+                    - generic [ref=e1130]:
+                      - text: 18,872.36
+                      - generic [ref=e1131]: PHP
+                  - generic [ref=e1133]:
+                    - separator [ref=e1134]
+                    - generic [ref=e1136]:
+                      - generic [ref=e1137]: "サービス時間:"
+                      - text: 1, 8, 12
+                      - generic [ref=e1139]: 1 営業日
+                      - generic [ref=e1140]: 1 営業日
+              - text: 
+            - generic [ref=e1141]:
+              - link "プロモコードがあります" [ref=e1146] [cursor=pointer]:
+                - /url: "javascript: void(0)"
+                - generic [ref=e1147]: 
+                - generic [ref=e1148]: プロモコードがあります
+              - separator [ref=e1150]
+            - button "Continue to next page" [ref=e1154] [cursor=pointer]: 続ける
+        - generic [ref=e1164]:
+          - separator [ref=e1165]
+          - generic [ref=e1166]:
+            - link "(Click to hide) 法的免責条項と重要な情報" [expanded] [ref=e1168] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - text: 法的免責条項と重要な情報
+            - generic [ref=e1170]:
+              - generic [ref=e1171]:
+                - paragraph
+              - paragraph [ref=e1173]:
+                - superscript [ref=e1174]: "1"
+                - text: Banco De Oro（BDO）、Bank of the Philippine Islands（BPI）、およびLand Bankへの即時送金が可能です。ただし、BPIで初めて送金を受け取る場合は、最大2時間かかることがあります。東部時間午前10時から午後1時までのLand Bankへの送金も遅延する場合があります.サービスおよび資金の遅延または利用可否は、さまざまな要因によって異なります。たとえば、選択したサービス、遅延配送オプションの選択、送金額、送金先国、利用できる通貨、規制上の問題、消費者保護の問題、本人確認の要件、配送制限、取扱店の営業時間、およびタイムゾーンの違い（まとめて「制約」）などです。追加の制限が適用されることがあります。詳細は、注意事項と約款を参照してください。
+              - paragraph [ref=e1176]:
+                - superscript [ref=e1177]: "2"
+                - text: また、Western Unionは、通貨換算によって利益を得ています。送金サービスを選択する際には、送金手数料と換算レートの両方を慎重に比較検討してください。手数料、外貨換算レート、および税は、様々な要因によってブランド、チャネル、および店舗ごとに異なります。手数料と換算レートは予告なく変更される場合があります。
+              - paragraph [ref=e1179]:
+                - superscript [ref=e1180]: "4"
+                - text: 銀行によっては、国内送金または海外送金に手数料がかかります。ご利用の銀行にご確認ください。
+              - paragraph [ref=e1182]:
+                - superscript [ref=e1183]: "8"
+                - text: 受取銀行の休業日を除きます。
+              - paragraph [ref=e1185]:
+                - superscript [ref=e1186]: "10"
+                - text: 銀行口座情報の提供は慎重に行ってください。資金はご利用者が提供する口座番号の銀行口座に支払われます。注：受取人の口座は現地通貨支払口座である必要があります。
+              - paragraph [ref=e1188]:
+                - superscript [ref=e1189]: "12"
+                - text: 通常、資金はWestern Unionの銀行口座に入金後3～5営業日以内に受取人の銀行口座へ入金されます
+              - paragraph [ref=e1191]:
+                - superscript [ref=e1192]: "21"
+                - text: BPIについては、初回取引は2時間以内に口座に入金されます。2回目以降の取引は、数分で入金されます。
+            - separator [ref=e1193]
+      - text: 
+    - contentinfo [ref=e1195]:
+      - generic [ref=e1197]:
+        - generic [ref=e1198]:
+          - generic:
+            - list:
+              - listitem [ref=e1199]:
+                - link "ホーム" [ref=e1200] [cursor=pointer]:
+                  - /url: /jp/ja/home.html
+              - listitem [ref=e1201]:
+                - link "会社情報" [ref=e1202] [cursor=pointer]:
+                  - /url: https://corporate.westernunion.com
+              - listitem [ref=e1203]:
+                - link "Western Unionについて" [ref=e1204] [cursor=pointer]:
+                  - /url: https://corporate.westernunion.com/index.html
+              - listitem [ref=e1205]:
+                - link "ブログ" [ref=e1206] [cursor=pointer]:
+                  - /url: https://www.westernunion.com/blog/
+              - listitem [ref=e1207]:
+                - link "セキュリティに関する問題を報告する" [ref=e1208] [cursor=pointer]:
+                  - /url: https://bugcrowd.com/westernunion
+              - listitem [ref=e1209]:
+                - link "投資家向け広報" [ref=e1210] [cursor=pointer]:
+                  - /url: http://ir.westernunion.com/investor-relations/default.aspx
+              - listitem [ref=e1211]:
+                - link "採用情報" [ref=e1212] [cursor=pointer]:
+                  - /url: https://careers.westernunion.com
+              - listitem [ref=e1213]:
+                - link "WU基金" [ref=e1214] [cursor=pointer]:
+                  - /url: https://foundation.westernunion.com/index.html
+              - listitem [ref=e1215]:
+                - link "知的財産権" [ref=e1216] [cursor=pointer]:
+                  - /url: /jp/ja/legal/intellectual-property.html
+              - listitem [ref=e1217]:
+                - link "プライバシーポリシー" [ref=e1218] [cursor=pointer]:
+                  - /url: /jp/ja/legal/privacy-statement.html
+              - listitem [ref=e1219]:
+                - link "注意事項と約款" [ref=e1220] [cursor=pointer]:
+                  - /url: /jp/ja/legal/terms-conditions-digital.html
+              - listitem [ref=e1221]:
+                - link "クッキー設定の変更" [ref=e1222] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1223]:
+                - link "詐欺に遭わないために" [ref=e1224] [cursor=pointer]:
+                  - /url: /jp/ja/fraudawareness/fraud-home.html
+              - listitem [ref=e1225]:
+                - link "サイトマップ" [ref=e1226] [cursor=pointer]:
+                  - /url: /jp/ja/site-map.html
+              - listitem [ref=e1227]:
+                - link "お問い合わせ" [ref=e1228] [cursor=pointer]:
+                  - /url: /jp/ja/contact-us.html
+        - paragraph [ref=e1231]: 日本でのWestern Unionオンラインサービスは、Western Union Japan KK（法人番号：0104-01-114302）が提供します。
+        - paragraph [ref=e1234]: © 2026 Western Union Holdings, Inc.All Rights Reserved
+        - generic [ref=e1235]:
+          - paragraph [ref=e1238]: 以下をフォローしてください
+          - generic [ref=e1239]:
+            - link "Follow us on facebook (Opens in new tab)" [ref=e1240] [cursor=pointer]:
+              - /url: https://www.facebook.com/WesternUnion
+              - img "facebook" [ref=e1241]
+            - link "Follow us on youtube (Opens in new tab)" [ref=e1242] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/westernunion
+              - img "youtube" [ref=e1243]
+            - link "Follow us on Instagram (Opens in new tab)" [ref=e1244] [cursor=pointer]:
+              - /url: https://www.instagram.com/westernunion
+              - img "instagram" [ref=e1245]
+            - link "Follow us on twitter (Opens in new tab)" [ref=e1246] [cursor=pointer]:
+              - /url: https://twitter.com/WesternUnion
+              - img "twitter" [ref=e1247]
+  - text:                                  • •          

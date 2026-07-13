@@ -1,0 +1,31 @@
+Información del destinatario
+
+Nombre:
+Takuma Uno
+
+Tipo:
+Persona particular (importación personal)
+
+Dirección:
+2-1-9 Takadai,
+Nagaokakyo-shi,
+Kyoto 617-0847
+Japón
+
+Ciudad:
+Nagaokakyo
+
+Prefectura / Provincia:
+Kyoto
+
+Código postal:
+617-0847
+
+País:
+Japón
+
+Teléfono:
++81-70-8973-2981
+
+Correo electrónico:
+unotakumasan@gmail.com

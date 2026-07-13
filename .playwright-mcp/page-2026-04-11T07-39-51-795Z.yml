@@ -1,0 +1,869 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - img "logo" [ref=e347] [cursor=pointer]
+        - progressbar "Progress Bar Aria Label" [ref=e348]:
+          - progressbar "Progress Bar Aria Label" [ref=e349]:
+            - progressbar "Progress-Bar-Options" [ref=e351]:
+              - listitem [ref=e352]
+              - listitem "Receiver" [ref=e353]
+              - listitem "Review" [ref=e354]
+              - listitem "Receipt" [ref=e355]
+      - text: 
+    - main [ref=e28]:
+      - generic [ref=e1044]:
+        - generic [ref=e1046]:
+          - generic [ref=e1047]:
+            - generic [ref=e1049]:
+              - heading "受取人の情報" [level=1] [ref=e1050]
+              - generic [ref=e1051]:
+                - paragraph [ref=e1052]: WU取扱店で受取人の本人確認が行われます。
+                - list [ref=e1053]:
+                  - listitem [ref=e1054]: 受取人名を本人確認書類に記載されている通りに正確に入力してください。
+                  - listitem [ref=e1055]: まだ資金が受取済みになっていない場合に限り、送金の受取人名に軽微な変更を加えることができます。
+              - generic [ref=e1061] [cursor=pointer]:
+                - generic [ref=e1063]: TU
+                - generic [ref=e1066]: 自分 (Takuma Uno)
+                - generic [ref=e1068]: 
+              - generic [ref=e1069]:
+                - generic [ref=e1071] [cursor=pointer]:
+                  - generic [ref=e1072]: 
+                  - generic [ref=e1073]: 新しい受取人を追加する
+                  - generic [ref=e1074]: 
+                - generic [ref=e1077]:
+                  - generic [ref=e1078]:
+                    - generic [ref=e1079]:
+                      - generic [ref=e1080]: "1"
+                      - heading "受取人の個人情報" [level=3] [ref=e1081]
+                    - generic [ref=e1085]:
+                      - generic [ref=e1086]:
+                        - generic [ref=e1088]:
+                          - textbox "txtFName" [ref=e1089]:
+                            - /placeholder: ""
+                            - text: Oliverio
+                          - generic: 受取人の名
+                          - generic [ref=e1090]: (受取人の名)
+                          - generic: 
+                        - generic [ref=e1092]:
+                          - textbox "txtPName" [ref=e1093]:
+                            - /placeholder: ""
+                            - text: Velastegui
+                          - generic: 受取人の父方の姓
+                          - generic [ref=e1094]: (受取人の父方の姓)
+                          - generic: 
+                      - generic [ref=e1095]:
+                        - paragraph [ref=e1097]: 受取人の政府発行IDに母方の姓が記載されている場合、ここに入力してください。
+                        - generic [ref=e1099]:
+                          - textbox "txtMoName" [ref=e1100]:
+                            - /placeholder: ""
+                          - generic: 受取人の母方の姓 (任意)
+                          - generic [ref=e1101]: (受取人の母方の姓)
+                          - generic: 
+                    - generic [ref=e1103]:
+                      - generic [ref=e1104]: "2"
+                      - heading "受取人の住所" [level=3] [ref=e1105]
+                    - generic [ref=e1109]:
+                      - generic [ref=e1111]:
+                        - textbox "txtCity" [ref=e1112]:
+                          - /placeholder: ""
+                          - text: Puyo
+                        - generic: 市区町村
+                        - generic [ref=e1113]: (市区町村)
+                        - generic: 
+                      - generic [ref=e1115]:
+                        - textbox "txtState" [ref=e1116]:
+                          - /placeholder: ""
+                          - text: Pastaza
+                        - generic: 都道府県
+                        - generic [ref=e1117]: (都道府県)
+                        - generic: 
+                    - generic [ref=e1119]:
+                      - generic [ref=e1120]: "3"
+                      - heading "受取人の連絡先" [level=3] [ref=e1121]
+                    - generic [ref=e1124]:
+                      - generic [ref=e1127]:
+                        - textbox [ref=e1128]
+                        - generic: メールアドレス (任意)
+                        - generic [ref=e1129]: (メールアドレス)
+                      - generic [ref=e1130]:
+                        - generic [ref=e1132]:
+                          - combobox [ref=e1133]:
+                            - option "1 (PR)"
+                            - option "1 (QQ)"
+                            - option "1 (AG)"
+                            - option "1 (AI)"
+                            - option "1 (QZ)"
+                            - option "1 (AS)"
+                            - option "1 (S1)"
+                            - option "1 (BB)"
+                            - option "1 (BM)"
+                            - option "1 (BS)"
+                            - option "1 (CA)"
+                            - option "1 (TC)"
+                            - option "1 (TT)"
+                            - option "1 (DM)"
+                            - option "1 (DO)"
+                            - option "1 (US)"
+                            - option "1 (VC)"
+                            - option "1 (VG)"
+                            - option "1 (VI)"
+                            - option "1 (GD)"
+                            - option "1 (GU)"
+                            - option "1 (JM)"
+                            - option "1 (KN)"
+                            - option "1 (KY)"
+                            - option "1 (LC)"
+                            - option "1 (MS)"
+                            - option "7 (RU)"
+                            - option "7 (KZ)"
+                            - option "20 (EG)"
+                            - option "27 (ZA)"
+                            - option "30 (GR)"
+                            - option "31 (NL)"
+                            - option "32 (BE)"
+                            - option "33 (FR)"
+                            - option "34 (ES)"
+                            - option "36 (HU)"
+                            - option "39 (IT)"
+                            - option "40 (RO)"
+                            - option "41 (CH)"
+                            - option "43 (AT)"
+                            - option "44 (GB)"
+                            - option "45 (DK)"
+                            - option "46 (SE)"
+                            - option "47 (SJ)"
+                            - option "47 (NO)"
+                            - option "48 (PL)"
+                            - option "49 (DE)"
+                            - option "51 (PE)"
+                            - option "52 (MX)"
+                            - option "53 (CU)"
+                            - option "54 (AR)"
+                            - option "55 (BR)"
+                            - option "56 (CL)"
+                            - option "57 (CO)"
+                            - option "58 (VE)"
+                            - option "60 (MY)"
+                            - option "61 (AU)"
+                            - option "61 (CC)"
+                            - option "61 (CX)"
+                            - option "62 (ID)"
+                            - option "63 (PH)"
+                            - option "64 (NZ)"
+                            - option "64 (PN)"
+                            - option "65 (SG)"
+                            - option "66 (TH)"
+                            - option "81 (JP)"
+                            - option "82 (KR)"
+                            - option "84 (VN)"
+                            - option "86 (CN)"
+                            - option "90 (C2)"
+                            - option "90 (TR)"
+                            - option "91 (IN)"
+                            - option "92 (PK)"
+                            - option "93 (AF)"
+                            - option "94 (LK)"
+                            - option "95 (MM)"
+                            - option "98 (IR)"
+                            - option "211 (SS)"
+                            - option "212 (EH)"
+                            - option "212 (MA)"
+                            - option "213 (DZ)"
+                            - option "216 (TN)"
+                            - option "218 (LY)"
+                            - option "220 (GM)"
+                            - option "221 (SN)"
+                            - option "222 (MR)"
+                            - option "223 (ML)"
+                            - option "224 (GN)"
+                            - option "225 (CI)"
+                            - option "226 (BF)"
+                            - option "227 (NE)"
+                            - option "228 (TG)"
+                            - option "229 (BJ)"
+                            - option "230 (MU)"
+                            - option "231 (LR)"
+                            - option "232 (SL)"
+                            - option "233 (GH)"
+                            - option "234 (NG)"
+                            - option "235 (TD)"
+                            - option "236 (CF)"
+                            - option "237 (CM)"
+                            - option "238 (CV)"
+                            - option "239 (ST)"
+                            - option "240 (GQ)"
+                            - option "241 (GA)"
+                            - option "242 (CG)"
+                            - option "243 (CD)"
+                            - option "244 (AO)"
+                            - option "245 (GW)"
+                            - option "246 (IO)"
+                            - option "248 (SC)"
+                            - option "249 (SD)"
+                            - option "250 (RW)"
+                            - option "251 (ET)"
+                            - option "252 (SO)"
+                            - option "253 (DJ)"
+                            - option "254 (KE)"
+                            - option "255 (TZ)"
+                            - option "256 (UG)"
+                            - option "257 (BI)"
+                            - option "258 (MZ)"
+                            - option "260 (ZM)"
+                            - option "261 (MG)"
+                            - option "262 (RE)"
+                            - option "262 (YT)"
+                            - option "263 (ZW)"
+                            - option "264 (NA)"
+                            - option "265 (MW)"
+                            - option "266 (LS)"
+                            - option "267 (BW)"
+                            - option "268 (SZ)"
+                            - option "269 (KM)"
+                            - option "290 (SH)"
+                            - option "291 (ER)"
+                            - option "297 (AW)"
+                            - option "298 (FO)"
+                            - option "299 (GL)"
+                            - option "350 (GI)"
+                            - option "351 (PT)"
+                            - option "352 (LU)"
+                            - option "353 (IE)"
+                            - option "354 (IS)"
+                            - option "355 (AL)"
+                            - option "356 (MT)"
+                            - option "357 (CY)"
+                            - option "358 (FI)"
+                            - option "359 (BG)"
+                            - option "370 (LT)"
+                            - option "371 (LV)"
+                            - option "372 (EE)"
+                            - option "373 (MD)"
+                            - option "374 (AM)"
+                            - option "375 (BY)"
+                            - option "376 (AD)"
+                            - option "377 (MC)"
+                            - option "378 (SM)"
+                            - option "379 (VA)"
+                            - option "380 (UA)"
+                            - option "381 (RS)"
+                            - option "381 (YU)"
+                            - option "382 (ME)"
+                            - option "383 (XK)"
+                            - option "383 (K1)"
+                            - option "385 (HR)"
+                            - option "386 (SI)"
+                            - option "387 (BA)"
+                            - option "389 (MK)"
+                            - option "420 (CZ)"
+                            - option "421 (SK)"
+                            - option "423 (LI)"
+                            - option "500 (FK)"
+                            - option "501 (BZ)"
+                            - option "502 (GT)"
+                            - option "503 (SV)"
+                            - option "504 (HN)"
+                            - option "505 (NI)"
+                            - option "506 (CR)"
+                            - option "507 (PA)"
+                            - option "508 (PM)"
+                            - option "509 (HT)"
+                            - option "590 (BL)"
+                            - option "590 (GP)"
+                            - option "590 (MF)"
+                            - option "591 (BO)"
+                            - option "592 (GY)"
+                            - option "593 (EC)" [selected]
+                            - option "594 (GF)"
+                            - option "595 (PY)"
+                            - option "596 (MQ)"
+                            - option "597 (SR)"
+                            - option "598 (UY)"
+                            - option "599 (AN)"
+                            - option "599 (CW)"
+                            - option "670 (TL)"
+                            - option "672 (AQ)"
+                            - option "673 (BN)"
+                            - option "674 (NR)"
+                            - option "675 (PG)"
+                            - option "676 (TO)"
+                            - option "677 (SB)"
+                            - option "678 (VU)"
+                            - option "679 (FJ)"
+                            - option "680 (PW)"
+                            - option "681 (WF)"
+                            - option "682 (CK)"
+                            - option "683 (NU)"
+                            - option "685 (WS)"
+                            - option "686 (KI)"
+                            - option "687 (NC)"
+                            - option "688 (TV)"
+                            - option "689 (PF)"
+                            - option "690 (TK)"
+                            - option "691 (FM)"
+                            - option "692 (MH)"
+                            - option "850 (KP)"
+                            - option "852 (HK)"
+                            - option "853 (MO)"
+                            - option "855 (KH)"
+                            - option "856 (LA)"
+                            - option "880 (BD)"
+                            - option "886 (TW)"
+                            - option "960 (MV)"
+                            - option "961 (LB)"
+                            - option "962 (JO)"
+                            - option "963 (SY)"
+                            - option "964 (IQ)"
+                            - option "965 (KW)"
+                            - option "966 (SA)"
+                            - option "967 (YE)"
+                            - option "968 (OM)"
+                            - option "970 (PS)"
+                            - option "971 (AE)"
+                            - option "972 (IL)"
+                            - option "973 (BH)"
+                            - option "974 (QA)"
+                            - option "975 (BT)"
+                            - option "976 (MN)"
+                            - option "977 (NP)"
+                            - option "992 (TJ)"
+                            - option "993 (TM)"
+                            - option "994 (AZ)"
+                            - option "995 (GE)"
+                            - option "996 (KG)"
+                            - option "998 (UZ)"
+                            - option "1670 (MP)"
+                          - generic: 国コード
+                        - generic [ref=e1137]:
+                          - textbox "txtPhoneNum1" [ref=e1138]:
+                            - /placeholder: ""
+                          - generic: 電話番号 (任意)
+                          - generic [ref=e1139]: (電話番号)
+                    - generic [ref=e1142]:
+                      - generic [ref=e1143]: "4"
+                      - heading "追加情報" [level=3] [ref=e1144]
+                    - generic [ref=e1147]:
+                      - generic [ref=e1150]:
+                        - combobox "取引目的 取引目的" [ref=e1260]:
+                          - option
+                          - option "家族の支援／生活費"
+                          - option "贈与" [selected]
+                          - option "旅費"
+                          - option "教育／学費"
+                          - option "緊急／医療支援"
+                        - generic: 取引目的
+                      - generic [ref=e1155]:
+                        - combobox "資金源 資金源" [ref=e1261]:
+                          - option
+                          - option "給与" [selected]
+                          - option "貯蓄"
+                          - option "年金/政府/福祉"
+                          - option "贈与"
+                          - option "相続財産"
+                          - option "投資からの収入"
+                        - generic: 資金源
+                      - generic [ref=e1160]:
+                        - combobox "受取人との関係 受取人との関係" [ref=e1262]:
+                          - option
+                          - option "チャリティ基金の供与者/受益者"
+                          - option "友人" [selected]
+                          - option "買い手/売り手"
+                          - option "被雇用者/雇用主"
+                          - option "取引/ビジネスパートナー"
+                          - option "家族"
+                        - generic: 受取人との関係
+                  - button "続行" [active] [ref=e1164] [cursor=pointer]
+              - generic [ref=e1263]:
+                - heading "選択した国の受取人" [level=2] [ref=e1265]
+                - generic [ref=e1270]:
+                  - generic [ref=e1271] [cursor=pointer]:
+                    - generic [ref=e1273]: OV
+                    - generic [ref=e1276]: Oliverio Velastegui
+                    - generic [ref=e1278]: 
+                  - generic [ref=e1281]:
+                    - generic [ref=e1283]:
+                      - generic [ref=e1284]:
+                        - generic [ref=e1285]: "1"
+                        - heading "受取人の個人情報" [level=3] [ref=e1286]
+                      - generic [ref=e1290]:
+                        - generic [ref=e1291]:
+                          - generic [ref=e1293]:
+                            - textbox "txtFName" [ref=e1294]:
+                              - /placeholder: ""
+                              - text: Oliverio
+                            - generic: 受取人の名
+                            - generic [ref=e1295]: (受取人の名)
+                          - generic [ref=e1297]:
+                            - textbox "txtPName" [ref=e1298]:
+                              - /placeholder: ""
+                              - text: Velastegui
+                            - generic: 受取人の父方の姓
+                            - generic [ref=e1299]: (受取人の父方の姓)
+                        - generic [ref=e1300]:
+                          - paragraph [ref=e1302]: 受取人の政府発行IDに母方の姓が記載されている場合、ここに入力してください。
+                          - generic [ref=e1304]:
+                            - textbox "txtMoName" [ref=e1305]:
+                              - /placeholder: ""
+                            - generic: 受取人の母方の姓 (任意)
+                            - generic [ref=e1306]: (受取人の母方の姓)
+                      - generic [ref=e1308]:
+                        - generic [ref=e1309]: "2"
+                        - heading "受取人の住所" [level=3] [ref=e1310]
+                      - generic [ref=e1314]:
+                        - generic [ref=e1316]:
+                          - textbox "txtCity" [ref=e1317]:
+                            - /placeholder: ""
+                            - text: Puyo
+                          - generic: 市区町村
+                          - generic [ref=e1318]: (市区町村)
+                        - generic [ref=e1320]:
+                          - textbox "txtState" [ref=e1321]:
+                            - /placeholder: ""
+                            - text: Pastaza
+                          - generic: 都道府県
+                          - generic [ref=e1322]: (都道府県)
+                      - generic [ref=e1324]:
+                        - generic [ref=e1325]: "3"
+                        - heading "受取人の連絡先" [level=3] [ref=e1326]
+                      - generic [ref=e1329]:
+                        - generic [ref=e1332]:
+                          - textbox [ref=e1333]
+                          - generic: メールアドレス (任意)
+                          - generic [ref=e1334]: (メールアドレス)
+                        - generic [ref=e1335]:
+                          - generic [ref=e1337]:
+                            - combobox [ref=e1338]:
+                              - option "1 (PR)"
+                              - option "1 (QQ)"
+                              - option "1 (AG)"
+                              - option "1 (AI)"
+                              - option "1 (QZ)"
+                              - option "1 (AS)"
+                              - option "1 (S1)"
+                              - option "1 (BB)"
+                              - option "1 (BM)"
+                              - option "1 (BS)"
+                              - option "1 (CA)"
+                              - option "1 (TC)"
+                              - option "1 (TT)"
+                              - option "1 (DM)"
+                              - option "1 (DO)"
+                              - option "1 (US)"
+                              - option "1 (VC)"
+                              - option "1 (VG)"
+                              - option "1 (VI)"
+                              - option "1 (GD)"
+                              - option "1 (GU)"
+                              - option "1 (JM)"
+                              - option "1 (KN)"
+                              - option "1 (KY)"
+                              - option "1 (LC)"
+                              - option "1 (MS)"
+                              - option "7 (RU)"
+                              - option "7 (KZ)"
+                              - option "20 (EG)"
+                              - option "27 (ZA)"
+                              - option "30 (GR)"
+                              - option "31 (NL)"
+                              - option "32 (BE)"
+                              - option "33 (FR)"
+                              - option "34 (ES)"
+                              - option "36 (HU)"
+                              - option "39 (IT)"
+                              - option "40 (RO)"
+                              - option "41 (CH)"
+                              - option "43 (AT)"
+                              - option "44 (GB)"
+                              - option "45 (DK)"
+                              - option "46 (SE)"
+                              - option "47 (SJ)"
+                              - option "47 (NO)"
+                              - option "48 (PL)"
+                              - option "49 (DE)"
+                              - option "51 (PE)"
+                              - option "52 (MX)"
+                              - option "53 (CU)"
+                              - option "54 (AR)"
+                              - option "55 (BR)"
+                              - option "56 (CL)"
+                              - option "57 (CO)"
+                              - option "58 (VE)"
+                              - option "60 (MY)"
+                              - option "61 (AU)"
+                              - option "61 (CC)"
+                              - option "61 (CX)"
+                              - option "62 (ID)"
+                              - option "63 (PH)"
+                              - option "64 (NZ)"
+                              - option "64 (PN)"
+                              - option "65 (SG)"
+                              - option "66 (TH)"
+                              - option "81 (JP)"
+                              - option "82 (KR)"
+                              - option "84 (VN)"
+                              - option "86 (CN)"
+                              - option "90 (C2)"
+                              - option "90 (TR)"
+                              - option "91 (IN)"
+                              - option "92 (PK)"
+                              - option "93 (AF)"
+                              - option "94 (LK)"
+                              - option "95 (MM)"
+                              - option "98 (IR)"
+                              - option "211 (SS)"
+                              - option "212 (EH)"
+                              - option "212 (MA)"
+                              - option "213 (DZ)"
+                              - option "216 (TN)"
+                              - option "218 (LY)"
+                              - option "220 (GM)"
+                              - option "221 (SN)"
+                              - option "222 (MR)"
+                              - option "223 (ML)"
+                              - option "224 (GN)"
+                              - option "225 (CI)"
+                              - option "226 (BF)"
+                              - option "227 (NE)"
+                              - option "228 (TG)"
+                              - option "229 (BJ)"
+                              - option "230 (MU)"
+                              - option "231 (LR)"
+                              - option "232 (SL)"
+                              - option "233 (GH)"
+                              - option "234 (NG)"
+                              - option "235 (TD)"
+                              - option "236 (CF)"
+                              - option "237 (CM)"
+                              - option "238 (CV)"
+                              - option "239 (ST)"
+                              - option "240 (GQ)"
+                              - option "241 (GA)"
+                              - option "242 (CG)"
+                              - option "243 (CD)"
+                              - option "244 (AO)"
+                              - option "245 (GW)"
+                              - option "246 (IO)"
+                              - option "248 (SC)"
+                              - option "249 (SD)"
+                              - option "250 (RW)"
+                              - option "251 (ET)"
+                              - option "252 (SO)"
+                              - option "253 (DJ)"
+                              - option "254 (KE)"
+                              - option "255 (TZ)"
+                              - option "256 (UG)"
+                              - option "257 (BI)"
+                              - option "258 (MZ)"
+                              - option "260 (ZM)"
+                              - option "261 (MG)"
+                              - option "262 (RE)"
+                              - option "262 (YT)"
+                              - option "263 (ZW)"
+                              - option "264 (NA)"
+                              - option "265 (MW)"
+                              - option "266 (LS)"
+                              - option "267 (BW)"
+                              - option "268 (SZ)"
+                              - option "269 (KM)"
+                              - option "290 (SH)"
+                              - option "291 (ER)"
+                              - option "297 (AW)"
+                              - option "298 (FO)"
+                              - option "299 (GL)"
+                              - option "350 (GI)"
+                              - option "351 (PT)"
+                              - option "352 (LU)"
+                              - option "353 (IE)"
+                              - option "354 (IS)"
+                              - option "355 (AL)"
+                              - option "356 (MT)"
+                              - option "357 (CY)"
+                              - option "358 (FI)"
+                              - option "359 (BG)"
+                              - option "370 (LT)"
+                              - option "371 (LV)"
+                              - option "372 (EE)"
+                              - option "373 (MD)"
+                              - option "374 (AM)"
+                              - option "375 (BY)"
+                              - option "376 (AD)"
+                              - option "377 (MC)"
+                              - option "378 (SM)"
+                              - option "379 (VA)"
+                              - option "380 (UA)"
+                              - option "381 (RS)"
+                              - option "381 (YU)"
+                              - option "382 (ME)"
+                              - option "383 (XK)"
+                              - option "383 (K1)"
+                              - option "385 (HR)"
+                              - option "386 (SI)"
+                              - option "387 (BA)"
+                              - option "389 (MK)"
+                              - option "420 (CZ)"
+                              - option "421 (SK)"
+                              - option "423 (LI)"
+                              - option "500 (FK)"
+                              - option "501 (BZ)"
+                              - option "502 (GT)"
+                              - option "503 (SV)"
+                              - option "504 (HN)"
+                              - option "505 (NI)"
+                              - option "506 (CR)"
+                              - option "507 (PA)"
+                              - option "508 (PM)"
+                              - option "509 (HT)"
+                              - option "590 (BL)"
+                              - option "590 (GP)"
+                              - option "590 (MF)"
+                              - option "591 (BO)"
+                              - option "592 (GY)"
+                              - option "593 (EC)" [selected]
+                              - option "594 (GF)"
+                              - option "595 (PY)"
+                              - option "596 (MQ)"
+                              - option "597 (SR)"
+                              - option "598 (UY)"
+                              - option "599 (AN)"
+                              - option "599 (CW)"
+                              - option "670 (TL)"
+                              - option "672 (AQ)"
+                              - option "673 (BN)"
+                              - option "674 (NR)"
+                              - option "675 (PG)"
+                              - option "676 (TO)"
+                              - option "677 (SB)"
+                              - option "678 (VU)"
+                              - option "679 (FJ)"
+                              - option "680 (PW)"
+                              - option "681 (WF)"
+                              - option "682 (CK)"
+                              - option "683 (NU)"
+                              - option "685 (WS)"
+                              - option "686 (KI)"
+                              - option "687 (NC)"
+                              - option "688 (TV)"
+                              - option "689 (PF)"
+                              - option "690 (TK)"
+                              - option "691 (FM)"
+                              - option "692 (MH)"
+                              - option "850 (KP)"
+                              - option "852 (HK)"
+                              - option "853 (MO)"
+                              - option "855 (KH)"
+                              - option "856 (LA)"
+                              - option "880 (BD)"
+                              - option "886 (TW)"
+                              - option "960 (MV)"
+                              - option "961 (LB)"
+                              - option "962 (JO)"
+                              - option "963 (SY)"
+                              - option "964 (IQ)"
+                              - option "965 (KW)"
+                              - option "966 (SA)"
+                              - option "967 (YE)"
+                              - option "968 (OM)"
+                              - option "970 (PS)"
+                              - option "971 (AE)"
+                              - option "972 (IL)"
+                              - option "973 (BH)"
+                              - option "974 (QA)"
+                              - option "975 (BT)"
+                              - option "976 (MN)"
+                              - option "977 (NP)"
+                              - option "992 (TJ)"
+                              - option "993 (TM)"
+                              - option "994 (AZ)"
+                              - option "995 (GE)"
+                              - option "996 (KG)"
+                              - option "998 (UZ)"
+                              - option "1670 (MP)"
+                            - generic: 国コード
+                          - generic [ref=e1342]:
+                            - textbox "txtPhoneNum1" [ref=e1343]:
+                              - /placeholder: ""
+                            - generic: 電話番号 (任意)
+                            - generic [ref=e1344]: (電話番号)
+                      - generic [ref=e1347]:
+                        - generic [ref=e1348]: "4"
+                        - heading "追加情報" [level=3] [ref=e1349]
+                      - generic [ref=e1352]:
+                        - generic [ref=e1355]:
+                          - combobox [ref=e1356]:
+                            - option
+                            - option "家族の支援／生活費"
+                            - option "贈与" [selected]
+                            - option "旅費"
+                            - option "教育／学費"
+                            - option "緊急／医療支援"
+                          - generic: 取引目的
+                        - generic [ref=e1360]:
+                          - combobox [ref=e1361]:
+                            - option
+                            - option "給与" [selected]
+                            - option "貯蓄"
+                            - option "年金/政府/福祉"
+                            - option "贈与"
+                            - option "相続財産"
+                            - option "投資からの収入"
+                          - generic: 資金源
+                        - generic [ref=e1365]:
+                          - combobox [ref=e1366]:
+                            - option
+                            - option "チャリティ基金の供与者/受益者"
+                            - option "友人" [selected]
+                            - option "買い手/売り手"
+                            - option "被雇用者/雇用主"
+                            - option "取引/ビジネスパートナー"
+                            - option "家族"
+                          - generic: 受取人との関係
+                    - button "続行" [ref=e1369] [cursor=pointer]
+            - generic [ref=e1167]:
+              - generic [ref=e1170]:
+                - generic [ref=e1172]:
+                  - generic [ref=e1174]: 概要
+                  - generic [ref=e1175] [cursor=pointer]: 編集
+                  - generic "edit-icon" [ref=e1176] [cursor=pointer]
+                - generic [ref=e1177]:
+                  - generic [ref=e1179]:
+                    - generic [ref=e1180]:
+                      - generic [ref=e1181]: 換算レート
+                      - superscript [ref=e1182]: "2"
+                      - separator [ref=e1183]
+                    - generic [ref=e1186]: 1.00 JPY = 0.0061 USD
+                    - separator [ref=e1188]
+                  - generic [ref=e1190]:
+                    - generic [ref=e1191]: 送金額
+                    - generic [ref=e1192]: 28,035.00 JPY
+                  - generic [ref=e1194]:
+                    - generic [ref=e1195]: 送金手数料
+                    - text: 2,5
+                    - generic [ref=e1196]: + 880.00 JPY
+                  - generic [ref=e1198]:
+                    - generic [ref=e1199]: 送金合計
+                    - generic [ref=e1200]: 28,915.00 JPY
+                  - generic [ref=e1202]:
+                    - generic [ref=e1203]:
+                      - generic [ref=e1204]:
+                        - generic [ref=e1205]: 合計
+                        - text: 受取人宛
+                      - superscript
+                    - separator [ref=e1206]
+                    - generic [ref=e1207]: 170.59USD
+                  - generic [ref=e1210]:
+                    - separator [ref=e1211]
+                    - generic [ref=e1212]:
+                      - generic [ref=e1213]: "サービス時間:"
+                      - text: 1, 13
+                      - generic [ref=e1214]: 数分後
+                      - generic [ref=e1215]: 即時
+              - text: 
+          - generic [ref=e1226]:
+            - separator [ref=e1227]
+            - generic [ref=e1228]:
+              - link "(Click to hide) 法的免責条項と重要な情報" [expanded] [ref=e1230] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - text: 法的免責条項と重要な情報
+              - generic [ref=e1232]:
+                - generic [ref=e1233]:
+                  - paragraph
+                - paragraph [ref=e1235]:
+                  - superscript [ref=e1236]: "1"
+                  - text: サービスおよび資金の遅延または利用可否は、さまざまな要因によって異なります。たとえば、選択したサービス、遅延配送オプションの選択、送金額、送金先国、利用できる通貨、規制上の問題、消費者保護の問題、本人確認の要件、配送制限、取扱店の営業時間、およびタイムゾーンの違い（まとめて「制約」）などです。追加の制限が適用されることがあります。詳細は、注意事項と約款を参照してください。
+                - paragraph [ref=e1238]:
+                  - superscript [ref=e1239]: "2"
+                  - text: また、Western Unionは、通貨換算によって利益を得ています。送金サービスを選択する際には、送金手数料と換算レートの両方を慎重に比較検討してください。手数料、外貨換算レート、および税は、様々な要因によってブランド、チャネル、および店舗ごとに異なります。手数料と換算レートは予告なく変更される場合があります。
+                - paragraph [ref=e1241]:
+                  - superscript [ref=e1242]: "4"
+                  - text: 銀行によっては、国内送金または海外送金に手数料がかかります。ご利用の銀行にご確認ください。
+                - paragraph [ref=e1244]:
+                  - superscript [ref=e1245]: "5"
+                  - generic [ref=e1246]:
+                    - text: 上記の送金手数料の見積は、本日付けのオンライン取引に対する計算額です。取扱店の手数料はオンライン手数料とは異なる場合があります。お近くの取扱店を探して手数料の見積を入手するには、
+                    - link "こちらをクリック" [ref=e1247] [cursor=pointer]:
+                      - /url: "http://locations.westernunion.com/search/{{ countryCode }}"
+                    - text: してください。
+                - paragraph [ref=e1249]:
+                  - superscript [ref=e1250]: "6"
+                  - text: 受取人は、 エクアドル 内のどの取扱店でも送金を受け取ることができます。
+                - paragraph [ref=e1252]:
+                  - superscript [ref=e1253]: "7"
+                  - text: 受取人がこれらの資金を受け取るときに提示する、本人確認書類に記載されている通りに受取人の名前を入力します。
+                - paragraph [ref=e1255]:
+                  - superscript [ref=e1256]: "13"
+                  - text: 通常、資金はWestern Unionの銀行口座に入金後3～5営業日以内に受取人の銀行口座へ入金されます
+              - separator [ref=e1257]
+        - text:             
+        - text:  
+      - text: 
+    - contentinfo [ref=e291]:
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - generic:
+            - list:
+              - listitem [ref=e295]:
+                - link "ホーム" [ref=e296] [cursor=pointer]:
+                  - /url: /jp/ja/home.html
+              - listitem [ref=e297]:
+                - link "会社情報" [ref=e298] [cursor=pointer]:
+                  - /url: https://corporate.westernunion.com
+              - listitem [ref=e299]:
+                - link "Western Unionについて" [ref=e300] [cursor=pointer]:
+                  - /url: https://corporate.westernunion.com/index.html
+              - listitem [ref=e301]:
+                - link "ブログ" [ref=e302] [cursor=pointer]:
+                  - /url: https://www.westernunion.com/blog/
+              - listitem [ref=e303]:
+                - link "セキュリティに関する問題を報告する" [ref=e304] [cursor=pointer]:
+                  - /url: https://bugcrowd.com/westernunion
+              - listitem [ref=e305]:
+                - link "投資家向け広報" [ref=e306] [cursor=pointer]:
+                  - /url: http://ir.westernunion.com/investor-relations/default.aspx
+              - listitem [ref=e307]:
+                - link "採用情報" [ref=e308] [cursor=pointer]:
+                  - /url: https://careers.westernunion.com
+              - listitem [ref=e309]:
+                - link "WU基金" [ref=e310] [cursor=pointer]:
+                  - /url: https://foundation.westernunion.com/index.html
+              - listitem [ref=e311]:
+                - link "知的財産権" [ref=e312] [cursor=pointer]:
+                  - /url: /jp/ja/legal/intellectual-property.html
+              - listitem [ref=e313]:
+                - link "プライバシーポリシー" [ref=e314] [cursor=pointer]:
+                  - /url: /jp/ja/legal/privacy-statement.html
+              - listitem [ref=e315]:
+                - link "注意事項と約款" [ref=e316] [cursor=pointer]:
+                  - /url: /jp/ja/legal/terms-conditions-digital.html
+              - listitem [ref=e317]:
+                - link "クッキー設定の変更" [ref=e318] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e319]:
+                - link "詐欺に遭わないために" [ref=e320] [cursor=pointer]:
+                  - /url: /jp/ja/fraudawareness/fraud-home.html
+              - listitem [ref=e321]:
+                - link "サイトマップ" [ref=e322] [cursor=pointer]:
+                  - /url: /jp/ja/site-map.html
+              - listitem [ref=e323]:
+                - link "お問い合わせ" [ref=e324] [cursor=pointer]:
+                  - /url: /jp/ja/contact-us.html
+        - paragraph [ref=e327]: 日本でのWestern Unionオンラインサービスは、Western Union Japan KK（法人番号：0104-01-114302）が提供します。
+        - paragraph [ref=e330]: © 2026 Western Union Holdings, Inc.All Rights Reserved
+        - generic [ref=e331]:
+          - paragraph [ref=e334]: 以下をフォローしてください
+          - generic [ref=e335]:
+            - link "Follow us on facebook (Opens in new tab)" [ref=e336] [cursor=pointer]:
+              - /url: https://www.facebook.com/WesternUnion
+              - img "facebook" [ref=e337]
+            - link "Follow us on youtube (Opens in new tab)" [ref=e338] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/westernunion
+              - img "youtube" [ref=e339]
+            - link "Follow us on Instagram (Opens in new tab)" [ref=e340] [cursor=pointer]:
+              - /url: https://www.instagram.com/westernunion
+              - img "instagram" [ref=e341]
+            - link "Follow us on twitter (Opens in new tab)" [ref=e342] [cursor=pointer]:
+              - /url: https://twitter.com/WesternUnion
+              - img "twitter" [ref=e343]
+    - alert "The page is loading. Please wait." [ref=e1370]:
+      - img [ref=e1375]
+  - text:  
