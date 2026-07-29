@@ -1,0 +1,277 @@
+<mxfile host="65bd71144e">
+    <diagram id="-ZHI5OHtynuXfqM3-Yg_" name="Page-1">
+        <mxGraphModel dx="1878" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="5800" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F4E78;fontColor=#FFFFFF;fontSize=24;fontStyle=1;strokeColor=#163A5C;" value="キャリア構造 v6：実際にやったことから、次に担いたい仕事を定義する" vertex="1">
+                    <mxGeometry height="60" width="2020" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="policy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F6F9;strokeColor=#7F8C8D;fontSize=14;" value="青＝事実　黄＝価値観　緑＝次に担いたい仕事　紫＝求人との接続　橙＝未経験・未確定　赤枠付箋＝エージェント確認" vertex="1">
+                    <mxGeometry height="48" width="2020" x="40" y="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAF7;strokeColor=#5B9BD5;fontSize=19;fontStyle=1;" value="1. 原体験：今後も繰り返したいと思える仕事は何か" vertex="1">
+                    <mxGeometry height="46" width="1480" x="40" y="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="failure" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontSize=14;verticalAlign=top;spacing=12;" value="失敗から設計の意味を理解した&lt;br&gt;&lt;br&gt;入社1年目、Pifaaの倉庫向け機能で、変更への備えを考えず実装した。変更要求へ対応するほどコードが崩れ、初回リリースでは、どこでバグが起きたか、どこがどの機能かも追いにくく、テストと修正が混乱した。先輩の支援でリファクタリングした。&lt;br&gt;&lt;br&gt;その後、命名を直すと読み返す時間を減らせること、切替可能な処理をifのネストで増やさず、クラスへ分けてStrategyとして差し替えると変更へ耐えやすいことを理解した。&lt;br&gt;&lt;br&gt;&lt;b&gt;ここから言えること：変更が入ったときに苦労しない構造を考える仕事は、今後も続けたい。&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="285" width="720" x="40" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="education" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontSize=14;verticalAlign=top;spacing=12;" value="自分の学びを後輩へ再現した&lt;br&gt;&lt;br&gt;新人1名へ約3か月、3サイクル、約25回レビュー。正解を先に教えず、我流で実装した後に変更要求を加え、変更しにくさを体験してもらった。&lt;br&gt;&lt;br&gt;『ここを変えるのは難しかっただろう』『どうすれば楽に変更できるだろう』と問い、本人に考えてもらった。質問が『動けばよい』から『どうすれば壊れにくいか』へ変わり、先輩の指摘意図も理解できるようになった。&lt;br&gt;&lt;br&gt;&lt;b&gt;ここから言えること：自分が得た判断観点を、相手が腹落ちする形で渡す仕事は、今後もやってみたい。&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="285" width="720" x="800" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOrigin" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：原体験の使い方&lt;br&gt;&lt;br&gt;Q. 面接の中心は『設計品質を学び、それを新人教育へ再利用した』でよいか。海外経験は長期共同開発の証明ではなく、環境適応の補助材料に留める整理でよいか。&lt;br&gt;&lt;br&gt;目的：経験以上の人物像を作らず、主張できる範囲を決める。" vertex="1">
+                    <mxGeometry height="215" width="440" x="1580" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="certain" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;strokeWidth=3;fontSize=15;verticalAlign=top;spacing=14;" value="現時点で確実に言える希望&lt;br&gt;&lt;br&gt;&lt;b&gt;自分も設計・実装を続けながら、後輩やチームメンバーへ仕事を渡し、レビューを通じて、変更に強い設計を考える観点を伝える仕事をしたい。&lt;/b&gt;&lt;br&gt;&lt;br&gt;具体的には、一つの機能について次を担当する。&lt;br&gt;1. 要求と変更されそうな箇所を整理する。&lt;br&gt;2. 相手の経験に合わせて担当範囲を切り出し、何のための変更かを説明する。&lt;br&gt;3. 実装後、修正箇所だけでなく『次の変更が入っても直しやすいか』を一緒に確認する。&lt;br&gt;4. 必要なら自分も実装・不具合修正へ入り、リリースまで責任を持つ。&lt;br&gt;&lt;br&gt;根拠：これらの一部は、新人教育と現在の機能開発ですでに経験しており、やりがいも感じた。" vertex="1">
+                    <mxGeometry height="310" width="930" x="40" y="905" as="geometry"/>
+                </mxCell>
+                <mxCell id="hypothesis" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=14;verticalAlign=top;spacing=12;" value="次に実務で確かめたい仮説&lt;br&gt;&lt;br&gt;・一人ではなく複数メンバーへ同じ関わり方をしても、やりがいを感じられるか。&lt;br&gt;・相手の経験や文化が違っても、仕事の切り出し方とレビュー方法を調整できるか。&lt;br&gt;・自分の判断観点を、口頭だけでなく、他の人も使えるレビュー観点や手順として残せるか。&lt;br&gt;&lt;br&gt;現時点では、複数人の育成計画、組織全体の改善、システム全体の技術判断を担いたいとまでは断定しない。実際の仕事を経験して適性を確かめ、担う範囲を広げる。" vertex="1">
+                    <mxGeometry height="310" width="520" x="1000" y="905" as="geometry"/>
+                </mxCell>
+                <mxCell id="nIdeal" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：目指す働き方&lt;br&gt;&lt;br&gt;Q1. 『実装を続けながら、機能単位で仕事の切り出し・レビュー・リリースまで担う』という表現で、求人との接続に必要な粒度は足りるか。&lt;br&gt;&lt;br&gt;Q2. 複数人育成や組織改善は、志望理由ではなく入社後に適性を確かめたい領域として話してよいか。&lt;br&gt;&lt;br&gt;目的：知らない仕事を知っているように語らず、消極的にも見せない。" vertex="1">
+                    <mxGeometry height="250" width="440" x="1580" y="930" as="geometry"/>
+                </mxCell>
+                <mxCell id="s3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#70AD47;fontSize=19;fontStyle=1;" value="3. 原体験から導く仕事の進め方：一般論ではなく、本人が重視する理由まで示す" vertex="1">
+                    <mxGeometry height="46" width="1480" x="40" y="1260" as="geometry"/>
+                </mxCell>
+                <mxCell id="principle1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=14;verticalAlign=top;spacing=12;" value="① 実装前：変更点を先に分離する&lt;br&gt;&lt;br&gt;&lt;b&gt;本人の考え：&lt;/b&gt;最初の要求だけを満たすif分岐を積み重ねると、追加要求のたびに既存処理へ手を入れ、どこまで壊れるか分からなくなる。&lt;br&gt;&lt;br&gt;&lt;b&gt;行うこと：&lt;/b&gt;要件を読んだ時点で、『今後切り替わりそうな条件』『顧客固有の部分』『共通で守る部分』を分ける。切替部分は状態クラスやStrategyなど、交換可能な単位にする。&lt;br&gt;&lt;br&gt;&lt;b&gt;根拠：&lt;/b&gt;v1.3のタグ発行画面では、ボタン開始とバーコード開始が交差して状態が崩れないよう、ViewStateと状態別クラスへ切り出して実装・リリースした。&lt;br&gt;&lt;br&gt;&lt;b&gt;目指す効果：&lt;/b&gt;次の要求変更を一か所の差替えで受け、既存機能へ触る範囲を限定する。" vertex="1">
+                    <mxGeometry height="280" width="720" x="40" y="1335" as="geometry"/>
+                </mxCell>
+                <mxCell id="principle2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=14;verticalAlign=top;spacing=12;" value="② レビュー：正解より、変更時の苦労を材料にする&lt;br&gt;&lt;br&gt;&lt;b&gt;本人の考え：&lt;/b&gt;『きれいに書け』と指摘されても、手戻りを経験していない段階では、早く動かす方が優先されて腹落ちしない。&lt;br&gt;&lt;br&gt;&lt;b&gt;行うこと：&lt;/b&gt;まず相手に実装してもらい、変更課題を加える。『どこを変えるのが難しかったか』『次の変更を楽にするには何を分けるか』を本人に説明してもらう。命名、可変性、責務分割などの知識は、その後に問題と結びつけて伝える。&lt;br&gt;&lt;br&gt;&lt;b&gt;根拠：&lt;/b&gt;新人教育でこの方法を使い、質問が『動けばよい』から『どうすれば壊れにくいか』へ変わった。&lt;br&gt;&lt;br&gt;&lt;b&gt;目指す効果：&lt;/b&gt;次回から、本人が変更コストを予測して設計案を出せる。" vertex="1">
+                    <mxGeometry height="280" width="720" x="800" y="1335" as="geometry"/>
+                </mxCell>
+                <mxCell id="principle3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=14;verticalAlign=top;spacing=12;" value="③ 不具合対応：修正結果より、次の調査入口を残す&lt;br&gt;&lt;br&gt;&lt;b&gt;本人の考え：&lt;/b&gt;コードの責務や通信順序が分からないと、次の担当者も同じ箇所を一から調べ、修正速度が上がらない。&lt;br&gt;&lt;br&gt;&lt;b&gt;行うこと：&lt;/b&gt;再現条件、最初に確認したログ／通信、原因となった処理順、影響範囲、修正理由、再発確認の観点をチケットへ残す。修正コードだけでなく、『次に似た症状が出たらどこから見るか』を共有する。&lt;br&gt;&lt;br&gt;&lt;b&gt;根拠：&lt;/b&gt;画面再読込時の接続不具合では、Wiresharkで通信を確認し、Core側の切断完了前にCommon側が開始する非同期順序を特定し、start／stopの完了を待つ対応をした。&lt;br&gt;&lt;br&gt;&lt;b&gt;目指す効果：&lt;/b&gt;同種不具合の初動調査を、別メンバーでも同じ入口から始められる。" vertex="1">
+                    <mxGeometry height="290" width="720" x="40" y="1650" as="geometry"/>
+                </mxCell>
+                <mxCell id="principle4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=14;verticalAlign=top;spacing=12;" value="④ 仕事の依頼：意図と範囲を渡し、細部の提案を返してもらう&lt;br&gt;&lt;br&gt;&lt;b&gt;本人の考え：&lt;/b&gt;自走を求めるあまり仕事の振り方が曖昧なのも、細部まで全部指示して考える余地をなくすのも違う。&lt;br&gt;&lt;br&gt;&lt;b&gt;行うこと：&lt;/b&gt;機能の目的、触ってよい範囲、既存機能への制約、完了条件を伝える。実装方法の細部は担当者に考えてもらい、『こちらの方がよいのでは』という提案をレビューで受ける。経験に合わせ、切り出す範囲と難易度を変える。&lt;br&gt;&lt;br&gt;&lt;b&gt;根拠：&lt;/b&gt;ミドルウェア更新ではタスクを分解し、後輩のレベルに合う部分をAsanaでチケット化して意図を説明した。&lt;br&gt;&lt;br&gt;&lt;b&gt;目指す効果：&lt;/b&gt;担当者が迷う範囲を限定しつつ、細部では自分で考え、提案できる。" vertex="1">
+                    <mxGeometry height="290" width="720" x="800" y="1650" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPrinciples" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：本人らしい仕事観&lt;br&gt;&lt;br&gt;Q. 上の4点のうち、面接で『仕事上大切にしていること』『理想の仕事』『強み』の中心に置くならどれが最も一貫して見えるか。&lt;br&gt;&lt;br&gt;目的：一般的な開発工程を並べるのではなく、原体験から説明できる一つか二つへ絞る。" vertex="1">
+                    <mxGeometry height="210" width="440" x="1580" y="1450" as="geometry"/>
+                </mxCell>
+                <mxCell id="s4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#70AD47;fontSize=19;fontStyle=1;" value="4. 強み・弱み：役割名ではなく、繰り返している行動で示す" vertex="1">
+                    <mxGeometry height="46" width="1480" x="40" y="1985" as="geometry"/>
+                </mxCell>
+                <mxCell id="strength" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=14;verticalAlign=top;spacing=12;" value="強み：未知の状況で、情報と伝え方を組み替えて前へ進める&lt;br&gt;&lt;br&gt;・正解や手順が固まっていなくても、ログ、通信、既存コード、関係者の説明から判断材料を集める。&lt;br&gt;・相手へ伝わらない場合、同じ説明を繰り返さず、図、フロー、具体例、別の表現へ切り替える。&lt;br&gt;・要件が曖昧な場合は、フローチャートにして分岐を可視化し、PM経由で関係部門と約3回ラリーして認識を合わせた経験がある。&lt;br&gt;&lt;br&gt;根拠：海外経験だけでなく、Wiresharkによる非同期不具合の調査、保全部品管理の選択ロジック整理、イタリア技術者との協働でも同じ行動が出ている。" vertex="1">
+                    <mxGeometry height="250" width="720" x="40" y="2060" as="geometry"/>
+                </mxCell>
+                <mxCell id="weakness" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=14;verticalAlign=top;spacing=12;" value="弱み：自分だけで完結する学習は、納期業務より後回しにしやすい&lt;br&gt;&lt;br&gt;自分のためだけの学習・改善は、目の前の納期を優先して後回しにすることがある。一方、誰かへ説明する責任があると、曖昧な理解のままにせず深く調べられる。&lt;br&gt;&lt;br&gt;対処：レビュー、勉強内容の共有、手順説明など、他者へ渡す予定を先に置く。学んだ内容を実案件のレビュー観点や調査手順へ変換し、業務と切り離さず継続する。&lt;br&gt;&lt;br&gt;注意：教える立場を自分の成長手段として語るのではなく、『責任と期限を先に設けることで継続性を補っている』と説明する。" vertex="1">
+                    <mxGeometry height="250" width="720" x="800" y="2060" as="geometry"/>
+                </mxCell>
+                <mxCell id="nSW" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：強み・弱み&lt;br&gt;&lt;br&gt;Q1. 強みは『未知への好奇心』より、業務事例を含む『情報と伝え方を組み替える』まで具体化した方がよいか。&lt;br&gt;&lt;br&gt;Q2. 弱みは主体性不足と受け取られないか。別候補へ変えるべきか。&lt;br&gt;&lt;br&gt;目的：本人らしさと選考上の安全性を両立する。" vertex="1">
+                    <mxGeometry height="220" width="440" x="1580" y="2070" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=19;fontStyle=1;" value="5. 現在との差分：抽象的な成長ではなく、未経験の責任範囲を特定する" vertex="1">
+                    <mxGeometry height="46" width="1480" x="40" y="2355" as="geometry"/>
+                </mxCell>
+                <mxCell id="gapA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=14;verticalAlign=top;spacing=12;" value="差分A：他者の設計判断へ責任を持つ経験&lt;br&gt;&lt;br&gt;現在：自分が担当する機能では、基本設計の一部、詳細設計、実装、単体・結合テスト、不具合修正まで担当した。新人教育では課題用コードをレビューした。&lt;br&gt;&lt;br&gt;未経験：実案件で他メンバーが作る設計・コードを継続的にレビューし、その指摘が製品品質やリリース判断へ影響する立場。システム全体の制約を踏まえたレビュー。" vertex="1">
+                    <mxGeometry height="220" width="470" x="40" y="2430" as="geometry"/>
+                </mxCell>
+                <mxCell id="actionA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=14;verticalAlign=top;spacing=12;" value="次に経験したい仕事&lt;br&gt;&lt;br&gt;国内勤務中、まず一つの実機能で、先輩と同じMRまたは設計書をレビューする。自分の指摘と先輩の指摘を比較し、見落とした観点と製品固有の判断基準を理解する。&lt;br&gt;&lt;br&gt;慣れた後は、自分が一次レビューを行い、変更影響、代替案、テスト範囲を理由つきで返す。指摘後の修正とリリース結果まで追う。" vertex="1">
+                    <mxGeometry height="220" width="480" x="540" y="2430" as="geometry"/>
+                </mxCell>
+                <mxCell id="resultA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=14;verticalAlign=top;spacing=12;" value="経験できたと判断する状態&lt;br&gt;&lt;br&gt;・製品固有の制約を含め、なぜ修正が必要か説明できる。&lt;br&gt;・自分の指摘が、どの不具合や手戻りを防ぐか説明できる。&lt;br&gt;・指摘を受けた担当者が修正内容を理解し、次の類似機能で同じ観点を使える。&lt;br&gt;・先輩の補助を受けながらでも、実案件の一次レビューを完了できる。" vertex="1">
+                    <mxGeometry height="220" width="470" x="1050" y="2430" as="geometry"/>
+                </mxCell>
+                <mxCell id="nGapA" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：設計・レビュー責任&lt;br&gt;&lt;br&gt;Q. 国内勤務中に、実案件のMR／設計レビューを先輩と並走して学び、一次レビューへ広げる機会はあるか。赴任前にどの水準まで求められるか。&lt;br&gt;&lt;br&gt;目的：『体系的レビューを学ぶ』を実際の業務と到達基準へ変える。" vertex="1">
+                    <mxGeometry height="200" width="440" x="1580" y="2440" as="geometry"/>
+                </mxCell>
+                <mxCell id="gapB" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=14;verticalAlign=top;spacing=12;" value="差分B：実案件で複数人へ仕事を渡し、成果まで追う経験&lt;br&gt;&lt;br&gt;現在：新人1名への課題設計とレビュー。ミドルウェア更新ではタスクを分解し、後輩のレベルに合う部分を依頼した。&lt;br&gt;&lt;br&gt;未経験：複数メンバーへ実案件を割り振り、各人の実装をレビューし、結合、リリース、不具合対応まで全体の進み方に責任を持つ経験。" vertex="1">
+                    <mxGeometry height="220" width="470" x="40" y="2690" as="geometry"/>
+                </mxCell>
+                <mxCell id="actionB" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=14;verticalAlign=top;spacing=12;" value="次に経験したい仕事&lt;br&gt;&lt;br&gt;最初から複数人の育成計画を作るのではなく、まず一つの機能を現地メンバーと分担する。目的、担当境界、完了条件を合意し、設計確認、実装レビュー、結合テスト、不具合修正まで一緒に進める。&lt;br&gt;&lt;br&gt;一件を終えた後、説明が不足した箇所、任せすぎた箇所、本人から提案が出た箇所を振り返り、次の仕事の渡し方を変える。" vertex="1">
+                    <mxGeometry height="220" width="480" x="540" y="2690" as="geometry"/>
+                </mxCell>
+                <mxCell id="resultB" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=14;verticalAlign=top;spacing=12;" value="経験できたと判断する状態&lt;br&gt;&lt;br&gt;・担当者が目的と完了条件を自分の言葉で説明できる。&lt;br&gt;・細部の実装方法について担当者から提案が返る。&lt;br&gt;・レビューだけでなく、結合・リリース後まで担当部分の結果を一緒に確認できる。&lt;br&gt;・次の案件では、前回より少ない説明で同じ種類の判断を任せられる。" vertex="1">
+                    <mxGeometry height="220" width="470" x="1050" y="2690" as="geometry"/>
+                </mxCell>
+                <mxCell id="nGapB" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：仕事の分担と育成&lt;br&gt;&lt;br&gt;Q. 赴任後、最初はどの単位の機能を何名程度で分担するか。日本人赴任者は、設計・レビュー・リリースのどこまで結果責任を持つか。&lt;br&gt;&lt;br&gt;目的：イメージできない『複数人育成』を、最初に共同担当する一機能へ具体化する。" vertex="1">
+                    <mxGeometry height="205" width="440" x="1580" y="2700" as="geometry"/>
+                </mxCell>
+                <mxCell id="gapC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=14;verticalAlign=top;spacing=12;" value="差分C：個人の調査方法を、他者が使える形で残す経験&lt;br&gt;&lt;br&gt;現在：不具合を自分で調査・修正し、v1.2からv1.3ではシステムテスト期間各1週間で、修正数が9件から26件へ増えた。テスト環境とカバレッジ確認の標準化も試したが継続利用には至っていない。&lt;br&gt;&lt;br&gt;未経験：自分以外のメンバーが使い続け、実際の調査やレビューを楽にする形へ知識を定着させた経験。" vertex="1">
+                    <mxGeometry height="235" width="470" x="40" y="2950" as="geometry"/>
+                </mxCell>
+                <mxCell id="actionC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=14;verticalAlign=top;spacing=12;" value="次に経験したい仕事（対象を一つに限定）&lt;br&gt;&lt;br&gt;まず、自分が実際に経験した『システムテストで見つかった不具合の調査』を対象にする。チケットへ次の6項目を残す。&lt;br&gt;①再現条件　②最初に見るログ／通信　③原因となった処理順　④影響範囲　⑤修正理由　⑥回帰確認&lt;br&gt;&lt;br&gt;次の同種チケットで、別メンバーにこの記録を使って調査してもらう。口頭説明が必要だった箇所を追記し、使われる形へ直す。" vertex="1">
+                    <mxGeometry height="235" width="480" x="540" y="2950" as="geometry"/>
+                </mxCell>
+                <mxCell id="resultC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=14;verticalAlign=top;spacing=12;" value="経験できたと判断する状態&lt;br&gt;&lt;br&gt;・別メンバーが、記録を見て調査の最初の確認箇所を選べる。&lt;br&gt;・口頭で一から経緯を説明しなくても、再現、原因、影響範囲を追える。&lt;br&gt;・実際に使った人の不足指摘を反映し、記録様式を更新できる。&lt;br&gt;・少なくとも一つの同種不具合で、作成者以外が記録を再利用できる。&lt;br&gt;&lt;br&gt;※件数削減など、対象企業の現状を知らない指標は先に置かない。" vertex="1">
+                    <mxGeometry height="235" width="470" x="1050" y="2950" as="geometry"/>
+                </mxCell>
+                <mxCell id="nGapC" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：知識の共有・定着&lt;br&gt;&lt;br&gt;Q. 求人の『開発プロセス改善』に対し、まず不具合調査記録を他者が再利用できる状態へする、という小さな実例で説明してよいか。より求人に近い既存事例はあるか。&lt;br&gt;&lt;br&gt;目的：曖昧な組織改善を語らず、実行可能な最初の一歩へ落とす。" vertex="1">
+                    <mxGeometry height="205" width="440" x="1580" y="2970" as="geometry"/>
+                </mxCell>
+                <mxCell id="gapD" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=14;verticalAlign=top;spacing=12;" value="差分D：海外メンバーと、一つの機能を最後まで共同で完了する経験&lt;br&gt;&lt;br&gt;現在：イタリア技術者と約2週間、英語で技術確認をした。図と言い換えで会話できたが、要求整理、役割分担、設計、実装、結合、リリースを共同で継続したわけではない。&lt;br&gt;&lt;br&gt;未経験：文化・言語・時差・開発習慣が違う相手と、日々の判断の食い違いを解消しながら、納期と品質を含めて一つの成果へ責任を持つ経験。" vertex="1">
+                    <mxGeometry height="245" width="470" x="40" y="3225" as="geometry"/>
+                </mxCell>
+                <mxCell id="actionD" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=14;verticalAlign=top;spacing=12;" value="次に経験したい仕事&lt;br&gt;&lt;br&gt;ベトナム側メンバーと一つの機能を共同担当し、開始時に次を合意する。&lt;br&gt;①誰がどの判断をするか　②成果物と完了条件　③未決事項の記録場所　④レビューの時点　⑤問題が起きた際の相談先&lt;br&gt;&lt;br&gt;週次または節目ごとに、決まったこと、未決事項、認識がずれた点を同じ場所で確認する。食い違いが出た場合は、結論だけでなく判断理由を残し、次の機能で分担方法を更新する。" vertex="1">
+                    <mxGeometry height="245" width="480" x="540" y="3225" as="geometry"/>
+                </mxCell>
+                <mxCell id="resultD" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=14;verticalAlign=top;spacing=12;" value="経験できたと判断する状態&lt;br&gt;&lt;br&gt;・一つの機能を、要求確認から結合・リリース後の確認まで共同で完了する。&lt;br&gt;・未決事項と担当が共有され、細かな判断を毎回日本側へ持ち帰らずに進められる。&lt;br&gt;・意見が違った箇所で、双方の前提と採用理由を記録できる。&lt;br&gt;・次の機能では、前回の認識違いを避けるために分担・確認方法を変えられる。&lt;br&gt;&lt;br&gt;→ 短期の英会話経験ではなく、共同成果への継続責任を得る。" vertex="1">
+                    <mxGeometry height="245" width="470" x="1050" y="3225" as="geometry"/>
+                </mxCell>
+                <mxCell id="nGapD" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：海外共同開発の実像&lt;br&gt;&lt;br&gt;Q. 赴任者と現地メンバーは、一つの機能をどの工程からどの工程まで共同担当するか。判断権限、成果責任、日々の情報共有はどう分かれているか。&lt;br&gt;&lt;br&gt;目的：得意な『伝え方』の言い換えではなく、本当に未経験の共同成果責任を確認する。" vertex="1">
+                    <mxGeometry height="205" width="440" x="1580" y="3250" as="geometry"/>
+                </mxCell>
+                <mxCell id="s6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=19;fontStyle=1;" value="6. キャリアプラン：役職名ではなく、経験する仕事の順序" vertex="1">
+                    <mxGeometry height="46" width="1480" x="40" y="3520" as="geometry"/>
+                </mxCell>
+                <mxCell id="now" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontSize=14;verticalAlign=top;spacing=12;" value="現在&lt;br&gt;&lt;br&gt;自分の担当機能について、設計・実装・単体／結合テスト・不具合対応を行う。&lt;br&gt;&lt;br&gt;新人1名には課題設計と約25回のレビューを行い、作業単位では後輩向けにタスクを切り出した。&lt;br&gt;&lt;br&gt;海外技術者との協働は技術確認の約2週間。" vertex="1">
+                    <mxGeometry height="220" width="350" x="40" y="3595" as="geometry"/>
+                </mxCell>
+                <mxCell id="domestic" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=14;verticalAlign=top;spacing=12;" value="短期：国内勤務&lt;br&gt;&lt;br&gt;・ラクス製品の構造と品質基準を理解する。&lt;br&gt;・先輩と同じ実案件をレビューし、観点を比較する。&lt;br&gt;・一つの機能で一次レビューを担当し、修正・テスト・リリース結果まで追う。&lt;br&gt;・自分の不具合調査記録を別メンバーに使ってもらう。&lt;br&gt;&lt;br&gt;埋める差分：A・C" vertex="1">
+                    <mxGeometry height="220" width="350" x="420" y="3595" as="geometry"/>
+                </mxCell>
+                <mxCell id="vietnamFirst" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=14;verticalAlign=top;spacing=12;" value="赴任後の最初の段階&lt;br&gt;&lt;br&gt;・現地メンバーと一つの機能を共同担当する。&lt;br&gt;・目的、担当境界、完了条件、判断者を合意する。&lt;br&gt;・設計、実装レビュー、結合、リリース後確認まで一緒に進める。&lt;br&gt;・仕事の渡し方と認識違いを振り返り、次へ反映する。&lt;br&gt;&lt;br&gt;埋める差分：B・D" vertex="1">
+                    <mxGeometry height="220" width="350" x="800" y="3595" as="geometry"/>
+                </mxCell>
+                <mxCell id="future" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=14;verticalAlign=top;spacing=12;" value="経験後に広げるか判断する範囲&lt;br&gt;&lt;br&gt;一機能の共同担当を複数回経験した後、次を判断する。&lt;br&gt;・複数メンバーへの仕事の分担とレビューを担いたいか。&lt;br&gt;・育成目標や課題の設計まで担当したいか。&lt;br&gt;・設計レビューや調査手順をチーム共通の方法へ広げたいか。&lt;br&gt;・より広い設計判断へ責任を持ちたいか。&lt;br&gt;&lt;br&gt;将来像は、この実務経験後に具体化する。" vertex="1">
+                    <mxGeometry height="220" width="340" x="1180" y="3595" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPath" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：現実的な順序&lt;br&gt;&lt;br&gt;Q1. 国内で実案件レビューを学び、赴任後は一機能の共同担当から始める順序は、求人の期待と合うか。&lt;br&gt;&lt;br&gt;Q2. 求人は赴任時点で複数人育成・プロセス改善を主導できる人だけを対象にしているか。&lt;br&gt;&lt;br&gt;Q3. 赴任判断の基準と、延期・中止条件は何か。&lt;br&gt;&lt;br&gt;目的：本人がイメージできる最初の仕事から、実在するキャリアへつなぐ。" vertex="1">
+                    <mxGeometry height="250" width="440" x="1580" y="3590" as="geometry"/>
+                </mxCell>
+                <mxCell id="s7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=19;fontStyle=1;" value="7. 転職理由・求人選択理由・志望動機への収束" vertex="1">
+                    <mxGeometry height="46" width="1480" x="40" y="3870" as="geometry"/>
+                </mxCell>
+                <mxCell id="transfer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=14;verticalAlign=top;spacing=12;" value="転職する理由&lt;br&gt;&lt;br&gt;ベトナムで長く暮らし、現地で働きたい。未知の環境で、予想外の出来事も含めて経験したい。現職では長期の海外勤務を実現できない。&lt;br&gt;&lt;br&gt;これは転職の直接理由として正直に置く。仕事上の理由を無理に作って置き換えない。" vertex="1">
+                    <mxGeometry height="185" width="460" x="40" y="3945" as="geometry"/>
+                </mxCell>
+                <mxCell id="continue" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=14;verticalAlign=top;spacing=12;" value="開発を続ける理由&lt;br&gt;&lt;br&gt;壊れやすいシステムと変更に耐えるシステムの差に原因があり、人間が蓄積した設計知識を使って差を理解・改善できることが面白い。&lt;br&gt;&lt;br&gt;自分が苦労して理解した判断観点を相手へ渡し、相手が自分で判断できるようになることにも喜びを感じた。" vertex="1">
+                    <mxGeometry height="185" width="480" x="530" y="3945" as="geometry"/>
+                </mxCell>
+                <mxCell id="whyRakus" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=14;verticalAlign=top;spacing=12;" value="この求人を選ぶ理由&lt;br&gt;&lt;br&gt;・ベトナムで長期勤務できる。&lt;br&gt;・Web開発の設計・実装経験をそのまま使える。&lt;br&gt;・後輩へ仕事を渡し、レビューする経験を発展させられる。&lt;br&gt;・国内で製品とレビュー方法を理解してから赴任できる。&lt;br&gt;・現地メンバーと一つの機能を継続して共同開発する可能性がある。&lt;br&gt;&lt;br&gt;最後の2点は、面談・面接で実態を確認する。" vertex="1">
+                    <mxGeometry height="185" width="480" x="1040" y="3945" as="geometry"/>
+                </mxCell>
+                <mxCell id="nReason" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：求人選択の成立性&lt;br&gt;&lt;br&gt;Q1. 『ベトナム勤務』を転職理由、『現在の開発・教育経験を使い、一機能の共同担当へ広げられる』を求人選択理由として分ける構成で十分か。&lt;br&gt;&lt;br&gt;Q2. 安定基盤や赴任支援を、海外で腰を据えて働くための条件としてどの程度出してよいか。&lt;br&gt;&lt;br&gt;目的：仕事への憧れを捏造せず、企業を選ぶ理由は具体化する。" vertex="1">
+                    <mxGeometry height="230" width="440" x="1580" y="3940" as="geometry"/>
+                </mxCell>
+                <mxCell id="give" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontSize=14;verticalAlign=top;spacing=12;" value="入社時点で提供できること&lt;br&gt;&lt;br&gt;・Java／PythonによるWeb機能の設計・実装・単体／結合テスト・不具合対応。&lt;br&gt;・フロント／サーバー双方、非同期処理、状態管理、通信、業務ロジック、DB連携の経験。&lt;br&gt;・要件の分岐をフローで整理し、関係者と認識を合わせる。&lt;br&gt;・新人1名へ、変更の苦労を材料に設計理由を考えてもらうレビュー。&lt;br&gt;・不明な現象をログや通信から切り分ける。" vertex="1">
+                    <mxGeometry height="220" width="570" x="180" y="4200" as="geometry"/>
+                </mxCell>
+                <mxCell id="gain" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=14;verticalAlign=top;spacing=12;" value="この求人で確認・獲得したい経験&lt;br&gt;&lt;br&gt;・実案件で他者の設計・MRを継続レビューする。&lt;br&gt;・一つの機能を現地メンバーと分担し、要求確認からリリース後まで共同で完了する。&lt;br&gt;・自分の調査方法やレビュー観点を、別メンバーが再利用できる形へする。&lt;br&gt;・これらを経験した後、複数人の育成やより広い設計責任へ進みたいか判断する。&lt;br&gt;&lt;br&gt;未経験領域を、最初から提供価値とは言わない。" vertex="1">
+                    <mxGeometry height="220" width="570" x="820" y="4200" as="geometry"/>
+                </mxCell>
+                <mxCell id="nGive" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：提供価値と未経験領域&lt;br&gt;&lt;br&gt;Q. 志望動機では、提供できる開発・新人レビューをどこまで先に出し、実案件レビュー・海外共同開発を『経験したいこと』としてどの程度述べるべきか。&lt;br&gt;&lt;br&gt;目的：即戦力を誇張せず、会社を成長の場としてしか見ていない印象も避ける。" vertex="1">
+                    <mxGeometry height="200" width="440" x="1580" y="4210" as="geometry"/>
+                </mxCell>
+                <mxCell id="motivation" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D2E9;strokeColor=#7030A0;strokeWidth=4;fontSize=16;verticalAlign=middle;spacing=16;" value="志望動機の核（v6たたき台）&lt;br&gt;&lt;br&gt;&lt;b&gt;ベトナムで長く働くことを転職の軸とする中で、これまでのWeb開発経験を継続し、自分が苦労して身につけた設計・品質の観点を、現地メンバーとの共同開発やレビューにも生かせる点に魅力を感じています。&lt;/b&gt;&lt;br&gt;&lt;br&gt;私は入社1年目、変更に弱いコードでテストと修正に苦労し、その後、命名や責務分割、変更点を切り出す意味を学びました。また、新人教育では同じように変更の難しさを体験してもらい、設計理由を本人に考えてもらうレビューを行いました。&lt;br&gt;&lt;br&gt;まず国内でラクスの製品構造と実案件のレビュー方法を理解し、赴任後は、自分も実装を続けながら、現地メンバーと一つの機能を要求確認からリリース後まで共同で完了する経験を積みたいです。その中で、仕事の意図と範囲を明確に渡し、相手から実装上の提案が返る関係を作りたいと考えています。&lt;br&gt;&lt;br&gt;複数人の育成や組織的な改善は、まだ具体像を持てていません。まず上記の仕事を経験し、適性を確かめながら責任範囲を広げたいです。" vertex="1">
+                    <mxGeometry height="325" width="1230" x="160" y="4490" as="geometry"/>
+                </mxCell>
+                <mxCell id="nMotivation" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：志望動機の最終調整&lt;br&gt;&lt;br&gt;Q1. 将来像を未確定と正直に置いても、意欲不足に見えないか。どこまで削るべきか。&lt;br&gt;&lt;br&gt;Q2. 『一つの機能を現地メンバーと共同完了する』は求人の実態と合うか。&lt;br&gt;&lt;br&gt;Q3. 60～90秒回答では、原体験・提供価値・未経験領域のどれを残すか。&lt;br&gt;&lt;br&gt;目的：格好よい役割名を使わず、現実的で評価される回答へする。" vertex="1">
+                    <mxGeometry height="245" width="440" x="1580" y="4520" as="geometry"/>
+                </mxCell>
+                <mxCell id="s8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4CCCC;strokeColor=#CC0000;fontSize=19;fontStyle=1;" value="8. 逆質問：v6で残った不明点を企業へ確認する" vertex="1">
+                    <mxGeometry height="46" width="1480" x="40" y="4865" as="geometry"/>
+                </mxCell>
+                <mxCell id="reverse" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#CC0000;fontSize=14;verticalAlign=top;spacing=14;" value="① 国内勤務中のレビュー経験&lt;br&gt;国内勤務中、他メンバーの実案件の設計書やMRをレビューする機会は、どの段階からありますか。最初は先輩との並走でしょうか。&lt;br&gt;&lt;br&gt;② 赴任後の最初の担当&lt;br&gt;赴任直後は、現地メンバーとどの単位の機能を、どの工程からどの工程まで共同で担当しますか。赴任者が結果責任を持つ範囲も教えてください。&lt;br&gt;&lt;br&gt;③ 仕事の分担&lt;br&gt;要求、設計、実装、レビュー、リリース判断について、日本側とベトナム側では誰が何を決めますか。細かな判断を現地だけで進められる範囲はどこですか。&lt;br&gt;&lt;br&gt;④ 育成・改善への広がり&lt;br&gt;一機能の共同開発から、複数人のレビューや育成、開発方法の改善へ担当を広げる場合、どのような実績を確認して任せますか。&lt;br&gt;&lt;br&gt;⑤ 赴任確度&lt;br&gt;国内勤務後に赴任できると判断する基準、過去の赴任実績、延期・中止になる条件を教えてください。" vertex="1">
+                    <mxGeometry height="330" width="1320" x="120" y="4940" as="geometry"/>
+                </mxCell>
+                <mxCell id="nReverse" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#CC0000;strokeWidth=2;fontSize=13;verticalAlign=top;spacing=10;" value="エージェント確認：逆質問の優先順位&lt;br&gt;&lt;br&gt;Q. 本人が仕事内容を具体的にイメージするために、上のうち書類選考前の面談、一次面接、最終面接でそれぞれ何を聞くべきか。&lt;br&gt;&lt;br&gt;目的：意欲の演出ではなく、曖昧なキャリア仮説を実在する仕事へ変える。" vertex="1">
+                    <mxGeometry height="195" width="440" x="1580" y="5010" as="geometry"/>
+                </mxCell>
+                <mxCell id="c1" edge="1" parent="1" source="failure" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#70AD47;strokeWidth=2;endArrow=block;" target="certain">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" edge="1" parent="1" source="education" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#70AD47;strokeWidth=2;endArrow=block;" target="certain">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" edge="1" parent="1" source="overseas" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#70AD47;strokeWidth=2;endArrow=block;" target="hypothesis">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="a1" edge="1" parent="1" source="gapA" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="actionA">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="a2" edge="1" parent="1" source="actionA" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="resultA">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b1" edge="1" parent="1" source="gapB" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="actionB">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b2" edge="1" parent="1" source="actionB" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="resultB">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="d1" edge="1" parent="1" source="gapC" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="actionC">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="d2" edge="1" parent="1" source="actionC" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="resultC">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" edge="1" parent="1" source="gapD" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="actionD">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" edge="1" parent="1" source="actionD" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="resultD">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1" edge="1" parent="1" source="now" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="domestic">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2" edge="1" parent="1" source="domestic" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="vietnamFirst">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3" edge="1" parent="1" source="vietnamFirst" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8064A2;strokeWidth=2;endArrow=block;" target="future">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1" edge="1" parent="1" source="transfer" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7030A0;strokeWidth=2;endArrow=block;" target="motivation">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m2" edge="1" parent="1" source="continue" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7030A0;strokeWidth=2;endArrow=block;" target="motivation">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m3" edge="1" parent="1" source="whyRakus" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7030A0;strokeWidth=2;endArrow=block;" target="motivation">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m4" edge="1" parent="1" source="give" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7030A0;strokeWidth=2;endArrow=block;" target="motivation">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m5" edge="1" parent="1" source="gain" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#7030A0;strokeWidth=2;endArrow=block;" target="motivation">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n1" edge="1" parent="1" source="nOrigin" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="education">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n2" edge="1" parent="1" source="nIdeal" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="certain">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n3" edge="1" parent="1" source="nPrinciples" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="principle2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n4" edge="1" parent="1" source="nSW" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="weakness">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n5" edge="1" parent="1" source="nGapA" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="actionA">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n6" edge="1" parent="1" source="nGapB" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="actionB">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n7" edge="1" parent="1" source="nGapC" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="actionC">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n8" edge="1" parent="1" source="nGapD" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="actionD">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n9" edge="1" parent="1" source="nPath" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="vietnamFirst">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n10" edge="1" parent="1" source="nReason" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="whyRakus">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n11" edge="1" parent="1" source="nGive" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="give">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n12" edge="1" parent="1" source="nMotivation" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="motivation">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n13" edge="1" parent="1" source="nReverse" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=6 6;strokeColor=#CC0000;strokeWidth=2;endArrow=open;" target="reverse">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="overseas" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=14;verticalAlign=top;spacing=12;" value="未知・異文化の環境へ入りたい&lt;br&gt;&lt;br&gt;約25か国へ渡航し、タイの研究所へ約1か月半滞在。イタリア子会社の技術者とは約2週間、英語で技術確認を行い、用語が出ない場合は図や言い換えで補った。&lt;br&gt;&lt;br&gt;長期の海外共同開発経験はまだない。一方、予定どおりに進まない環境で情報を集め、試しながら進むことには魅力を感じる。&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;gt; ここの補助には海外経験いれていいのでは？&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="210" width="1000" x="280" y="575" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#70AD47;fontSize=19;fontStyle=1;" value="2. 目指す働き方：確定している希望と、まだ試していない仮説を分ける" vertex="1">
+                    <mxGeometry height="46" width="1480" x="40" y="830" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
