@@ -1,0 +1,76 @@
+<mxfile host="65bd71144e">
+    <diagram id="cJWgd5QIgMZ1qCz67APY" name="Page-1">
+        <mxGraphModel dx="968" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F4E78;strokeColor=#163A5C;fontColor=#FFFFFF;fontStyle=1;fontSize=20;align=center;" value="キャリア構造：本音の転職軸と、職業上の成長軸を分けて接続する" vertex="1">
+                    <mxGeometry height="55" width="1150" x="250" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;align=center;" value="※役職名・成長順序は暫定仮説。今日の面談で、本人の希望との一致と求人側の期待を確認する。" vertex="1">
+                    <mxGeometry height="38" width="870" x="390" y="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="careerLabel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#82B366;fontStyle=1;fontSize=15;align=center;" value="職業上の成長軸" vertex="1">
+                    <mxGeometry height="40" width="170" x="30" y="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="current" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;align=left;verticalAlign=top;spacing=10;" value="現在&#xa;役割：Web開発メンバー&#xa;&#xa;できること&#xa;・機能単位の設計／実装／テスト&#xa;・フロント／サーバー双方&#xa;・新人1名へ約25回レビュー&#xa;・作業分解と意図説明&#xa;・短期の英語技術協働&#xa;&#xa;未経験&#xa;・正式な技術リード&#xa;・複数人の継続育成&#xa;・日常的なPRレビュー&#xa;・チーム単位の改善" vertex="1">
+                    <mxGeometry height="275" width="315" x="30" y="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="gap" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;align=left;verticalAlign=top;spacing=10;" value="差分&#xa;&#xa;①役割範囲&#xa;メンバー → チームの技術判断を担う&#xa;&#xa;②技術範囲&#xa;機能設計 → システム／チーム設計&#xa;&#xa;③育成範囲&#xa;1名・単発 → 複数人・継続OJT&#xa;&#xa;④レビュー運用&#xa;対面・随時 → 日常的なMRレビュー&#xa;&#xa;⑤改善範囲&#xa;個人の工夫 → チームで測定・改善&#xa;&#xa;⑥海外経験&#xa;短期協働 → 長期の異文化チーム" vertex="1">
+                    <mxGeometry height="335" width="375" x="415" y="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="ideal" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;align=left;verticalAlign=top;spacing=10;fontStyle=0;" value="理想の役職（暫定）&lt;br&gt;&lt;br&gt;設計・品質の判断基準を言語化し、&lt;br&gt;チームで再現できる状態を作る人&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;gt; ふんわりした言葉に逃げていないか？&lt;br&gt;&lt;/font&gt;&lt;br&gt;具体的な仕事&lt;br&gt;・チームの設計方針／品質基準を担う&lt;br&gt;・設計／コードレビューで判断理由を共有&lt;br&gt;・複数人向けOJTとレビュー方法を設計&lt;br&gt;・現地リーダーと技術判断を共同で行う&lt;br&gt;・必要な範囲では自分も実装する&lt;br&gt;&lt;br&gt;「育成・レビュー・技術選定を全部やる人」&lt;br&gt;ではなく、判断基準をチームへ残すことが核&lt;/div&gt;&lt;div&gt;&amp;gt; ここもふわふわしているので、どんな仕事をして何が効果があるのか、&lt;/div&gt;&lt;div&gt;なぜそれをしたいのか、それに意味があるのかみたいなのがわかるようにして。そうじゃないと僕も腹落ちして話せない。&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="335" width="425" x="860" y="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="eCurrentGap" edge="1" parent="1" source="current" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#666666;" target="gap">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eGapIdeal" edge="1" parent="1" source="gap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#666666;" target="ideal">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pathLabel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontStyle=1;fontSize=14;align=center;" value="差分を埋めるキャリアパス＝役職名だけでなく、獲得すべき仕事経験を置く" vertex="1">
+                    <mxGeometry height="42" width="900" x="255" y="545" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;align=left;verticalAlign=top;spacing=10;" value="短期：国内開発&lt;br&gt;役割仮説：Senior Engineer／Lead候補&lt;br&gt;&lt;br&gt;得るべき仕事経験&lt;br&gt;・SaaSの1機能を設計～テストまで担当&lt;br&gt;・MRレビューを日常的に受ける／返す&lt;br&gt;・設計／アーキテクチャレビューへ参加&lt;br&gt;・品質指標やレビュー基準を理解&lt;br&gt;&lt;br&gt;主に埋める差分：②技術、④レビュー&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt;技術って言葉抽象的ではないか？　もっと具体的に何が足りなくて何をしたいかを言葉にしてくださいよ&lt;/div&gt;&lt;div&gt;そもそも差分の項目がリストとして図に書いてあって　それをつぶすために、ここでは何をします　みたいな&lt;/div&gt;&lt;div&gt;図にしてください&lt;/div&gt;&lt;div&gt;内容を無理に箇条書きにして短くしなくてもいいから&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="210" width="360" x="70" y="615" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;align=left;verticalAlign=top;spacing=10;" value="中期：ベトナム赴任後&lt;br&gt;役割仮説：Player-Coach／Technical Mentor&lt;br&gt;&lt;br&gt;得るべき仕事経験&lt;br&gt;・複数メンバーへの継続OJT&lt;br&gt;・現地PLと設計／コードレビュー&lt;br&gt;・レビュー観点をチームで再利用&lt;br&gt;・測定可能な小規模改善を1つ試行&lt;br&gt;・長期の異文化チーム協働&lt;br&gt;&lt;br&gt;主に埋める差分：③育成、⑤改善、⑥海外&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt;&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;もっと具体的に何が足りなくて何をしたいかを言葉にしてくださいよ&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;そもそも差分の項目がリストとして図に書いてあって　それをつぶすために、ここでは何をします　みたいな&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;図にしてください&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;内容を無理に箇条書きにして短くしなくてもいいから&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="240" width="390" x="505" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;align=left;verticalAlign=top;spacing=10;" value="長期：理想の役割&lt;br&gt;Hands-on Tech Lead&lt;br&gt;&lt;br&gt;担う仕事&lt;br&gt;・チームの技術判断と品質基準&lt;br&gt;・設計／コードレビューの仕組み&lt;br&gt;・育成方法と改善サイクル&lt;br&gt;・現地メンバーの提案／判断を支援&lt;br&gt;&lt;br&gt;到達状態&lt;br&gt;自分が全部決めるのではなく、&lt;br&gt;判断基準がチーム内で再現される&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt;&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;もっと具体的に何が足りなくて何をしたいかを言葉にしてくださいよ&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;そもそも差分の項目がリストとして図に書いてあって　それをつぶすために、ここでは何をします　みたいな&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;図にしてください&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(168, 169, 170, 0.52) rgb(18, 19, 20);&quot;&gt;内容を無理に箇条書きにして短くしなくてもいいから&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="210" width="360" x="970" y="615" as="geometry"/>
+                </mxCell>
+                <mxCell id="eP1P2" edge="1" parent="1" source="phase1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#9673A6;" target="phase2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eP2P3" edge="1" parent="1" source="phase2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#9673A6;" target="phase3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eGapPath" edge="1" parent="1" source="gap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#B85450;" target="pathLabel">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="motivationLabel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontStyle=1;fontSize=15;align=center;" value="転職理由・応募理由：二つの軸を混ぜない" vertex="1">
+                    <mxGeometry height="42" width="600" x="410" y="875" as="geometry"/>
+                </mxCell>
+                <mxCell id="personal" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;align=left;verticalAlign=middle;spacing=10;" value="本音の生活軸&#xa;海外（特にベトナム）で長く暮らし、働きたい&#xa;→ 現職では実現できない&#xa;→ 転職を考えた直接のきっかけ" vertex="1">
+                    <mxGeometry height="120" width="390" x="70" y="950" as="geometry"/>
+                </mxCell>
+                <mxCell id="careerReason" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;align=left;verticalAlign=middle;spacing=10;" value="職業・キャリア軸&#xa;開発は続けたい：壊れる／壊れにくい差を、&#xa;設計知識で理解・改善することが面白い&#xa;＋ 現在→理想の差分を埋める仕事経験が必要&#xa;→ どの職種・求人を選ぶかの理由" vertex="1">
+                    <mxGeometry height="140" width="430" x="505" y="940" as="geometry"/>
+                </mxCell>
+                <mxCell id="intersection" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;align=left;verticalAlign=top;spacing=10;fontStyle=1;" value="ラクス求人との交点＝応募理由&#xa;&#xa;海外で長期勤務できる&#xa;× Web開発経験を継続できる&#xa;× レビュー／育成／Player-Coachの経験を積める&#xa;× 国内で製品を理解してから赴任できる&#xa;&#xa;重要：キャリア差分は転職の本音を捏造する材料ではなく、&#xa;「なぜこの職種・求人か」を説明する材料" vertex="1">
+                    <mxGeometry height="170" width="470" x="995" y="925" as="geometry"/>
+                </mxCell>
+                <mxCell id="ePersonalIntersection" edge="1" parent="1" source="personal" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#D6B656;" target="intersection">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eCareerIntersection" edge="1" parent="1" source="careerReason" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6C8EBF;" target="intersection">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="questions" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;align=left;verticalAlign=top;spacing=10;" value="面談で確認すること&lt;br&gt;① この理想役職は本人の希望か、求人合わせになっていないか&lt;br&gt;②&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;入社時／赴任時に求められる責任範囲はどこか&lt;/span&gt;&lt;div&gt;③ 海外勤務を転職理由、キャリア差分を求人選択理由として分けてよいか&lt;/div&gt;&lt;div&gt;&amp;gt; なんかこの質問も何でこれを聞いていて、その先に何を知りたいのかが不明瞭&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="335" width="290" x="1325" y="175" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
