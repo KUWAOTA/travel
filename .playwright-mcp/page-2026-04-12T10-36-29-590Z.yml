@@ -1,0 +1,185 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - generic [ref=e9]:
+          - link "logo" [ref=e11] [cursor=pointer]:
+            - /url: /jp/ja/home.html
+            - img "logo" [ref=e13]
+          - list [ref=e15]:
+            - link "送金" [ref=e16] [cursor=pointer]:
+              - /url: /jp/ja/web/send-money/start
+              - text: 送金
+            - link "送金状況の確認" [ref=e17] [cursor=pointer]:
+              - /url: /global-service/track-transfer
+              - text: 送金状況の確認
+            - text:  
+            - listitem [ref=e18]:
+              - generic [ref=e19]:
+                - link "MoreMenu" [ref=e20] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text:        
+            - listitem
+            - link "ログイン" [ref=e25] [cursor=pointer]:
+              - /url: /jp/ja/web/user/login
+            - listitem
+      - text: 
+    - main [ref=e26]:
+      - generic [ref=e29]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - heading "Western Unionへようこそ" [level=1] [ref=e38]
+            - generic [ref=e40]: 開始しましょう。
+            - search [ref=e45]:
+              - generic [ref=e46]:
+                - generic:
+                  - generic: 
+                - generic: 受取人の国を選択
+                - textbox "Country" [ref=e47]: エクアドル
+          - generic [ref=e48]:
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - generic [ref=e55]:
+                  - generic: 送金額
+                  - textbox "送金額 in JPY" [ref=e56]:
+                    - /placeholder: 送金額
+                    - text: "50000"
+                  - generic: JPY
+                - img [ref=e57]
+                - generic [ref=e63]:
+                  - generic: 受取金額
+                  - textbox "受取金額 in USD" [ref=e64]:
+                    - /placeholder: " \n                            受取金額"
+                    - text: "0.00"
+                  - generic: USD
+              - generic [ref=e70]: "次の最大額を送金する: 1,000,000.00 JPY"
+            - paragraph [ref=e75]:
+              - strong [ref=e77]:
+                - generic [ref=e78]:
+                  - text: 1.00 JPY = US Dollar (USD)
+                  - superscript [ref=e79]: "2"
+          - generic [ref=e86]:
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic "概要" [ref=e95]
+                - generic [ref=e96]:
+                  - generic [ref=e97]: 換算レート
+                  - superscript [ref=e98]: "2"
+                - separator [ref=e99]
+                - generic [ref=e102]:
+                  - text: 1.00 JPY =
+                  - generic [ref=e103]: 0.0000 USD
+              - generic [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: 送金額
+                  - generic [ref=e108]: 50,000.00 JPY
+                - generic [ref=e110]:
+                  - generic [ref=e111]: 送金手数料
+                  - text: "2"
+                  - generic [ref=e112]: + 0.00 JPY
+                - generic [ref=e114]:
+                  - generic [ref=e115]: 送金合計
+                  - generic [ref=e116]: 50,000.00 JPY
+                - generic [ref=e118]:
+                  - generic [ref=e119]:
+                    - generic [ref=e120]:
+                      - generic [ref=e121]: 合計
+                      - text: 受取人宛
+                    - superscript
+                  - separator [ref=e123]
+                  - generic [ref=e124]:
+                    - text: "0.00"
+                    - generic [ref=e125]: USD
+                - generic [ref=e127]:
+                  - separator [ref=e128]
+                  - generic [ref=e130]:
+                    - generic [ref=e131]: "サービス時間:"
+                    - text: "1"
+                    - generic [ref=e133]: 営業日
+                    - generic [ref=e134]: 営業日
+            - text: 
+        - generic [ref=e144]:
+          - separator [ref=e145]
+          - generic [ref=e146]:
+            - link "(Click to hide) 法的免責条項と重要な情報" [expanded] [ref=e148] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - text: 法的免責条項と重要な情報
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - paragraph
+              - paragraph [ref=e153]:
+                - superscript [ref=e154]: "1"
+                - text: サービスおよび資金の遅延または利用可否は、さまざまな要因によって異なります。たとえば、選択したサービス、遅延配送オプションの選択、送金額、送金先国、利用できる通貨、規制上の問題、消費者保護の問題、本人確認の要件、配送制限、取扱店の営業時間、およびタイムゾーンの違い（まとめて「制約」）などです。追加の制限が適用されることがあります。詳細は、注意事項と約款を参照してください。
+              - paragraph [ref=e156]:
+                - superscript [ref=e157]: "2"
+                - text: また、Western Unionは、通貨換算によって利益を得ています。送金サービスを選択する際には、送金手数料と換算レートの両方を慎重に比較検討してください。手数料、外貨換算レート、および税は、様々な要因によってブランド、チャネル、および店舗ごとに異なります。手数料と換算レートは予告なく変更される場合があります。
+            - separator [ref=e158]
+      - text: 
+    - contentinfo [ref=e160]:
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - generic:
+            - list:
+              - listitem [ref=e164]:
+                - link "ホーム" [ref=e165] [cursor=pointer]:
+                  - /url: /jp/ja/home.html
+              - listitem [ref=e166]:
+                - link "会社情報" [ref=e167] [cursor=pointer]:
+                  - /url: https://corporate.westernunion.com
+              - listitem [ref=e168]:
+                - link "Western Unionについて" [ref=e169] [cursor=pointer]:
+                  - /url: https://corporate.westernunion.com/index.html
+              - listitem [ref=e170]:
+                - link "ブログ" [ref=e171] [cursor=pointer]:
+                  - /url: https://www.westernunion.com/blog/
+              - listitem [ref=e172]:
+                - link "セキュリティに関する問題を報告する" [ref=e173] [cursor=pointer]:
+                  - /url: https://bugcrowd.com/westernunion
+              - listitem [ref=e174]:
+                - link "投資家向け広報" [ref=e175] [cursor=pointer]:
+                  - /url: http://ir.westernunion.com/investor-relations/default.aspx
+              - listitem [ref=e176]:
+                - link "採用情報" [ref=e177] [cursor=pointer]:
+                  - /url: https://careers.westernunion.com
+              - listitem [ref=e178]:
+                - link "WU基金" [ref=e179] [cursor=pointer]:
+                  - /url: https://foundation.westernunion.com/index.html
+              - listitem [ref=e180]:
+                - link "知的財産権" [ref=e181] [cursor=pointer]:
+                  - /url: /jp/ja/legal/intellectual-property.html
+              - listitem [ref=e182]:
+                - link "プライバシーポリシー" [ref=e183] [cursor=pointer]:
+                  - /url: /jp/ja/legal/privacy-statement.html
+              - listitem [ref=e184]:
+                - link "注意事項と約款" [ref=e185] [cursor=pointer]:
+                  - /url: /jp/ja/legal/terms-conditions-digital.html
+              - listitem [ref=e186]:
+                - link "クッキー設定の変更" [ref=e187] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e188]:
+                - link "詐欺に遭わないために" [ref=e189] [cursor=pointer]:
+                  - /url: /jp/ja/fraudawareness/fraud-home.html
+              - listitem [ref=e190]:
+                - link "サイトマップ" [ref=e191] [cursor=pointer]:
+                  - /url: /jp/ja/site-map.html
+              - listitem [ref=e192]:
+                - link "お問い合わせ" [ref=e193] [cursor=pointer]:
+                  - /url: /jp/ja/contact-us.html
+        - paragraph [ref=e196]: 日本でのWestern Unionオンラインサービスは、Western Union Japan KK（法人番号：0104-01-114302）が提供します。
+        - paragraph [ref=e199]: © 2026 Western Union Holdings, Inc.All Rights Reserved
+        - generic [ref=e200]:
+          - paragraph [ref=e203]: 以下をフォローしてください
+          - generic [ref=e204]:
+            - link "Follow us on facebook (Opens in new tab)" [ref=e205] [cursor=pointer]:
+              - /url: https://www.facebook.com/WesternUnion
+              - img "facebook" [ref=e206]
+            - link "Follow us on youtube (Opens in new tab)" [ref=e207] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/westernunion
+              - img "youtube" [ref=e208]
+            - link "Follow us on Instagram (Opens in new tab)" [ref=e209] [cursor=pointer]:
+              - /url: https://www.instagram.com/westernunion
+              - img "instagram" [ref=e210]
+            - link "Follow us on twitter (Opens in new tab)" [ref=e211] [cursor=pointer]:
+              - /url: https://twitter.com/WesternUnion
+              - img "twitter" [ref=e212]
+  - text: 

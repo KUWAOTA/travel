@@ -1,0 +1,270 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - img "logo" [ref=e352] [cursor=pointer]
+        - progressbar "Progress Bar Aria Label" [ref=e888]:
+          - progressbar "Progress Bar Aria Label" [ref=e889]:
+            - progressbar "Progress-Bar-Options" [ref=e891]:
+              - listitem [ref=e892]
+              - listitem "Receiver" [ref=e893]
+              - listitem "Review" [ref=e894]
+              - listitem "Receipt" [ref=e895]
+      - text: 
+    - main [ref=e26]:
+      - generic [ref=e896]:
+        - generic [ref=e898]:
+          - generic [ref=e899]:
+            - generic [ref=e901]:
+              - heading "受取人の情報" [level=1] [ref=e902]
+              - generic [ref=e903]:
+                - paragraph [ref=e904]: WU取扱店で受取人の本人確認が行われます。
+                - list [ref=e905]:
+                  - listitem [ref=e906]: 受取人名を本人確認書類に記載されている通りに正確に入力してください。
+                  - listitem [ref=e907]: まだ資金が受取済みになっていない場合に限り、送金の受取人名に軽微な変更を加えることができます。
+              - generic [ref=e913] [cursor=pointer]:
+                - generic [ref=e915]: TU
+                - generic [ref=e918]: 自分 (Takuma Uno)
+                - generic [ref=e920]: 
+              - generic [ref=e923] [cursor=pointer]:
+                - generic [ref=e924]: 
+                - generic [ref=e925]: 新しい受取人を追加する
+                - generic [ref=e926]: 
+              - generic [ref=e927]:
+                - heading "選択した国の受取人" [level=2] [ref=e929]
+                - generic [ref=e934]:
+                  - generic [ref=e935] [cursor=pointer]:
+                    - generic [ref=e937]: OV
+                    - generic [ref=e940]: Oliverio Velastegui
+                    - generic [ref=e942]: 
+                  - generic [ref=e943]:
+                    - generic [ref=e949]:
+                      - generic [ref=e952]:
+                        - generic [ref=e953]:
+                          - generic [ref=e954]: "1"
+                          - heading "受取人の個人情報" [level=2] [ref=e955]
+                        - separator [ref=e957]
+                        - generic [ref=e958]: Oliverio Velastegui
+                      - generic [ref=e962]:
+                        - generic [ref=e963]:
+                          - generic [ref=e964]: "2"
+                          - heading "受取人の住所" [level=2] [ref=e965]
+                        - separator [ref=e967]
+                        - generic [ref=e969]: Puyo, Pastaza
+                    - generic [ref=e972]:
+                      - generic [ref=e974]:
+                        - generic [ref=e975]:
+                          - generic [ref=e976]: "3"
+                          - heading "追加情報" [level=3] [ref=e977]
+                        - generic [ref=e980]:
+                          - generic [ref=e983]:
+                            - combobox "取引目的" [ref=e984]:
+                              - option [selected]
+                              - option "家族の支援／生活費"
+                              - option "贈与"
+                              - option "旅費"
+                              - option "教育／学費"
+                              - option "緊急／医療支援"
+                            - generic: 取引目的
+                          - generic [ref=e988]:
+                            - combobox "資金源" [ref=e989]:
+                              - option [selected]
+                              - option "給与"
+                              - option "貯蓄"
+                              - option "年金/政府/福祉"
+                              - option "贈与"
+                              - option "相続財産"
+                              - option "投資からの収入"
+                            - generic: 資金源
+                          - generic [ref=e993]:
+                            - combobox "受取人との関係" [ref=e994]:
+                              - option [selected]
+                              - option "チャリティ基金の供与者/受益者"
+                              - option "友人"
+                              - option "買い手/売り手"
+                              - option "被雇用者/雇用主"
+                              - option "取引/ビジネスパートナー"
+                              - option "家族"
+                            - generic: 受取人との関係
+                      - button "続行" [ref=e997] [cursor=pointer]
+            - text: 
+          - generic [ref=e1007]:
+            - separator [ref=e1008]
+            - generic [ref=e1009]:
+              - link "(Click to hide) 法的免責条項と重要な情報" [expanded] [ref=e1011] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - text: 法的免責条項と重要な情報
+              - generic [ref=e1013]:
+                - generic [ref=e1014]:
+                  - paragraph
+                - paragraph [ref=e1016]:
+                  - superscript [ref=e1017]: "1"
+                  - text: サービスおよび資金の遅延または利用可否は、さまざまな要因によって異なります。たとえば、選択したサービス、遅延配送オプションの選択、送金額、送金先国、利用できる通貨、規制上の問題、消費者保護の問題、本人確認の要件、配送制限、取扱店の営業時間、およびタイムゾーンの違い（まとめて「制約」）などです。追加の制限が適用されることがあります。詳細は、注意事項と約款を参照してください。
+                - paragraph [ref=e1019]:
+                  - superscript [ref=e1020]: "2"
+                  - text: また、Western Unionは、通貨換算によって利益を得ています。送金サービスを選択する際には、送金手数料と換算レートの両方を慎重に比較検討してください。手数料、外貨換算レート、および税は、様々な要因によってブランド、チャネル、および店舗ごとに異なります。手数料と換算レートは予告なく変更される場合があります。
+                - paragraph [ref=e1022]:
+                  - superscript [ref=e1023]: "4"
+                  - text: 銀行によっては、国内送金または海外送金に手数料がかかります。ご利用の銀行にご確認ください。
+                - paragraph [ref=e1025]:
+                  - superscript [ref=e1026]: "5"
+                  - generic [ref=e1027]:
+                    - text: 上記の送金手数料の見積は、本日付けのオンライン取引に対する計算額です。取扱店の手数料はオンライン手数料とは異なる場合があります。お近くの取扱店を探して手数料の見積を入手するには、
+                    - link "こちらをクリック" [ref=e1028] [cursor=pointer]:
+                      - /url: "http://locations.westernunion.com/search/{{ countryCode }}"
+                    - text: してください。
+                - paragraph [ref=e1030]:
+                  - superscript [ref=e1031]: "6"
+                  - text: 受取人は、 エクアドル 内のどの取扱店でも送金を受け取ることができます。
+                - paragraph [ref=e1033]:
+                  - superscript [ref=e1034]: "7"
+                  - text: 受取人がこれらの資金を受け取るときに提示する、本人確認書類に記載されている通りに受取人の名前を入力します。
+                - paragraph [ref=e1036]:
+                  - superscript [ref=e1037]: "13"
+                  - text: 通常、資金はWestern Unionの銀行口座に入金後3～5営業日以内に受取人の銀行口座へ入金されます
+              - separator [ref=e1038]
+        - dialog [ref=e1042]:
+          - generic [ref=e1045]:
+            - generic [ref=e1046]:
+              - generic [ref=e1048]: 詐欺に遭わないために
+              - img "wu-fraud_warning-image" [ref=e1049]
+              - paragraph [ref=e1051]: Western Unionは、友人やご家族への送金のみにご利用ください。見ず知らずの他人には決して送金しないでください。
+              - generic [ref=e1052]:
+                - separator [ref=e1053]
+                - generic [ref=e1054]:
+                  - paragraph [ref=e1055]: 次のような目的であなたに送金を求める相手に送金しないでください
+                  - paragraph [ref=e1056]:
+                    - list [ref=e1057]:
+                      - listitem [ref=e1058]:
+                        - generic [ref=e1059]:
+                          - generic [ref=e1061]: 
+                          - generic [ref=e1062]: お客様が確認されていない緊急事態。
+                      - listitem [ref=e1063]:
+                        - generic [ref=e1064]:
+                          - generic [ref=e1066]: 
+                          - generic [ref=e1067]: オンライン購入。
+                      - listitem [ref=e1068]:
+                        - generic [ref=e1069]:
+                          - generic [ref=e1071]: 
+                          - generic [ref=e1072]: ウイルス対策。
+                      - listitem [ref=e1073]:
+                        - generic [ref=e1074]:
+                          - generic [ref=e1076]: 
+                          - generic [ref=e1077]: 賃貸物件の敷金または支払い。
+                      - listitem [ref=e1078]:
+                        - generic [ref=e1079]:
+                          - generic [ref=e1081]: 
+                          - generic [ref=e1082]: チャリティへの寄付。
+                      - listitem [ref=e1083]:
+                        - generic [ref=e1084]:
+                          - generic [ref=e1086]: 
+                          - generic [ref=e1087]: 覆面調査の任命。
+                      - listitem [ref=e1088]:
+                        - generic [ref=e1089]:
+                          - generic [ref=e1091]: 
+                          - generic [ref=e1092]: 職の斡旋。
+                      - listitem [ref=e1093]:
+                        - generic [ref=e1094]:
+                          - generic [ref=e1096]: 
+                          - generic [ref=e1097]: クレジットカードやローンの手数料。
+                      - listitem [ref=e1098]:
+                        - generic [ref=e1099]:
+                          - generic [ref=e1101]: 
+                          - generic [ref=e1102]: 見ず知らずの人物宛て。
+                      - listitem [ref=e1103]:
+                        - generic [ref=e1104]:
+                          - generic [ref=e1106]: 
+                          - generic [ref=e1107]: 宝くじや賞金の獲得。
+                      - listitem [ref=e1108]:
+                        - generic [ref=e1109]:
+                          - generic [ref=e1111]: 
+                          - generic [ref=e1112]: 税金の支払。
+                      - listitem [ref=e1113]:
+                        - generic [ref=e1114]:
+                          - generic [ref=e1116]: 
+                          - generic [ref=e1117]: 移民問題の解決。
+                      - listitem [ref=e1118]:
+                        - generic [ref=e1119]:
+                          - generic [ref=e1121]: 
+                          - generic [ref=e1122]: テレマーケティングの電話販売で購入した商品またはサービスに対する支払いについて米国では、テレマーケティングで販売した商品またはサービスに対して支払いを送金で受け取ることは禁じられています。この送金は違法です。
+            - generic [ref=e1123]:
+              - generic [ref=e1124]:
+                - separator [ref=e1125]
+                - generic [ref=e1126]:
+                  - paragraph [ref=e1127]: お客様が送金すると、送金相手はすぐにお金を受け取ります。お金が支払われた後では、たとえお客様が詐欺の被害者であったとしても、限られた状況を除いて、Western Unionはお客様に払い戻しをすることはできません。
+                  - paragraph [ref=e1128]:
+                    - text: お客様が詐欺の被害に遭ったと思われる場合は、Western Unionの詐欺ホットライン 0120961623までお問い合わせください。
+                    - link "wu.com/fraudawareness" [ref=e1129] [cursor=pointer]:
+                      - /url: /jp/ja/fraud-awareness.html
+                    - text: .
+              - button "承諾" [ref=e1130] [cursor=pointer]
+        - text:  
+      - text: 
+    - contentinfo [ref=e160]:
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - generic:
+            - list:
+              - listitem [ref=e164]:
+                - link "ホーム" [ref=e165] [cursor=pointer]:
+                  - /url: /jp/ja/home.html
+              - listitem [ref=e166]:
+                - link "会社情報" [ref=e167] [cursor=pointer]:
+                  - /url: https://corporate.westernunion.com
+              - listitem [ref=e168]:
+                - link "Western Unionについて" [ref=e169] [cursor=pointer]:
+                  - /url: https://corporate.westernunion.com/index.html
+              - listitem [ref=e170]:
+                - link "ブログ" [ref=e171] [cursor=pointer]:
+                  - /url: https://www.westernunion.com/blog/
+              - listitem [ref=e172]:
+                - link "セキュリティに関する問題を報告する" [ref=e173] [cursor=pointer]:
+                  - /url: https://bugcrowd.com/westernunion
+              - listitem [ref=e174]:
+                - link "投資家向け広報" [ref=e175] [cursor=pointer]:
+                  - /url: http://ir.westernunion.com/investor-relations/default.aspx
+              - listitem [ref=e176]:
+                - link "採用情報" [ref=e177] [cursor=pointer]:
+                  - /url: https://careers.westernunion.com
+              - listitem [ref=e178]:
+                - link "WU基金" [ref=e179] [cursor=pointer]:
+                  - /url: https://foundation.westernunion.com/index.html
+              - listitem [ref=e180]:
+                - link "知的財産権" [ref=e181] [cursor=pointer]:
+                  - /url: /jp/ja/legal/intellectual-property.html
+              - listitem [ref=e182]:
+                - link "プライバシーポリシー" [ref=e183] [cursor=pointer]:
+                  - /url: /jp/ja/legal/privacy-statement.html
+              - listitem [ref=e184]:
+                - link "注意事項と約款" [ref=e185] [cursor=pointer]:
+                  - /url: /jp/ja/legal/terms-conditions-digital.html
+              - listitem [ref=e186]:
+                - link "クッキー設定の変更" [ref=e187] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e188]:
+                - link "詐欺に遭わないために" [ref=e189] [cursor=pointer]:
+                  - /url: /jp/ja/fraudawareness/fraud-home.html
+              - listitem [ref=e190]:
+                - link "サイトマップ" [ref=e191] [cursor=pointer]:
+                  - /url: /jp/ja/site-map.html
+              - listitem [ref=e192]:
+                - link "お問い合わせ" [ref=e193] [cursor=pointer]:
+                  - /url: /jp/ja/contact-us.html
+        - paragraph [ref=e196]: 日本でのWestern Unionオンラインサービスは、Western Union Japan KK（法人番号：0104-01-114302）が提供します。
+        - paragraph [ref=e199]: © 2026 Western Union Holdings, Inc.All Rights Reserved
+        - generic [ref=e200]:
+          - paragraph [ref=e203]: 以下をフォローしてください
+          - generic [ref=e204]:
+            - link "Follow us on facebook (Opens in new tab)" [ref=e205] [cursor=pointer]:
+              - /url: https://www.facebook.com/WesternUnion
+              - img "facebook" [ref=e206]
+            - link "Follow us on youtube (Opens in new tab)" [ref=e207] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/westernunion
+              - img "youtube" [ref=e208]
+            - link "Follow us on Instagram (Opens in new tab)" [ref=e209] [cursor=pointer]:
+              - /url: https://www.instagram.com/westernunion
+              - img "instagram" [ref=e210]
+            - link "Follow us on twitter (Opens in new tab)" [ref=e211] [cursor=pointer]:
+              - /url: https://twitter.com/WesternUnion
+              - img "twitter" [ref=e212]
+  - text:  

@@ -1,0 +1,24 @@
+以下の単語の正確な意味、包含関係をわからずに使っています。
+mermaidなりなんなりの、何らかの方法で図式化してください。
+また解説もレポートで出してください
+出力先はC:\Users\ukowu\Desktop\travel\そのほか
+です。
+
+ライブラリ
+dll
+モジュール
+コンポーネント
+jar
+デプロイ
+numpy
+mermaid
+ruby on rails
+フレームワーク
+vue.js
+django
+smartGwt
+matplotlib
+hybernate
+名前空間
+クラス
+ファイル

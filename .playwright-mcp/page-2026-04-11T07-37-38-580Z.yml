@@ -1,0 +1,287 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - generic [ref=e9]:
+          - img "logo" [ref=e347] [cursor=pointer]
+          - list [ref=e615]:
+            - text: 
+            - link "送金" [ref=e616] [cursor=pointer]:
+              - /url: /jp/ja/web/send-money/start
+              - text: 送金
+            - link "送金状況の確認" [ref=e617] [cursor=pointer]:
+              - /url: /global-service/track-transfer
+              - text: 送金状況の確認
+            - link "取扱店舗の検索" [ref=e618] [cursor=pointer]:
+              - /url: /jp/ja/find-locations.html
+              - text: 取扱店舗の検索
+            - text: 
+            - listitem [ref=e619]:
+              - generic [ref=e620]:
+                - link "MoreMenu" [ref=e621] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text:       
+            - listitem
+            - link "Profile":
+              - /url: /jp/ja/account/app/profile
+              - generic [ref=e626] [cursor=pointer]: 
+              - generic [ref=e627] [cursor=pointer]: TAKUMA UNO
+            - link "ログアウト" [ref=e628] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - listitem
+      - text: 
+    - main [ref=e28]:
+      - generic [ref=e629]:
+        - generic [ref=e638]: デバイスの確認が完了しました
+        - generic [ref=e639]:
+          - generic [ref=e644]:
+            - generic [ref=e645]:
+              - heading "いらっしゃいませ Takuma" [level=1] [ref=e647]
+              - generic [ref=e649]: 開始しましょう。
+              - search [ref=e654]:
+                - generic [ref=e655]:
+                  - generic:
+                    - generic: 
+                  - generic: 受取人の国を選択
+                  - textbox "Country" [ref=e656]: エクアドル
+            - generic [ref=e657]:
+              - generic [ref=e661]:
+                - generic [ref=e662]:
+                  - generic [ref=e664]:
+                    - generic: 送金額
+                    - textbox "送金額 in JPY" [ref=e665]:
+                      - /placeholder: 送金額
+                      - text: "27500.00"
+                    - generic: JPY
+                  - img [ref=e666]
+                  - generic [ref=e672]:
+                    - generic: 受取金額
+                    - textbox "受取金額 in USD" [ref=e673]:
+                      - /placeholder: " \n                            受取金額"
+                      - text: "167.33"
+                    - generic: USD
+                - generic [ref=e679]: "次の最大額を送金する: 1,000,000.00 JPY"
+              - paragraph [ref=e684]:
+                - strong [ref=e686]:
+                  - generic [ref=e687]:
+                    - text: 1.00 JPY = 0.0061 US Dollar (USD)
+                    - superscript [ref=e688]: "2"
+              - generic:
+                - separator
+            - generic [ref=e690]:
+              - generic [ref=e691]:
+                - generic [ref=e692]:
+                  - heading "受取人が希望する受け取り方法は？" [level=2] [ref=e696]
+                  - generic [ref=e699]:
+                    - application "Pick up cash at any agent location. Please see disclaimers 1, 13 in the disclaimer section." [active] [ref=e700] [cursor=pointer]:
+                      - generic [ref=e701]:
+                        - generic [ref=e705]: 
+                        - heading "現金受取6" [level=3] [ref=e897]:
+                          - strong [ref=e708]: 現金受取
+                          - region [ref=e898]: "6"
+                        - generic [ref=e709]:
+                          - generic [ref=e710]:
+                            - strong [ref=e713]: 数分後
+                            - superscript [ref=e714]: 1, 13
+                          - heading "1.00 JPY = 0.0061 USD 2" [level=3] [ref=e715]:
+                            - strong [ref=e716]:
+                              - text: 1.00 JPY = 0.0061 USD
+                              - superscript [ref=e717]: "2"
+                    - application "Receive the money directly in a bank account. Please see disclaimers 10 in the disclaimer section." [ref=e718] [cursor=pointer]:
+                      - generic [ref=e719]:
+                        - generic [ref=e721]: 人気
+                        - generic [ref=e725]: 
+                        - heading "銀行口座" [level=3] [ref=e899]:
+                          - strong [ref=e728]: 銀行口座
+                        - generic [ref=e730]:
+                          - generic [ref=e731]:
+                            - strong [ref=e734]: 即時口座振込
+                            - superscript [ref=e735]: 1, 8, 12
+                          - heading "1.00 JPY = 0.0062 USD 2" [level=3] [ref=e736]:
+                            - strong [ref=e737]:
+                              - text: 1.00 JPY = 0.0062 USD
+                              - superscript [ref=e738]: "2"
+                - generic [ref=e739]:
+                  - generic [ref=e740]:
+                    - separator [ref=e741]
+                    - heading "ご希望の支払方法は？" [level=2] [ref=e744]:
+                      - text: ご希望の支払方法は？
+                      - superscript:
+                        - strong
+                  - generic [ref=e747]:
+                    - application "Pay with a コンビニエンスストアで支払い.The money will arrive in 0-2 営業日.The fee is 880 JPY. .Please see disclaimers , 2, 5, in the disclaimer section." [ref=e900] [cursor=pointer]:
+                      - generic [ref=e901]:
+                        - generic [ref=e905]: 
+                        - heading "コンビニエンスストアで支払い" [level=3] [ref=e907]:
+                          - strong [ref=e908]: コンビニエンスストアで支払い
+                          - superscript
+                        - heading "手数料2, 5 880.00 JPY" [level=3] [ref=e910]:
+                          - strong [ref=e911]:
+                            - text: 手数料
+                            - superscript [ref=e912]: 2, 5
+                            - text: 880.00 JPY
+                    - application "Pay with a 銀行振込.The money will arrive in 0 数分後.The fee is 880 JPY. .Please see disclaimers , 2, 5, in the disclaimer section." [ref=e914] [cursor=pointer]:
+                      - generic [ref=e915]:
+                        - generic [ref=e917]: 人気
+                        - generic [ref=e921]: 
+                        - heading "銀行振込4" [level=3] [ref=e923]:
+                          - strong [ref=e924]: 銀行振込
+                          - superscript [ref=e925]: "4"
+                        - heading "手数料2, 5 880.00 JPY" [level=3] [ref=e927]:
+                          - strong [ref=e928]:
+                            - text: 手数料
+                            - superscript [ref=e929]: 2, 5
+                            - text: 880.00 JPY
+                - generic [ref=e788]:
+                  - text: 銀行振替で支払うには：
+                  - list [ref=e789]:
+                    - listitem [ref=e790]: Western Unionで銀行振込を開始します。
+                    - listitem [ref=e791]: 銀行口座にログインするか最寄りの支店に行き、領収書ページで共有されている口座番号に正確な金額を送金してください。
+                    - listitem [ref=e792]: 口座番号は、送金ごとに一意です。
+                    - listitem [ref=e793]: 法人口座からの支払いは受け付けておりませんのでご注意ください。
+                - separator [ref=e795]
+              - generic [ref=e796]:
+                - link "プロモコードがあります" [ref=e801] [cursor=pointer]:
+                  - /url: "javascript: void(0)"
+                  - generic [ref=e802]: 
+                  - generic [ref=e803]: プロモコードがあります
+                - separator [ref=e805]
+              - button "Continue to next page" [ref=e809] [cursor=pointer]: 続ける
+          - generic [ref=e811]:
+            - generic [ref=e814]:
+              - generic [ref=e818]: 概要
+              - generic [ref=e819]:
+                - generic [ref=e821]:
+                  - generic [ref=e822]:
+                    - generic [ref=e823]: 換算レート
+                    - superscript [ref=e824]: "2"
+                    - separator [ref=e825]
+                  - generic [ref=e828]: 1.00 JPY = 0.0061 USD
+                  - separator [ref=e830]
+                - generic [ref=e832]:
+                  - generic [ref=e833]: 送金額
+                  - generic [ref=e834]: 27,500.00 JPY
+                - generic [ref=e836]:
+                  - generic [ref=e837]: 送金手数料
+                  - text: 2,5
+                  - generic [ref=e838]: + 880.00 JPY
+                - generic [ref=e840]:
+                  - generic [ref=e841]: 送金合計
+                  - generic [ref=e842]: 28,380.00 JPY
+                - generic [ref=e844]:
+                  - generic [ref=e845]:
+                    - generic [ref=e846]:
+                      - generic [ref=e847]: 合計
+                      - text: 受取人宛
+                    - superscript
+                  - separator [ref=e848]
+                  - generic [ref=e849]: 167.33USD
+                - generic [ref=e852]:
+                  - separator [ref=e853]
+                  - generic [ref=e854]:
+                    - generic [ref=e855]: "サービス時間:"
+                    - text: 1, 13
+                    - generic [ref=e858]: 数分後
+                    - generic [ref=e859]: 即時
+            - text: 
+        - generic [ref=e870]:
+          - separator [ref=e871]
+          - generic [ref=e872]:
+            - link "(Click to hide) 法的免責条項と重要な情報" [expanded] [ref=e874] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - text: 法的免責条項と重要な情報
+            - generic [ref=e876]:
+              - generic [ref=e877]:
+                - paragraph
+              - paragraph [ref=e932]:
+                - superscript [ref=e933]: "1"
+                - text: サービスおよび資金の遅延または利用可否は、さまざまな要因によって異なります。たとえば、選択したサービス、遅延配送オプションの選択、送金額、送金先国、利用できる通貨、規制上の問題、消費者保護の問題、本人確認の要件、配送制限、取扱店の営業時間、およびタイムゾーンの違い（まとめて「制約」）などです。追加の制限が適用されることがあります。詳細は、注意事項と約款を参照してください。
+              - paragraph [ref=e882]:
+                - superscript [ref=e883]: "2"
+                - text: また、Western Unionは、通貨換算によって利益を得ています。送金サービスを選択する際には、送金手数料と換算レートの両方を慎重に比較検討してください。手数料、外貨換算レート、および税は、様々な要因によってブランド、チャネル、および店舗ごとに異なります。手数料と換算レートは予告なく変更される場合があります。
+              - paragraph [ref=e885]:
+                - superscript [ref=e886]: "4"
+                - text: 銀行によっては、国内送金または海外送金に手数料がかかります。ご利用の銀行にご確認ください。
+              - paragraph [ref=e935]:
+                - superscript [ref=e936]: "5"
+                - generic [ref=e937]:
+                  - text: 上記の送金手数料の見積は、本日付けのオンライン取引に対する計算額です。取扱店の手数料はオンライン手数料とは異なる場合があります。お近くの取扱店を探して手数料の見積を入手するには、
+                  - link "こちらをクリック" [ref=e938] [cursor=pointer]:
+                    - /url: "http://locations.westernunion.com/search/{{ countryCode }}"
+                  - text: してください。
+              - paragraph [ref=e940]:
+                - superscript [ref=e941]: "6"
+                - text: 受取人は、 エクアドル 内のどの取扱店でも送金を受け取ることができます。
+              - paragraph [ref=e943]:
+                - superscript [ref=e944]: "13"
+                - text: 通常、資金はWestern Unionの銀行口座に入金後3～5営業日以内に受取人の銀行口座へ入金されます
+            - separator [ref=e896]
+      - text: 
+    - contentinfo [ref=e291]:
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - generic:
+            - list:
+              - listitem [ref=e295]:
+                - link "ホーム" [ref=e296] [cursor=pointer]:
+                  - /url: /jp/ja/home.html
+              - listitem [ref=e297]:
+                - link "会社情報" [ref=e298] [cursor=pointer]:
+                  - /url: https://corporate.westernunion.com
+              - listitem [ref=e299]:
+                - link "Western Unionについて" [ref=e300] [cursor=pointer]:
+                  - /url: https://corporate.westernunion.com/index.html
+              - listitem [ref=e301]:
+                - link "ブログ" [ref=e302] [cursor=pointer]:
+                  - /url: https://www.westernunion.com/blog/
+              - listitem [ref=e303]:
+                - link "セキュリティに関する問題を報告する" [ref=e304] [cursor=pointer]:
+                  - /url: https://bugcrowd.com/westernunion
+              - listitem [ref=e305]:
+                - link "投資家向け広報" [ref=e306] [cursor=pointer]:
+                  - /url: http://ir.westernunion.com/investor-relations/default.aspx
+              - listitem [ref=e307]:
+                - link "採用情報" [ref=e308] [cursor=pointer]:
+                  - /url: https://careers.westernunion.com
+              - listitem [ref=e309]:
+                - link "WU基金" [ref=e310] [cursor=pointer]:
+                  - /url: https://foundation.westernunion.com/index.html
+              - listitem [ref=e311]:
+                - link "知的財産権" [ref=e312] [cursor=pointer]:
+                  - /url: /jp/ja/legal/intellectual-property.html
+              - listitem [ref=e313]:
+                - link "プライバシーポリシー" [ref=e314] [cursor=pointer]:
+                  - /url: /jp/ja/legal/privacy-statement.html
+              - listitem [ref=e315]:
+                - link "注意事項と約款" [ref=e316] [cursor=pointer]:
+                  - /url: /jp/ja/legal/terms-conditions-digital.html
+              - listitem [ref=e317]:
+                - link "クッキー設定の変更" [ref=e318] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e319]:
+                - link "詐欺に遭わないために" [ref=e320] [cursor=pointer]:
+                  - /url: /jp/ja/fraudawareness/fraud-home.html
+              - listitem [ref=e321]:
+                - link "サイトマップ" [ref=e322] [cursor=pointer]:
+                  - /url: /jp/ja/site-map.html
+              - listitem [ref=e323]:
+                - link "お問い合わせ" [ref=e324] [cursor=pointer]:
+                  - /url: /jp/ja/contact-us.html
+        - paragraph [ref=e327]: 日本でのWestern Unionオンラインサービスは、Western Union Japan KK（法人番号：0104-01-114302）が提供します。
+        - paragraph [ref=e330]: © 2026 Western Union Holdings, Inc.All Rights Reserved
+        - generic [ref=e331]:
+          - paragraph [ref=e334]: 以下をフォローしてください
+          - generic [ref=e335]:
+            - link "Follow us on facebook (Opens in new tab)" [ref=e336] [cursor=pointer]:
+              - /url: https://www.facebook.com/WesternUnion
+              - img "facebook" [ref=e337]
+            - link "Follow us on youtube (Opens in new tab)" [ref=e338] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/westernunion
+              - img "youtube" [ref=e339]
+            - link "Follow us on Instagram (Opens in new tab)" [ref=e340] [cursor=pointer]:
+              - /url: https://www.instagram.com/westernunion
+              - img "instagram" [ref=e341]
+            - link "Follow us on twitter (Opens in new tab)" [ref=e342] [cursor=pointer]:
+              - /url: https://twitter.com/WesternUnion
+              - img "twitter" [ref=e343]
+  - text:                                 • •            
