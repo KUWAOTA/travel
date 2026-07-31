@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" modified="2026-07-30T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="naturalist-status" name="Naturalist status">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="南インド遠征：現地ナチュラリスト候補の現在地（2026-07-30）" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="1240" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend" value="判定軸：場所の具体性／8月の受入可否／夜間観察・ライトの可否／Odontolabis実見情報／次に必要な確認" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#9CA3AF;fontColor=#374151;fontSize=14;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="1040" height="44" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="kumar-head" value="① Santosh Kumar / Fringe Ford&#xa;現地担当：Shaji" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontStyle=1;fontSize=18;fontColor=#1B4332;" vertex="1" parent="1">
+          <mxGeometry x="60" y="175" width="450" height="76" as="geometry"/>
+        </mxCell>
+        <mxCell id="kumar-body" value="場所&#xa;Fringe Ford（Munnarではない可能性あり。所在地の旅程照合が必要）&#xa;&#xa;確定していること&#xa;• 8/9〜14は現時点で空室あり&#xa;• 長期休暇と重なり、早期予約を要請&#xa;• 白幕＋持参ライトは「対応可能」&#xa;• 谷に人工灯がほぼなく、昆虫環境は良好との説明&#xa;• Shajiは20年以上の経験を持つ常駐naturalist&#xa;• 水銀灯の貸出はなし&#xa;&#xa;未確認&#xa;• Odontolabisの実見・時期・頻度&#xa;• UVライト使用条件、実施場所、夜間時間&#xa;• 宿泊料金、最低泊数、交通アクセス&#xa;&#xa;現在のボール：こちら&#xa;具体的な宿泊日を早急に決める必要あり" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FFF0;strokeColor=#82B366;fontSize=14;align=left;verticalAlign=top;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="265" width="450" height="505" as="geometry"/>
+        </mxCell>
+        <mxCell id="kumar-status" value="有望度：高&#xa;予約判断が最優先" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B7E1CD;strokeColor=#188038;fontStyle=1;fontSize=16;fontColor=#0D652D;" vertex="1" parent="1">
+          <mxGeometry x="135" y="790" width="300" height="65" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="naturalist-head" value="② WhatsAppのnaturalist&#xa;Honey Valley / Kakkabe / Naladi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontStyle=1;fontSize=18;fontColor=#5F4B00;" vertex="1" parent="1">
+          <mxGeometry x="575" y="175" width="450" height="76" as="geometry"/>
+        </mxCell>
+        <mxCell id="naturalist-body" value="場所&#xa;Coorg北西部：Honey Valley / Kakkabe / Naladi周辺&#xa;&#xa;確定していること&#xa;• iNaturalist記録上は有望と評価&#xa;• 回答次第で場所を絞る意向がある&#xa;• moth trapと屋外灯では本人のOdontolabis実見なし&#xa;• 方法、所属、捕殺リスク、人数、日数などを質問中&#xa;&#xa;未確認&#xa;• 本人または知人の野外での実見記録&#xa;• 本人が案内できるか／紹介のみか&#xa;• 私有地・宿・夜間アクセスの具体案&#xa;• 8月の日程と料金&#xa;&#xa;現在のボール：こちら&#xa;質問への回答をまだ送っていない&#xa;&#xa;判断ポイント&#xa;実見例や具体的な案内先が出なければ優先度を下げる" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEA;strokeColor=#D6B656;fontSize=14;align=left;verticalAlign=top;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="575" y="265" width="450" height="505" as="geometry"/>
+        </mxCell>
+        <mxCell id="naturalist-status" value="有望度：中（保留）&#xa;返信後に実地性を判定" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE8B2;strokeColor=#F9AB00;fontStyle=1;fontSize=16;fontColor=#7A4D00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="790" width="300" height="65" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="maya-head" value="③ Maya / Rainforestours&#xa;Madikeri近郊・Coorg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontStyle=1;fontSize=18;fontColor=#7F1D1D;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="175" width="450" height="76" as="geometry"/>
+        </mxCell>
+        <mxCell id="maya-body" value="場所&#xa;Madikeri近郊のforest-farm（Munnarではない）&#xa;&#xa;確定していること&#xa;• 観察支援には前向き&#xa;• WhatsAppで詳細相談可能&#xa;• 8月は豪雨&#xa;• ゲストハウスは9月から営業&#xa;• Munnarからかなり遠いと本人が明記&#xa;&#xa;未確認&#xa;• 休業中でも日帰り訪問・案内が可能か&#xa;• Odontolabisの実見記録&#xa;• 夜間観察やライト使用の可否&#xa;• 8月の安全性、アクセス、料金&#xa;&#xa;現在のボール：こちら&#xa;WhatsAppへ移って日程とルートを伝える段階&#xa;&#xa;判断ポイント&#xa;宿泊不可のため、8月に特別対応可能でなければ今回の主軸にはしにくい" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B85450;fontSize=14;align=left;verticalAlign=top;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="265" width="450" height="505" as="geometry"/>
+        </mxCell>
+        <mxCell id="maya-status" value="有望度：低〜中&#xa;8月休業が大きな制約" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4C7C3;strokeColor=#C5221F;fontStyle=1;fontSize=16;fontColor=#8C1D18;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="790" width="300" height="65" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="priority" value="現時点の行動優先順位　1. Fringe Fordの日付・予約判断　→　2. WhatsApp naturalistへ回答して具体性を確認　→　3. Mayaへ8月の例外対応可否を確認" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4A86E8;fontStyle=1;fontSize=16;fontColor=#174EA6;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="895" width="1240" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7280;endArrow=block;endFill=1;" edge="1" parent="1" source="kumar-status" target="priority">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7280;endArrow=block;endFill=1;" edge="1" parent="1" source="naturalist-status" target="priority">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7280;endArrow=block;endFill=1;" edge="1" parent="1" source="maya-status" target="priority">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
