@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" modified="2026-08-01T12:00:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="route-evidence-2026-08-01" name="地点・接続・確度">
+    <mxGraphModel dx="1900" dy="1350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1350" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="&lt;b&gt;南インド Odontolabis 遠征：地点・交通・確度マップ&lt;/b&gt;&lt;br&gt;2026-08-01時点／2名／実働 8月8〜15日" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#263238;fontColor=#ffffff;strokeColor=#263238;fontSize=22;align=left;spacingLeft=18;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="1840" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend" value="&lt;b&gt;色&lt;/b&gt;　緑＝現在かなり成立　黄＝根拠は強いが許可待ち　橙＝実施可だが対象根拠が弱い　灰＝今回の優先度低　青＝空港・交通拠点&lt;br&gt;&lt;b&gt;評価&lt;/b&gt;　根＝対象種根拠／許＝許可・同行／夜＝有効観察夜／交＝移動しやすさ（各5点。許可前→許可後は矢印で表示）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#78909C;fontSize=13;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="30" y="105" width="1220" height="62" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="north_label" value="北" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#455A64;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="180" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="north_arrow" value="" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#455A64;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="1185" y="290" as="sourcePoint"/><mxPoint x="1185" y="230" as="targetPoint"/></mxGeometry>
+        </mxCell>
+
+        <mxCell id="bom" value="&lt;b&gt;Mumbai / BOM&lt;/b&gt;&lt;br&gt;8/7 17:50着・8/16 19:30発&lt;br&gt;国内線は8/15までに戻る" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1976D2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="ixe" value="&lt;b&gt;Mangaluru空港 IXE&lt;/b&gt;&lt;br&gt;Honeyから車 約3.5〜4.5h&lt;br&gt;8/15 BOM直行便候補" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1976D2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="75" y="320" width="220" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="madikeri" value="&lt;b&gt;Madikeri / Maya&lt;/b&gt;&lt;br&gt;Rainforestours&lt;br&gt;8月guesthouse休業 → 今回外す" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEEEE;strokeColor=#9E9E9E;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="665" y="275" width="235" height="82" as="geometry"/>
+        </mxCell>
+        <mxCell id="honey" value="&lt;b&gt;Honey Valley / Kakkabe&lt;/b&gt;&lt;br&gt;Ashwin：Odontolabis実見・灯火飛来経験&lt;br&gt;公開記録は12月の損傷個体／Naladiは10月&lt;br&gt;&lt;b&gt;根4　許2→5　夜4　交2&lt;/b&gt;&lt;br&gt;Suresh・Kodagu naturalistは窓口。宿ownerの文章回答が必要" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=13;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="390" y="335" width="390" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="kakkabe_hub" value="&lt;b&gt;公共交通の接続鎖&lt;/b&gt;&lt;br&gt;Kannur → Iritty → Virajpet → Kakkabe&lt;br&gt;最後は宿指定地点から4WD&lt;br&gt;夜行直後・機材ありならKannurから片道taxi推奨" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#42A5F5;fontSize=12;align=left;spacingLeft=9;" vertex="1" parent="1">
+          <mxGeometry x="390" y="485" width="390" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="cnn" value="&lt;b&gt;Kannur 市街・bus/rail&lt;/b&gt;&lt;br&gt;Kumily/Kattappanaから夜行bus着&lt;br&gt;Honeyへの朝の車の起点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1976D2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="490" width="245" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="fringe" value="&lt;b&gt;Fringe Ford / Wayanad&lt;/b&gt;&lt;br&gt;Santosh・Ahmed／常駐Shaji&lt;br&gt;UV＋白幕を概括了承、3泊推奨&lt;br&gt;敷地内のexact stag recordなし&lt;br&gt;&lt;b&gt;根1　許5　夜3　交3&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE5CD;strokeColor=#E69138;strokeWidth=2;fontSize=13;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="805" y="475" width="300" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="talapoya" value="Talapoya集合地点&lt;br&gt;→ 宿専用van 約40分" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#42A5F5;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="820" y="615" width="240" height="55" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="cok" value="&lt;b&gt;Kochi空港 COK&lt;/b&gt;&lt;br&gt;BOMから早朝便&lt;br&gt;Serenityへ予約taxi 4〜5h" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1976D2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="75" y="710" width="220" height="82" as="geometry"/>
+        </mxCell>
+        <mxCell id="aluva" value="Aluva rail / bus&lt;br&gt;Munnar方面の公共交通拠点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#42A5F5;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="675" width="205" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="munnar" value="&lt;b&gt;Munnar / plantation resort案&lt;/b&gt;&lt;br&gt;広域記録・Paulの助言はある&lt;br&gt;exactな許可済み地点なし／北へ迂回&lt;br&gt;&lt;b&gt;根3　許2　夜2　交3&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEEEE;strokeColor=#9E9E9E;fontSize=13;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="850" y="715" width="300" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="serenity" value="&lt;b&gt;Serenity Garden / Misty Views&lt;/b&gt;&lt;br&gt;同一狭域：O. burmeisteri 2件＋O. delesserti 1件&lt;br&gt;Seema歓迎・白壁＋常時CFL・Anand同行可&lt;br&gt;&lt;b&gt;根5　許4→5　夜2　交4&lt;/b&gt;&lt;br&gt;8/8〜10を固定軸。部屋・日付・持込UVだけ確定する" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=3;fontSize=13;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="545" y="805" width="405" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="kumily" value="&lt;b&gt;Kumily / Kattappana bus拠点&lt;/b&gt;&lt;br&gt;Serenityから約0.5h&lt;br&gt;17:00前後 Kannur行き夜行bus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#42A5F5;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="270" y="870" width="235" height="72" as="geometry"/>
+        </mxCell>
+        <mxCell id="periyar" value="&lt;b&gt;Periyar / Thekkady&lt;/b&gt;&lt;br&gt;Forest Dept公式night walk&lt;br&gt;合法・安全・近いがUV幕でなく対象記録も弱め&lt;br&gt;&lt;b&gt;根2　許5　夜2　交5&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE5CD;strokeColor=#E69138;fontSize=13;align=left;spacingLeft=9;" vertex="1" parent="1">
+          <mxGeometry x="110" y="980" width="300" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="iiser" value="&lt;b&gt;IISER Thiruvananthapuram / Vithura（大学）&lt;/b&gt;&lt;br&gt;2025-08-11：O. versicolor＋P. giraffa／5月にもO. versicolor&lt;br&gt;Parth・Ananya・Rushikeshへhost依頼対象&lt;br&gt;&lt;b&gt;根5　許1→5　夜1〜2　交4&lt;/b&gt;&lt;br&gt;host＋正式登録なしでは採用不可。既存灯を19:00〜21:30想定" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=13;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1030" width="455" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="trv" value="&lt;b&gt;Thiruvananthapuram空港 TRV&lt;/b&gt;&lt;br&gt;IISERから約1.5〜2h&lt;br&gt;南部ルートの帰路" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1976D2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1150" width="245" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="edge_bom_cok" value="8/8 早朝 flight" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1976D2;strokeWidth=3;endArrow=block;" edge="1" parent="1" source="bom" target="cok"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_cok_serenity" value="taxi 143km／雨天4〜5h" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E7D32;strokeWidth=4;endArrow=block;" edge="1" parent="1" source="cok" target="serenity"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_cok_aluva" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#42A5F5;endArrow=block;" edge="1" parent="1" source="cok" target="aluva"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_aluva_munnar" value="bus／迂回案" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#9E9E9E;dashed=1;endArrow=block;" edge="1" parent="1" source="aluva" target="munnar"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_munnar_serenity" value="約82km／2.5〜3.5h" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#9E9E9E;dashed=1;endArrow=block;" edge="1" parent="1" source="munnar" target="serenity"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_serenity_kumily" value="taxi 約0.5h" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#2E7D32;strokeWidth=3;endArrow=block;" edge="1" parent="1" source="serenity" target="kumily"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_kumily_periyar" value="近接" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#E69138;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="kumily" target="periyar"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_kumily_cnn" value="8/10 夜行bus 9h45〜12h20／₹583〜" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#E65100;strokeWidth=4;dashed=1;endArrow=block;" edge="1" parent="1" source="kumily" target="cnn"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_cnn_hub" value="taxi 3〜4h（推奨）／bus乗継可" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#E65100;strokeWidth=3;endArrow=block;" edge="1" parent="1" source="cnn" target="kakkabe_hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_hub_honey" value="宿4WD" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#E65100;strokeWidth=3;endArrow=block;" edge="1" parent="1" source="kakkabe_hub" target="honey"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_honey_ixe" value="8/15 朝下山＋one-way taxi" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#E65100;strokeWidth=4;endArrow=block;" edge="1" parent="1" source="honey" target="ixe"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_ixe_bom" value="8/15 flight（便の販売を要確認）" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1976D2;strokeWidth=3;endArrow=block;" edge="1" parent="1" source="ixe" target="bom"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_cnn_talapoya" value="bus/taxi" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#E69138;dashed=1;endArrow=block;" edge="1" parent="1" source="cnn" target="talapoya"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_talapoya_fringe" value="宿van" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#E69138;dashed=1;endArrow=block;" edge="1" parent="1" source="talapoya" target="fringe"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_honey_madikeri" value="約38km" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#9E9E9E;dashed=1;endArrow=none;" edge="1" parent="1" source="honey" target="madikeri"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_serenity_iiser" value="南部案：車 約203km／雨天5〜6h" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#6A1B9A;strokeWidth=3;dashed=1;endArrow=block;" edge="1" parent="1" source="serenity" target="iiser"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_iiser_trv" value="taxi/bus 1.5〜2h" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#6A1B9A;strokeWidth=3;endArrow=block;" edge="1" parent="1" source="iiser" target="trv"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge_trv_bom" value="8/15推奨 flight" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#1976D2;strokeWidth=3;endArrow=block;" edge="1" parent="1" source="trv" target="bom"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="decision_title" value="&lt;b&gt;結論：目的別の最適ルート&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#ffffff;strokeColor=#37474F;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="105" width="590" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="route1" value="&lt;b&gt;① 対象種を見られる確率を最大化（本命）&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#1B5E20&quot;&gt;BOM → COK → Serenity 2夜 → 夜行bus → Honey 4夜 → IXE → BOM&lt;/font&gt;&lt;br&gt;&lt;br&gt;独立した有望地点で合計6夜。Honeyは天候不良を4夜で吸収でき、持込UVを長時間使える可能性がある。&lt;br&gt;&lt;b&gt;ただし採用条件：Honey Valley自身が空室・ownerのUV許可・4WD時刻を文章で確約。未確約のまま予約しない。&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;strokeWidth=3;fontSize=14;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="175" width="590" height="205" as="geometry"/>
+        </mxCell>
+        <mxCell id="route2" value="&lt;b&gt;② 移動の堅牢性＋8月の直接記録（南部代替）&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6A1B9A&quot;&gt;BOM → COK → Serenity 2夜 → Periyar 2夜 → IISER/Vithura → TRV → BOM&lt;/font&gt;&lt;br&gt;&lt;br&gt;長距離夜行と州境越えがなく、IISERは8月11日のexact recordが最強。ただし大学で自由観察は不可。&lt;br&gt;&lt;b&gt;採用条件：学内host、来訪登録、19:00〜21:30の同行を最低1夜、できれば2夜確定。&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="400" width="590" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="route3" value="&lt;b&gt;③ どちらも未確定なら、予約可能性を優先&lt;/b&gt;&lt;br&gt;Serenity 2夜 → Periyar公式night walk → 緑の多い私有宿 → TRV&lt;br&gt;&lt;br&gt;対象確率は①②より下がるが、合法・移動・雨天時の成立性は高い。Fringe Fordは「灯火実施の保険」だが、対象種目的だけで大きく北上する根拠は現在弱い。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=14;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="610" width="590" height="165" as="geometry"/>
+        </mxCell>
+        <mxCell id="gate" value="&lt;b&gt;8月2日夜の決定ゲート&lt;/b&gt;&lt;br&gt;1. Serenity：部屋＋8/8・9訪問を確定（UV不可でも既設CFLで採用）&lt;br&gt;2. Honey：6条件が全てYES → ルート①&lt;br&gt;3. HoneyがNO／曖昧、IISER hostがYES → ルート②&lt;br&gt;4. 両方NO → ルート③&lt;br&gt;&lt;br&gt;&lt;b&gt;両方YESなら？&lt;/b&gt; 今回の最優先がOdontolabis遭遇なので、4夜の自由度があるHoneyを選ぶ。IISERが2夜の正式同行を確約し、Honeyの灯火時間が短い場合だけ南部へ逆転。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="795" width="590" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="why" value="&lt;b&gt;判断の要点&lt;/b&gt;&lt;br&gt;・Serenityは「記録・既設灯・owner・近隣宿」が揃う唯一の固定軸。&lt;br&gt;・Honeyは許可後に強い。今はnaturalistの推測ではなく宿ownerの回答待ち。&lt;br&gt;・IISERは記録最強でも、hostなしなら実行確度0。&lt;br&gt;・Fringeは観察体制最強でも、Odontolabis根拠が弱い。&lt;br&gt;・Munnarは地名単位の期待値で、具体的な庭・灯・ownerが未設定。&lt;br&gt;・自走レンタカーの都市間乗捨ては未検証。片道taxi＋bus＋宿車を前提にする。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#607D8B;fontSize=14;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1035" width="590" height="200" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
