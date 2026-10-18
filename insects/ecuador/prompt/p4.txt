@@ -2,7 +2,7 @@
 以下の調査・依頼をsubagentを使ってパラでして
 出力も別ファイルとしてパラですること
 調査レポートは
-C:\Users\ukowu\Desktop\travel\insect\reports
+C:\Users\ukowu\Desktop\travel\insects\reports
 に出力するように
 
 #調査1

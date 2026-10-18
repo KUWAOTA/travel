@@ -22,7 +22,7 @@
 
 
 ## 過去のガイド(オリベリオ)とのやり取り
-C:\Users\ukowu\Desktop\travel\insect\ecuador\input\olivelio_chat.txt
+C:\Users\ukowu\Desktop\travel\insects\ecuador\input\olivelio_chat.txt
 ## 背景
 虫屋の友達と話しあい、
 まずオリベリオに採集の方向性をつたえるのを優先することにしました。
@@ -31,11 +31,11 @@ C:\Users\ukowu\Desktop\travel\insect\ecuador\input\olivelio_chat.txt
 ## 意向
 とりあえず、
 一番やりたいのは
-C:\Users\ukowu\Desktop\travel\insect\ecuador\input\S__21561356_0.jpg
-C:\Users\ukowu\Desktop\travel\insect\ecuador\input\S__21561357_0.jpg
-C:\Users\ukowu\Desktop\travel\insect\ecuador\input\S__21561358_0.jpg
-C:\Users\ukowu\Desktop\travel\insect\ecuador\input\S__21561359_0.jpg
-C:\Users\ukowu\Desktop\travel\insect\ecuador\input\S__21561360_0.jpg
+C:\Users\ukowu\Desktop\travel\insects\ecuador\input\S__21561356_0.jpg
+C:\Users\ukowu\Desktop\travel\insects\ecuador\input\S__21561357_0.jpg
+C:\Users\ukowu\Desktop\travel\insects\ecuador\input\S__21561358_0.jpg
+C:\Users\ukowu\Desktop\travel\insects\ecuador\input\S__21561359_0.jpg
+C:\Users\ukowu\Desktop\travel\insects\ecuador\input\S__21561360_0.jpg
 に示す、
 コルカの木でのるっキング採集
 で、
