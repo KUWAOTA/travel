@@ -22,5 +22,5 @@ skill.txtに友達の虫屋から聞いた話をまとめています。
 ベストプラクティスをレポートで教えてください。
 
 ## 出力先・形式
-C:\Users\ukowu\Desktop\travel\insect\improve\report
+C:\Users\ukowu\Desktop\travel\insects\improve\report
 にmdとして出力してください。

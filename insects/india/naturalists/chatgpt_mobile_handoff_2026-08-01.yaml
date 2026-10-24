@@ -1,0 +1,649 @@
+handoff:
+  schema_version: "1.0"
+  created_at: "2026-08-01"
+  timezone: "Asia/Tokyo"
+  language: "Japanese"
+  purpose: >-
+    スマホ版ChatGPTへ、南インドOdontolabis観察遠征の検討状況を詳細に引き継ぎ、
+    残り数回の連絡で8月8日から15日の宿泊地、泊数、国内線、地上交通を決定する。
+  instruction_to_next_chatgpt: >-
+    以下のstatus、evidence、decision_rulesを事実として引き継ぐこと。
+    地名の印象だけでルートを作らず、対象種根拠、合法な夜間アクセス、実際の観察夜数、
+    モンスーン期の交通を分けて評価すること。未確認事項を確認済みと扱わないこと。
+
+travellers:
+  count: 2
+  lead:
+    name: "Takuma Uno"
+    nationality: "Japan"
+    whatsapp: "+81 70 8973 2891"
+  companion:
+    name: "未記載"
+  activity:
+    goal: "Odontolabisを中心とする大型クワガタの観察、撮影、iNaturalist記録"
+    collection: false
+    handling: false
+    harm_or_removal: false
+    equipment:
+      - "持参UV insect-attracting light"
+      - "white sheet"
+    equipment_rule: "土地所有者・施設管理者の明示許可がある場所だけで使用する"
+
+fixed_travel:
+  international_arrival:
+    date: "2026-08-07"
+    time: "17:50"
+    airport: "Mumbai / BOM"
+    plan: "Mumbai空港周辺泊"
+  field_period:
+    start: "2026-08-08"
+    end: "2026-08-15"
+  international_departure:
+    date: "2026-08-16"
+    time: "19:30"
+    airport: "Mumbai / BOM"
+    flight: "NH830と記録されている"
+  risk_policy: >-
+    別切り国内線の遅延リスクを国際線から切り離すため、原則8月15日中にMumbaiへ戻り、
+    8月15日はMumbai泊とする。
+
+current_conclusion:
+  fixed_anchor: "Serenity Garden / Misty Viewsを8月8日チェックイン、8月10日チェックアウトの2泊で第一希望"
+  target_optimized_route: >-
+    Honey Valley自身から空室、ownerのUV許可、4WD時刻等が文章で確約された場合は、
+    Serenity 2夜＋Honey Valley 4夜がOdontolabis遭遇確率を最大化する本命。
+  logistics_optimized_route: >-
+    Honey Valleyが不成立でIISERのhostと正式夜間同行が確定した場合は、
+    Serenity＋Periyar＋IISER＋TRVの南部ルートが地理的に最も堅牢。
+  if_both_honey_and_iiser_confirm: >-
+    最優先がOdontolabis遭遇なので、原則は4夜の自由度と持込UVの可能性があるHoneyを選ぶ。
+    ただしIISERが2夜の正式同行を確約し、Honeyの灯火時間・場所が強く制限されるなら南部へ逆転。
+  if_neither_confirms: >-
+    北へ無理に移動せず、Serenity＋Periyar公式night walk＋owner許可を得た森林系私有宿からTRVへ抜ける。
+  decision_deadline: "2026-08-02 夜（内部締切）"
+
+latest_reassessment_2026_08_01:
+  source_document: "直接記録と訪問順序の再評価_2026-08-01.md"
+  main_correction: >-
+    Fringe Ford側とWhatsAppのKodagu naturalist（末尾2934）は、候補地におけるOdontolabisの
+    直接実見記録を持っていない。対象種根拠としての優先順位は下げ、許可済み私有地、宿、
+    夜間安全、同行者を成立させる手配者として評価する。
+  exception_ashwin: >-
+    AshwinはHoney ValleyでOdontolabisを見たと明言し、灯火スクリーンへの飛来経験もある。
+    ただしprofessional guideでもownerでもなく、正確な灯火場所と許可主体への追加質問は未回答。
+  evidence_classes:
+    exact_public_observation_sites:
+      - "Serenity Garden: 同一狭域3件、2種、複数年。ただし同一地点の8月記録は未確認"
+      - "IISER TVM: 同一キャンパスで2025-08-11のO. versicolor等。季節一致が最強"
+    named_locality_evidence:
+      - >-
+        Lower Nadugani / Gudalur側: 標本産地・飼育流通ラベル等の具体産地情報。
+        Garden/IISERのような訪問可能な狭域の公開写真記録と同じ証拠レベルではない。
+    personal_sighting_plus_weak_public_record:
+      - "Honey Valley: Ashwin実見、12月の損傷個体公開記録、近隣Naladiの10月生体記録"
+    execution_only_without_direct_target_record:
+      - "Fringe Ford"
+      - "Magnolia Resort"
+      - "Meriyanda Nature Retreat"
+  current_overall_priority:
+    - "1. Serenity Garden: 記録、既設灯、owner歓迎、Anand同行候補が揃う"
+    - "2. IISER: 生物学的根拠は最強だがhost確定前は実行不可"
+    - "3. Lower Nadugani: 産地根拠はあるが宿・owner・合法な灯火地点なし"
+    - "4. Honey Valley: Ashwin実見はあるが宿の直接許可・方法・4WD未確定"
+    - "5. Fringe Ford: 実施体制は強いが対象種の直接根拠なし"
+  garden_owner_presence:
+    facts:
+      - "Seemaは8月10日までGardenにいる"
+      - "Seema本人が、不在時はMisty ViewsのAnandがGardenへ同行できると明記"
+      - "白壁と常時点灯CFLの観察を歓迎"
+    interpretation: >-
+      owner本人の在不在は、既設CFL観察の絶対条件ではなさそう。ただし8月10日以降の
+      Anand同行アクセスと、Seema不在中の持参UV使用は明示確認が必要。
+    whatsapp_owner_warning: >-
+      Kodagu naturalistの「owner will have no problem permitting the light」はGardenの話ではない。
+      Honey Valley等3施設を提案した流れで、どのownerかも曖昧。Gardenの根拠はSeema本人の別返信。
+  route_order_rule:
+    if_garden_access_after_august_10_is_confirmed_and_lower_nadugani_permission_exists: >-
+      地理順で CJB → Lower Nadugani 2夜 → Serenity Garden 2夜 → IISER 2夜 → TRV。
+      8/10のLower Nadugani→Gardenは約337kmで終日移動、同夜は有効観察夜に数えない。
+    if_garden_must_be_visited_by_august_10: >-
+      Gardenを8/8〜9に置き、その後Periyar/IISERへ南下する。Lower Naduganiは原則外す。
+      Garden→Lower Nadugani→IISERは北上と再南下になり、観察夜を失う。
+    if_lower_nadugani_has_no_permitted_private_base: >-
+      産地情報だけで2夜使わず、Gardenを8/8〜10に固定して南下する。
+  immediate_single_question_to_seema: |-
+    Hello Seema,
+
+    Thank you again. Before we finalize the geographical order of our route, may I confirm one point?
+
+    If we visit after 10 August, would it still be permitted for Anand to escort us to Serenity Garden after dark to observe the always-on CFL and white wall? Also, would your permission to use our own UV light and white sheet at a place you designate still apply while you are away, or should we use only the existing CFL?
+
+    If visiting while you are present is important, we will arrange our route to come before 10 August. If Anand can escort us after the 10th, we can follow a more direct north-to-south route.
+
+    Thank you very much,
+    Takuma Uno
+
+evaluation_axes:
+  target_evidence: "同一地点・同時期のOdontolabis記録、信頼できる実見。5点満点の相対評価"
+  permission_and_host: "owner・大学・施設から合法的に夜間観察できる確度。5点満点"
+  effective_nights: "雨や移動遅延を吸収できる夜数、実際に灯火を観察できる時間"
+  transport: "空港・バス拠点からの接続、長距離移動、最終送迎のリスク"
+  warning: "点数は順位づけの相対評価で、昆虫の出現確率そのものではない"
+
+locations:
+  serenity_garden:
+    name: "Serenity Garden / Misty Views"
+    area: "Chakkuppallam / Udumbanchola / Thekkady周辺"
+    approximate_coordinates: "9.6440, 77.17965"
+    people:
+      - "Seema Merchant: Garden owner、訪問歓迎、8月10日まで現地"
+      - "Anand: 約400m先のMisty Views運営、英語話者、夜間同行候補"
+    target_evidence:
+      strength: 5
+      records:
+        - "Odontolabis burmeisteri, 2022-10-09"
+        - "Odontolabis burmeisteri, 2024-11-13"
+        - "Odontolabis delesserti, 2026-05-05"
+      interpretation: "同一狭域で3件、2種、複数年の直接記録"
+    observation_method:
+      confirmed: "白壁と常時点灯CFLへ、Seemaが観察した昆虫の多くが飛来"
+      pending: "持参UVライト＋白幕の明示許可、使用場所、時間"
+    permission_and_host:
+      current_score: 4
+      after_confirmation: 5
+      confirmed: "Seemaは訪問と既設灯での観察を歓迎。Anand同行可"
+      pending:
+        - "8月8日・9日の訪問日確定"
+        - "Misty Views 2名2泊の空室と料金"
+        - "持参UV＋白幕"
+    effective_nights: 2
+    transport_score: 4
+    status: "固定軸。UV不可でも既設CFLと白壁で採用してよい"
+
+  honey_valley:
+    name: "Honey Valley / Kakkabe–Naladi"
+    area: "Kodagu / Coorg, Karnataka"
+    approximate_coordinates: "12.22, 75.65"
+    people:
+      - "Ashwin: プロガイドでも宿ownerでもないが、Honey ValleyでOdontolabisを実見"
+      - "Suresh: 紹介窓口"
+      - "Kodagu naturalist: 候補提示とnaturalist手配の可能性。宿の許可を代行確約できるとは扱わない"
+    target_evidence:
+      strength: 4
+      facts:
+        - "AshwinがHoney Valleyまたは同地域でOdontolabisを実見"
+        - "Ashwinは灯火スクリーンと林床の両方で見たと説明"
+        - "毎モンスーンの限られた数日だけ出現し予測困難、8月にも機会あり"
+        - "Honey Valley公開記録: O. burmeisteri, 2023-12-22、損傷個体"
+        - "近隣Naladiの生体記録: O. burmeisteri, 2024-10-03"
+      limitation: "8月の同一地点公開記録ではなく、宿ownerからの過去実見回答も未取得"
+    permission_and_host:
+      current_score: 2
+      after_confirmation: 5
+      pending:
+        - "8月11〜15日、2名4泊の空室"
+        - "ownerが指定場所で持参UV＋白幕を2〜3時間明示許可"
+        - "非採集、観察撮影のみを了承"
+        - "電源の有無、完全battery式が必要か"
+        - "夜間の安全確認をするstaff/naturalistと料金"
+        - "4WD pickup地点、8月11日昼の上り、8月15日朝の最早下り"
+        - "宿泊、食事、4WDの総額"
+    effective_nights: 4
+    transport_score: 2
+    status: "宿自身の文章確約後のみ本命。naturalistの『ownerは大丈夫だろう』だけで予約しない"
+    official_booking:
+      phone: "+91 8197444939"
+      url: "https://www.honeyvalley.in/booking-and-cancellation"
+      procedure: "電話予約。仮予約48時間、1泊分前払いで確定との公式案内"
+
+  iiser_tvm:
+    name: "IISER Thiruvananthapuram / Vithura campus"
+    type: "大学キャンパス"
+    approximate_coordinates: "8.674, 77.085"
+    observers:
+      - name: "Parth Sanjay Gadgilwar"
+        inaturalist_id: "parth_sanjay_gadgilwar"
+        record: "Odontolabis versicolor, 2025-08-11"
+        observation_url: "https://www.inaturalist.org/observations/306956143"
+      - name: "Ananya Unni"
+        inaturalist_id: "ananya_unni"
+        record: "Prosopocoilus giraffa nilgirensis, 2025-08-11"
+        observation_url: "https://www.inaturalist.org/observations/305559036"
+      - name: "Rushikesh S. Pawar"
+        inaturalist_id: "rushgreen"
+        record: "Odontolabis versicolor, 2025-05-27"
+        observation_url: "https://www.inaturalist.org/observations/285631396"
+    target_evidence:
+      strength: 5
+      interpretation: "2025年8月11日の同一キャンパス記録で、今回の日程との季節一致が最強"
+    permission_and_host:
+      current_score: 1
+      after_confirmation: 5
+      rules:
+        - "一般旅行者が夜間に自由入構できる場所ではない"
+        - "学内hostと来訪登録が必要"
+        - "学生guestは原則22:00までとの情報"
+        - "host側の登録は24時間前までを想定"
+      request: "8月13〜15のうち19:00〜21:30、最低1夜、できれば2夜、既存灯を短時間巡回"
+      equipment_policy: "大学の明示許可がない限りUV機材を持ち込まず既存灯だけを見る"
+    effective_nights: "1〜2"
+    transport_score: 4
+    status: "記録最強だがhostなしなら実行確度0"
+    official_contacts:
+      email: "outreach@iisertvm.ac.in"
+      contact_url: "https://www.iisertvm.ac.in/pages/contact"
+      visitor_rules_url: "https://dosa.iisertvm.ac.in/rules-notices/visitors-entry-request"
+      security_desk: "+91 472 2788303"
+      main_gate: "+91 472 2815007"
+
+  fringe_ford:
+    name: "Fringe Ford / Wayanad"
+    people:
+      - "Santosh Kumar: メール窓口"
+      - "Ahmed: 最新回答者"
+      - "Shaji: 常駐naturalist、20年以上の経験"
+    target_evidence:
+      strength: 1
+      facts:
+        - "施設内のexact stag beetle recordはないとの回答"
+        - "大学の昆虫調査者から存在すると聞いた、という間接情報のみ"
+    permission_and_host:
+      score: 5
+      confirmed:
+        - "自前UV・白幕を含む機材持込を歓迎する概括回答"
+        - "Shajiが追加料金なしで支援、tip推奨"
+        - "3泊推奨"
+        - "peak monsoonで他の客が少なければShajiの時間を集中できる可能性"
+    effective_nights: 3
+    transport_score: 3
+    access:
+      - "Kannur空港から公式に約80km、車約2時間"
+      - "Talapoya指定地点から宿vanで約40分との利用情報"
+      - "公式: https://fringeford.com/getting-there/"
+    status: "灯火観察全般の実施保険。Odontolabis目的だけで北上する本命にはしない"
+
+  periyar_thekkady:
+    name: "Periyar / Thekkady / Kumily"
+    target_evidence_score: 2
+    permission_score: 5
+    effective_nights: 2
+    transport_score: 5
+    merits:
+      - "Forest Department公式night walk / Jungle Scoutで合法・安全"
+      - "Serenityから近い"
+    limitations:
+      - "持込UV＋白幕の観察ではない"
+      - "guideは哺乳類・爬虫類中心の可能性"
+      - "exactな対象種記録の根拠は弱い"
+    status: "南部ルートの確実な補助候補"
+
+  munnar:
+    name: "Munnarの森林系plantation resort"
+    target_evidence_score: 3
+    permission_score: 2
+    effective_nights: 2
+    transport_score: 3
+    merits:
+      - "西ガーツの広域記録"
+      - "Paulは緑の多いresortでowner許可を得て自前機材を使う案を提示"
+    limitations:
+      - "具体的なGarden、街灯、宿、owner許可が未設定"
+      - "Serenityから北へ約82km、雨天2.5〜3.5時間程度の迂回"
+    status: "地名だけで泊数を割かない"
+
+  madikeri_maya:
+    name: "Madikeri / Maya / Rainforestours"
+    facts:
+      - "MunnarではなくMadikeri / Coorg近郊"
+      - "8月は豪雨でguesthouse休業、9月開始"
+    status: "今回外す"
+
+  paul:
+    role: "助言者。同行者・許可手配者ではない"
+    advice:
+      - "PeriyarまたはParambikulamのForest Department公式night walk"
+      - "Munnarでは緑の多いplantation resortを選びownerの許可を取る"
+      - "Eravikulam National Parkで一般旅行者のmoth screeningは不可"
+
+transport_nodes:
+  airports:
+    BOM:
+      role: "国際線の入口・出口"
+    COK:
+      role: "Serenityへの入口"
+      to_serenity:
+        distance_km: 143
+        base_route_time: "約2.5時間"
+        realistic_monsoon_time: "4〜5時間"
+        mode: "Anand手配taxiまたはCIAL prepaid taxi"
+        estimated_cost_inr: "5500〜7000 / 1台"
+        links:
+          - "https://cial.aero/Our-Facilities/Transportation/Prepaid-Taxi/"
+          - "https://prepaid.cial.aero/"
+    TRV:
+      role: "南部ルートの帰路"
+      from_iiser: "約46km、雨天・市街を含め1.5〜2時間"
+    IXE:
+      role: "Honey Valleyルートの帰路"
+      from_honey: "宿4WD下山後、車約3.5〜4.5時間を想定"
+      flight_note: "8月15日IXE→BOM直行便の実際の販売と時刻を航空会社画面で確認"
+      links:
+        - "https://www.goindigo.in/"
+        - "https://flights.airindiaexpress.com/en-in/mangaluru-to-mumbai-flights"
+        - "https://mangaluru.adaniairports.com/"
+
+  bus_and_road_hubs:
+    kumily_kattappana:
+      role: "SerenityからKannurへ向かう夜行バス乗車拠点"
+      from_serenity: "local taxi 約0.5時間、₹500〜1000目安"
+      services:
+        - "Kumily 17:00頃 → Kannur、約12時間20分、₹583/人から"
+        - "Kattappana 17:05頃 → Kannur 02:50頃、約9時間45分"
+        - "Kattappana 18:45頃 private bus掲載あり"
+      links:
+        - "https://www.redbus.in/bus-tickets/kumily-to-kannur"
+        - "https://www.ixigo.com/buses/kattappana-kannur-sts"
+        - "https://www.kbuses.in/v3/Find/source/KATTAPPANA-/destination/KANNUR/type/all/timing/all?page=1"
+      warning: "2026-08-10の販売、座席、運行を予約画面と前日確認で確定する"
+    kannur_city:
+      role: "夜行バス到着、HoneyまたはFringeへの起点"
+      honey_route:
+        public_transport: "Kannur → Iritty → Virajpet → Kakkabe → 宿4WD"
+        recommended: "夜行直後、2名＋灯火機材なのでKannurからHoney集合地点までone-way chauffeur taxi"
+        taxi_time: "3〜4時間"
+        taxi_cost: "hatchback ₹3837、sedan ₹4039からの公開例。確定見積り必要"
+        link: "https://www.savaari.com/kannur/kannur-to-coorg-cabs"
+      fringe_route: "Kannur方面 → Talapoya指定集合地点 → Fringe Ford専用van"
+    aluva:
+      role: "Kochi近郊の鉄道・Munnar方面bus拠点。今回はSerenity直行taxiを優先"
+
+route_options:
+  route_A_target_optimized:
+    status: "Honey Valleyの直接確約後のみ採用"
+    itinerary:
+      - date: "2026-08-07"
+        plan: "17:50 Mumbai着、空港周辺泊"
+      - date: "2026-08-08"
+        plan: "BOM早朝直行便→COK午前着→taxiでMisty Views、Serenity第1夜"
+      - date: "2026-08-09"
+        plan: "Serenity本観察夜。既設CFL＋白壁、許可されればUV＋白幕"
+      - date: "2026-08-10"
+        plan: "日中Serenity、15:45頃Kumily/Kattappanaへ、17時頃Kannur行き夜行bus"
+      - date: "2026-08-11"
+        plan: "早朝Kannur着、7〜8時に予約taxi、昼Honey指定地点、宿4WD、第1夜"
+      - date_range: "2026-08-11 to 2026-08-14"
+        plan: "Honey Valley 4泊、4観察夜"
+      - date: "2026-08-15"
+        plan: "最初の4WDで下山、one-way taxiでIXE、午後便でBOM、Mumbai泊"
+      - date: "2026-08-16"
+        plan: "19:30 Mumbai発"
+    merits:
+      - "直接根拠のある独立2地点で合計6夜"
+      - "Honeyの4夜で雨天と出現日の不確実性を吸収"
+      - "Honeyで持込UVを数時間使える可能性"
+    risks:
+      - "Serenity→Honeyは道路約480kmの遠隔移動"
+      - "夜行busの運行・座席"
+      - "Honeyの昼pickupと8月15日朝の最早4WD"
+      - "8月15日IXE→BOM便"
+    estimated_ground_cost_for_two_inr_excluding_hotels_and_flights: "14050〜19600＋Honey 4WD"
+
+  route_B_south_logistics_optimized:
+    status: "Honey不成立かつIISER host確定時"
+    itinerary:
+      - "8/7 Mumbai泊"
+      - "8/8 BOM→COK→Misty Views"
+      - "8/8〜9 Serenity Garden 2夜"
+      - "8/10〜11 Thekkady / Periyar 2泊、公式night walk 1回"
+      - "8/12 Vithuraへ車移動、雨天5〜6時間程度"
+      - "8/12〜15 Vithura周辺。hostが確定した夜だけIISER既存灯を19:00〜21:30巡回"
+      - "8/15 TRV→BOM、Mumbai泊"
+      - "8/16 19:30 Mumbai発"
+    merits:
+      - "州境越えと長距離夜行がない"
+      - "IISERの8月11日exact record"
+      - "TRVへ自然に抜けられる"
+    risks:
+      - "IISER hostなしでは大学に入れない"
+      - "既存灯を短時間見るだけで、持込UVの自由度が低い"
+
+  route_C_safe_fallback:
+    status: "HoneyもIISERも不成立時"
+    itinerary: "Serenity 2夜 → Periyar公式night walk → owner許可を得た森林系私有宿 → TRV → BOM"
+    merits: "合法性、移動、予約可能性が比較的高い"
+    limitation: "Odontolabisのexact site evidenceはroute A/Bより弱い"
+
+  route_not_recommended_now:
+    fringe_ford: >-
+      実施体制は非常に良いが敷地内対象種記録がなく、Serenity後に対象種目的だけで北上する根拠は弱い。
+      Serenity/Honey/IISERが全て不成立の際の第二保険。
+    munnar_by_name_only: "具体的な庭、灯、owner許可が決まるまで、Munnarという地名だけで泊数を割かない"
+    self_drive_one_way: >-
+      Kochiで自走レンタカーは借りられる可能性があるが、Kochi→Mangaluru/Kannurの都市間乗捨てを
+      実際の予約として確認できていないため行程の前提にしない。
+
+self_drive_car:
+  conclusion: "推奨しない。運転手付き片道taxi＋夜行bus＋宿4WDを使う"
+  facts:
+    - "RevvはKochiとMangaluruでサービスを掲載"
+    - "One-way Outstationやdifferent city returnの表現はあるが、同一都市内の別地点返却という説明もある"
+    - "Web予約でKochi→Mangaluru/Kannurの確定見積りを確認できていない"
+    - "KannurはRevvサービス都市一覧にない"
+    - "Zoomcarは州外走行を認めるが別都市返却の公式保証を確認できない"
+    - "外国人運転には日本の有効免許証＋1949年ジュネーブ条約様式の国際運転免許証が必要"
+    - "モンスーン山道、州境、夜間観察後の運転、Honey滞在中は車不要という条件から不向き"
+  links:
+    - "https://www.revv.co.in/"
+    - "https://www.revv.co.in/car-rental/kochi/cars"
+    - "https://www.zoomcar.com/in/"
+  revv_contact:
+    phone: "+91 9250035555"
+    email: "care@revv.co.in"
+  verification_message: >-
+    Can two Japanese tourists rent a self-drive car in Kochi on 8 August 2026 and return the same car
+    in Mangaluru on 15 August 2026? Please confirm the exact one-way drop fee and required documents before we book.
+
+decision_gate_2026_08_02:
+  serenity:
+    must_get:
+      - "Misty Viewsの8月8〜10日、2名2泊の空室と総額"
+      - "8月8日・9日のGarden訪問"
+      - "夜間同行と送迎"
+    nice_to_get: "UV＋白幕"
+    decision: "UVが不可でも既設CFLで採用"
+  honey:
+    all_required:
+      - "8月11〜15日、2名4泊の空室"
+      - "ownerのUV＋白幕の文章許可"
+      - "非採集条件の了承"
+      - "8月11日昼の4WD pickup"
+      - "8月15日朝の最早down transfer"
+      - "宿泊・食事・4WDの総額"
+    decision: "全て明確ならroute A。曖昧回答なら不成立扱い"
+  iiser:
+    required:
+      - "学内host"
+      - "正式な来訪登録方法"
+      - "8月13〜15のうち最低1夜、できれば2夜、19:00〜21:30の同行"
+    decision: "Honey不成立でIISER成立ならroute B"
+
+next_contacts:
+  priority_order:
+    - "Seemaへの返信とAnandへのWhatsAppを並行送信"
+    - "Honey ValleyへWhatsApp/SMS、返事がなければ電話"
+    - "IISER観察者3名へ個別メッセージ、反応がなければOutreach"
+  note: "順番に返信を待たず並行する。長文が読まれない場合は短い電話質問へ切り替える"
+
+message_templates:
+  seema:
+    channel: "iNaturalist既存スレッド"
+    objective: "8月8・9日の訪問と持参UV許可を確定"
+    text: |-
+      Hello Seema,
+
+      Thank you very much for your warm invitation and for introducing us to Anand and Misty Views. I apologize for taking some time to finalize our route.
+
+      We are now planning to stay at Misty Views for two nights, checking in on 8 August and checking out on 10 August. There will be two of us. Would the evenings of 8 and 9 August be convenient for visiting Serenity Garden? We would be especially happy to meet you while you are there.
+
+      Observing the white wall and the CFL that is always on already sounds excellent. May I also ask whether you would permit us to operate our own insect-attracting UV light with a white sheet for two or three hours after dark at a safe place that you choose within the property? We would follow any conditions you set and use it only for observation and photography. We will not collect, handle, harm, or remove any insects.
+
+      We will contact Anand directly about the room, meals, and transport. If the dates above work for you, we would be very grateful to confirm the visit.
+
+      Warm regards,
+      Takuma Uno
+
+  anand:
+    channel: "WhatsApp、返事がなければ電話"
+    phone_primary: "+91 9961148279"
+    phone_secondary: "+91 9986541469"
+    objective: "部屋、料金、食事、同行、COK送迎、夜行bus乗車地までの車を確定"
+    text: |-
+      Hello Mr Anand,
+
+      My name is Takuma Uno, a naturalist from Japan. Ms Seema Merchant kindly gave me your contact and recommended Misty Views because we hope to observe and photograph nocturnal insects at Serenity Garden with her permission.
+
+      We are two adults and would like to ask whether you have a room available for two nights, checking in on 8 August and checking out on 10 August 2026.
+
+      Could you please let us know:
+      1. the total room rate for two people for two nights;
+      2. whether breakfast and dinner are available or included;
+      3. whether you could escort us between Misty Views and Serenity Garden after dark on 8 and/or 9 August, as Seema mentioned;
+      4. whether you could arrange a pick-up from Kochi Airport on 8 August, or recommend the best taxi arrangement, and the approximate cost;
+      5. whether we could leave our luggage after check-out on 10 August and arrange a taxi to the Kumily or Kattappana bus departure point around 15:30, as we may take an overnight bus toward Kannur and Kodagu.
+
+      Our activity is strictly non-collecting observation and photography. We will not catch, handle, harm, or remove any insects. We are separately confirming with Seema whether we may use our own UV insect light and white sheet at a place she designates.
+
+      As our departure from Japan is very soon, an availability and price confirmation would be greatly appreciated.
+
+      Thank you,
+      Takuma Uno
+
+  honey_valley:
+    channel: "WhatsApp/SMS、返事がなければ電話"
+    phone: "+91 8197444939"
+    objective: "本命4泊拠点として必要な全条件を宿自身から確定"
+    text: |-
+      Hello,
+
+      My name is Takuma Uno, a naturalist visiting from Japan. Mr Suresh and another Indian naturalist, Ashwin, recommended Honey Valley to me. Ashwin has personally observed Odontolabis stag beetles in the Honey Valley area, including beetles attracted to insect lights.
+
+      We are two adults and are considering a four-night stay from 11 August to 15 August 2026. Before confirming, may I check the following practical points?
+
+      1. Do you have a room available for two people for those four nights?
+      2. What is the total price, and which meals are included?
+      3. With the owner's explicit permission, may we use our own insect-attracting UV light and a white sheet for two or three hours after dark at a safe place designated by Honey Valley?
+      4. Our purpose is observation and photography only. We will not collect, catch, handle, harm, or remove any insects. Is this acceptable?
+      5. Is a suitable electricity point available, or should our light be completely battery powered?
+      6. Could a staff member or local naturalist help us choose the safe location and accompany us initially at night? If there is a fee, please let us know.
+      7. Where is the current 4WD pick-up point, what is the transfer charge, and could you collect us around midday on 11 August after we arrive from Kannur?
+      8. What is the earliest 4WD transfer down on 15 August, and could you help arrange onward transport to Mangaluru Airport for an afternoon flight to Mumbai?
+
+      We understand that no beetle sighting can be guaranteed. The important points for us are the owner's clear permission, a safe place for the light and sheet, and the transport arrangements.
+
+      As we leave Japan on 7 August, we would be very grateful for a direct answer as soon as possible, even if this arrangement is not possible.
+
+      Thank you very much,
+      Takuma Uno
+      WhatsApp: +81 70 8973 2891
+    short_phone_version: |-
+      Two adults, four nights, 11 to 15 August.
+      Is a room available, and what is the total price with meals?
+      Does the owner permit our own UV insect light and white sheet for photography only, with no collecting?
+      Can your 4WD collect us around midday on 11 August after we arrive from Kannur?
+      What is your earliest down transfer on 15 August, and can you arrange transport to Mangaluru Airport?
+
+  iiser_observers:
+    channel: "iNaturalist、各人へ個別送信"
+    common_objective: "発見方法、host、既存灯の夜間同行、正式入構を確定"
+    base_text: |-
+      Hello NAME,
+
+      I am a naturalist from Japan visiting Kerala with one friend in August. I saw your excellent SPECIES observation at IISER TVM from DATE:
+      URL
+
+      Our purpose is strictly observation, photography, and iNaturalist documentation. We will not collect, catch, handle, harm, or remove any insects.
+
+      May I ask whether this beetle was found near an existing outdoor light or building light on campus? We may be near Vithura between 13 and 15 August 2026. Would you, or another student interested in insects, possibly be willing to host and accompany two visitors for a short walk around existing lights, for example from about 19:00 to 21:30 on one evening?
+
+      We would follow all campus visitor and security procedures. We would not bring or operate any UV equipment unless the institute explicitly authorized it; checking existing lights would be sufficient.
+
+      If you are unavailable, an introduction to another observer, Proteus Biology Club, or the appropriate institute contact would be extremely helpful. We understand completely if a visit cannot be arranged.
+
+      Thank you very much,
+      Takuma Uno
+    substitutions:
+      - "Parth / Odontolabis versicolor / 11 August 2025 / https://www.inaturalist.org/observations/306956143"
+      - "Ananya / Prosopocoilus giraffa nilgirensis / 11 August 2025 / https://www.inaturalist.org/observations/305559036"
+      - "Rushikesh / Odontolabis versicolor / 27 May 2025 / https://www.inaturalist.org/observations/285631396"
+
+  iiser_outreach:
+    channel: "email"
+    to: "outreach@iisertvm.ac.in"
+    subject: "Request for a short hosted nocturnal insect observation visit"
+    use_if: "観察者から反応がない場合"
+    text: |-
+      Dear Outreach Team,
+
+      I am a naturalist from Japan visiting Kerala with one companion in August. We are interested in non-collecting observation and photography of nocturnal insects. We noticed several public iNaturalist records of large stag beetles from the IISER TVM campus, including Odontolabis versicolor recorded on 11 August 2025.
+
+      We may be near Vithura between 13 and 15 August 2026. Would it be possible to arrange a short, hosted visit on one evening, approximately 19:00 to 21:30, to observe insects around existing outdoor lights? We would not collect, catch, handle, harm, or remove any wildlife. We would not use any additional light equipment unless explicitly authorized.
+
+      We would fully follow the institute's visitor registration, identification, security, and host requirements. If this request should be directed to a faculty member, student nature group, or another office, we would be grateful if you could advise us.
+
+      There will be two visitors: Takuma Uno and one companion, both travelling from Japan.
+
+      As our travel begins on 7 August, a reply at your earliest convenience would be greatly appreciated. We understand if a visit cannot be accommodated.
+
+      Best regards,
+      Takuma Uno
+
+booking_order_after_replies:
+  - "Misty Viewsの空室があれば取消条件を確認して2泊確定"
+  - "Honeyの全条件が文章で揃えば4泊確定"
+  - "採用ルートの両端に合わせ、BOM→COKとIXE/TRV→BOMの国内線を購入"
+  - "8月10日夜行busを予約。Honeyを採らない場合はPeriyarとVithura宿を予約"
+  - "最後に空港taxi、Kannur→Honey taxi、宿4WDを時刻付きで確定"
+
+critical_warnings:
+  - "最新のメール・WhatsApp返信はこのローカル資料より新しい可能性がある。新着を優先"
+  - "Honeyの許可は宿owner自身の文章回答が必要"
+  - "IISERは記録が強くてもhostなしで無断訪問しない"
+  - "保護区、大学、私有地で無断の灯火をしない"
+  - "Fringe Fordの高い実施体制と、低い対象種根拠を混同しない"
+  - "Munnar広域記録を特定宿の出現確率として扱わない"
+  - "Honeyの公開記録は12月の損傷個体、Naladi記録は10月かつ別地点"
+  - "自走レンタカーの都市間乗捨ては未確認"
+  - "モンスーン期は経路検索時間より長く見積もり、国内線は8月15日にMumbaiへ戻す"
+
+local_artifacts:
+  workspace: "/Users/takumauno/travel"
+  directory: "/Users/takumauno/travel/insects/india/naturalists"
+  files:
+    handoff_yaml: "chatgpt_mobile_handoff_2026-08-01.yaml"
+    visual_map: "route_evidence_map_2026-08-01.drawio"
+    route_assessment: "ルート妥当性評価_2026-08-01.md"
+    latest_record_and_order_assessment: "直接記録と訪問順序の再評価_2026-08-01.md"
+    action_and_messages: "残りの連絡と行程決定_2026-08-01.md"
+    transport_and_booking: "移動実現性と予約リンク_2026-08-01.md"
+    integrated_status: "認識合わせ_2026-07-31_統合版.md"
+    prior_handoff: "引き継ぎ_2026-08-01.md"
+    access_details: "access_plan.md"
+    conversation_fringe: "kumar.txt"
+    conversation_maya: "maya.txt"
+    response_honey: "honey_valley_response.md"
+  uncommitted_at_creation:
+    - "chatgpt_mobile_handoff_2026-08-01.yaml"
+    - "route_evidence_map_2026-08-01.drawio"
+    - "ルート妥当性評価_2026-08-01.md"
+    - "残りの連絡と行程決定_2026-08-01.md"
+    - "移動実現性と予約リンク_2026-08-01.md"
+    - "insects/india/reply/kumar_ja.txt（既存の未追跡ファイル。内容未確認のため勝手に削除しない）"
+
+prompt_for_mobile_chatgpt: |-
+  このYAMLは2026年8月7日出発の南インドOdontolabis観察遠征の引き継ぎです。
+  まずlatest_reassessment_2026_08_01を最優先で読み、次にcurrent_conclusion、locations、
+  decision_gate_2026_08_02、next_contactsを読み、
+  未確認事項を確認済み扱いせず、残り数回の連絡で行程を確定するのを手伝ってください。
+  私が新しい返信を貼ったら、相手の回答をYAMLのrequired条件ごとにYES / NO / 不明へ分解し、
+  route_A、route_B、route_Cのどれを採るべきか更新してください。
+  地名の印象だけで新しいルートを作らず、対象種根拠、許可、観察夜数、交通を別々に評価してください。
